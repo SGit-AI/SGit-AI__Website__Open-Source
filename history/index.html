@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Six corrections — what the standard history of open source gets wrong</title>
+<meta name="description" content="Unix circulated because it was illegal to sell it. BSD lost to litigation risk, not its licence. Netscape's release was a six-year near-failure. Christine Peterson coined open source. Eyeballs are not a security property. And two of the four relicensings reversed.">
+<link rel="canonical" href="https://open-source.sgit.ai/history/index.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="open-source.sgit.ai">
+<meta property="og:url" content="https://open-source.sgit.ai/history/index.html">
+<meta property="og:title" content="Six corrections to the history of open source">
+<meta property="og:description" content="The accurate history supports the economic argument far better than the romantic one does — and almost nobody publishes the accurate version.">
+<link rel="alternate" type="text/markdown" href="index.md" title="This page as markdown">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav class="site"><div class="row">
+  <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
+  <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
+  <span class="stage-pill">first draft</span>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.0</a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
+  <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../views/index.html">The position</a>
+      <a class="sl" href="../views/sovereignty.html">Sovereignty</a>
+      <a class="sl" href="../views/open-core.html">Open core, or packaging?</a>
+      <a class="sl" href="../views/villagers.html">Somebody has to be the villagers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../survivability/index.html">Survivability<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../survivability/index.html">Not a licence property</a>
+      <a class="sl" href="../survivability/stress-test.html">The stress test</a>
+      <a class="sl" href="../survivability/self-audit.html">The self-audit</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl here" href="../history/index.html">History<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl here" href="../history/index.html">Six corrections</a>
+      <a class="sl" href="../history/timeline.html">The timeline</a>
+      <a class="sl" href="../history/stories.html">Six success stories</a>
+      <a class="sl" href="../history/numbers.html">The numbers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../practice/index.html">Practice<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../practice/index.html">Three licences</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../practice/publish-the-source.html">Publish the source</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../agents/index.html">Agents &amp; funding<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../agents/index.html">Agents and open source</a>
+      <a class="sl" href="../funding/index.html">Funding</a>
+      <a class="sl" href="../funding/curl.html">cURL</a>
+      <a class="sl" href="../owasp/index.html">OWASP &amp; the summits</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../shipped/index.html">What is missing</a>
+      <a class="sl" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../documents/index.html">The documents</a>
+      <a class="sl" href="../admin/comms.html">Comms: tasks &amp; requests</a>
+      <a class="sl" href="../admin/versions.html">Release history</a>
+      <a class="sl" href="../admin/index.html">Admin &amp; engineering</a>
+      <a class="sl" href="../about/participant.html">Where we lose</a>
+      </div>
+    </div>
+  </div>
+  <a class="gh" href="https://github.com/SGit-AI/SGit-AI__Website__Open-Source">★ GitHub</a>
+  <script src="../assets/nav.js" defer></script>
+</div></nav>
+
+<main class="doc">
+<div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / history</div>
+<h1>Six corrections</h1>
+<p class="lead">Everyone has a timeline. <a href="timeline.html">So does this site</a> — but it sits behind these, because the corrections are the part almost nobody publishes and they are the part that matters. Each one is checkable. And every one of them points the same way: <b>the model succeeds on economics and structure, not on virtue and not on eyeballs.</b></p>
+
+<div class="note"><b>Why this section exists at all.</b> The corpus this site was built from contains <b>no history of open source</b>. Not thin — absent. Zero occurrences of "free software", "copyleft", "Stallman", "GNU" as a movement, "Netscape", "SourceForge" or "FSF"; nothing before 2001; the GPL mentioned exactly twice, both times as litigation precedent, never as a philosophy. So it was <a href="../documents/index.html">researched from scratch</a>. The finding that shaped everything else is that <b>the accurate history is a better argument than the romantic one</b>.</div>
+
+<h2 id="unix">1. Unix circulated because it was illegal to sell it</h2>
+
+<p>The founding act of the sharing culture is usually told as generosity: Bell Labs gave Unix away to universities, a gift culture formed, everything follows. The mechanism was regulatory.</p>
+
+<p>The <b>1956 AT&amp;T consent decree</b> barred Bell Labs from any line of business except common-carrier communications. Selling software was not available to them. Unix shipped for the cost of media and postage as a <b>compliance artefact</b> — the cheapest lawful way to let it out of the building. Universities got the source because there was no commercial channel that AT&amp;T was permitted to build.</p>
+
+<p>And the control experiment ran itself: <b>the decree was lifted in 1982, and AT&amp;T commercialised System V immediately.</b> The moment the constraint was removed, the behaviour reversed. That is not a story about culture. It is a story about what an organisation was allowed to do.</p>
+
+<h2 id="bsd">2. BSD lost to litigation risk, not to its licence</h2>
+
+<p>The permissive-versus-copyleft debate frequently invokes BSD as the case study: BSD was permissive, companies took it private, BSD lost, therefore copyleft. The chronology does not support the inference.</p>
+
+<p><b>USL v. BSDi ran from April 1992 to February 1994</b> — precisely the window in which a free Unix could have become the default and Linux was starting from nothing. During those two years, adopting BSD meant adopting an unresolved lawsuit over your operating system. Linux carried no such cloud.</p>
+
+<p>Then the settlement: <b>three files were removed out of eighteen thousand</b>, and copyright notices were added to about seventy. The claim was, in substance, nearly empty. <b>The uncertainty was what did the damage</b>, and the uncertainty had two years to work. Linux's victory is, in part, a litigation artefact — which says nothing about the merits of either licence and a great deal about how technology choices actually get made.</p>
+
+<h2 id="netscape">3. Netscape's source release was a six-year near-failure</h2>
+
+<p>This is the founding case study of the open source movement, and it is a cautionary tale.</p>
+
+<p>Announced 22 January 1998, released 31 March 1998. The code was in such poor condition that the team eventually <b>threw it away and rewrote from scratch</b>. Netscape 6 shipped in November 2000 and was not good. <b>Firefox 1.0 did not arrive until November 2004</b> — six and a half years after the release — by which time Internet Explorer had comprehensively won the browser war the release was intended to fight.</p>
+
+<p>Firefox went on to matter enormously, so this is not a story of failure. It is a story about <b>what opening a codebase does and does not do</b>. It does not summon a bazaar to fix a codebase nobody can work in. Releasing source is the beginning of a very long piece of engineering, and the romantic version of 1998 skips the six years in the middle.</p>
+
+<h2 id="peterson">4. Eric Raymond did not coin "open source"</h2>
+
+<p><b>Christine Peterson</b>, of the Foresight Institute, did — in the first week of February 1998. And the detail worth keeping is the tactic: she <b>deliberately had someone else introduce the term</b>, Todd Anderson, who had more credibility with the room as a Linux programmer, so that it would spread on its merits rather than stall on its source.</p>
+
+<p>Sources disagree on the exact day — OSI records 3 February; Peterson's own account describes 2 and 5 February — and the disagreement is worth stating rather than smoothing over. They do not disagree on who.</p>
+
+<p>It is a small correction with a large amount of the movement's self-image resting on it, and the reason to publish it is the same as the reason to publish everything else on this page: <b>the mythology is load-bearing, and it is wrong in checkable ways.</b></p>
+
+<h2 id="eyeballs">5. "Given enough eyeballs, all bugs are shallow" is not a security property</h2>
+
+<p>The most-quoted line in open source is a claim about development velocity that has been silently promoted into a claim about security. It does not survive the promotion.</p>
+
+<p><b>Heartbleed</b> survived two years in OpenSSL — the most security-critical library on the internet, read by everyone, audited by nobody in particular. Jim Zemlin, running the Linux Foundation, put it exactly: <em>"In these cases, the eyeballs weren't really looking."</em></p>
+
+<p><b>xz is worse, and it is the case that should end the argument.</b> The backdoor was not missed by review — <b>it was engineered by the maintainer specifically to survive review</b>, by someone who had spent years earning the position from which to introduce it. It was found by Andres Freund, one engineer, who was <b>benchmarking SSH latency</b> and noticed the numbers were wrong. Not a security review. A performance investigation.</p>
+
+<p>Robert Glass had called the law a fallacy back in 2003, on the evidence that useful reviewers cap out at somewhere around two to four. Two decades of practice have not contradicted him.</p>
+
+<div class="note"><b>What this correction does not say.</b> It is not an argument that open source is less secure than proprietary software, and the comparison is not the point. It is an argument that <b>"many eyes" is not the mechanism</b> — visibility is a precondition for review, not a substitute for it, and a project's security comes from someone actually being paid to look. Which is <a href="../funding/index.html">the funding argument</a>, arriving from a different direction.</div>
+
+<h2 id="reversals">6. Two of the four relicensings reversed — and none went closed source</h2>
+
+<p>The 2018–2024 relicensing wave is usually recalled as four one-way doors. Two of them opened again:</p>
+
+<ul>
+  <li><b>Elastic added AGPLv3</b> in August 2024.</li>
+  <li><b>Redis 8 shipped under AGPLv3</b> around 1 May 2025.</li>
+  <li><b>MongoDB remains SSPL.</b></li>
+  <li><b>Terraform remains BUSL</b>, and HashiCorp is now inside IBM — the acquisition closed 27 February 2025.</li>
+</ul>
+
+<p>And the precision that most commentary loses: <b>none of the four went closed source.</b> They went <em>source-available</em>. The code stayed readable. The freedoms did not stay. Treating those as the same thing makes the period sound both better and worse than it was.</p>
+
+<div class="warnbox"><b>This sharpens the survivability argument rather than weakening it.</b> The same single-holder standing that allowed them to leave is what allowed them to come back — nobody had to negotiate with thousands of contributors in either direction. <b>Structure determines what is possible in both directions</b>, and a project that one party can close is a project that one party can open. Either way you are describing dependence, not safety. <a href="../survivability/index.html">The argument in full →</a></div>
+
+<h2 id="onward">Where to go next</h2>
+
+<div class="cards" style="padding:0">
+  <a class="card" href="timeline.html"><span class="tag">Supporting material</span><h3>The timeline, 1955 → 2026</h3><p>Behind the corrections rather than in front of them, which is where a timeline belongs on a site whose argument is that the standard telling is wrong.</p><span class="go">Read →</span></a>
+  <a class="card" href="stories.html"><span class="tag">Six, not fourteen</span><h3>The success stories</h3><p>Linux, Let's Encrypt, SQLite, PostgreSQL, cURL, Blender — each chosen because it proves something argued elsewhere on this site, not because it is famous.</p><span class="go">Read →</span></a>
+  <a class="card" href="numbers.html"><span class="tag">Handle with care</span><h3>The numbers, and the ones to refuse</h3><p>The $8.8 trillion figure and what it actually measures; "70–90% of a codebase"; and the claims this site will not publish because the research could not source them.</p><span class="go">Read →</span></a>
+  <a class="card" href="../survivability/index.html"><span class="tag">The consequence</span><h3>Survivability</h3><p>PostgreSQL as the control case and OpenSolaris as the counter-case are history doing the work of an argument.</p><span class="go">Read →</span></a>
+</div>
+
+<div class="pagenav">
+  <a href="../survivability/self-audit.html">← The self-audit</a>
+  <a href="timeline.html">The timeline →</a>
+</div>
+</main>
+
+<footer class="site"><div class="cols">
+  <div>
+    <div class="brandline">open-source<span>.sgit.ai</span></div>
+    <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
+    <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
+    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.1.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../history/index.md">this page as markdown</a></p>
+  </div>
+  <div>
+    <h4>The argument</h4>
+    <a href="../views/index.html">The position</a>
+    <a href="../views/sovereignty.html">Sovereignty</a>
+    <a href="../views/open-core.html">Open core, or packaging?</a>
+    <a href="../views/villagers.html">Somebody has to be the villagers</a>
+  </div>
+  <div>
+    <h4>Survivability</h4>
+    <a href="../survivability/stress-test.html">&#8594; Run the stress test</a>
+    <a href="../survivability/index.html">Not a licence property</a>
+    <a href="../survivability/self-audit.html">The self-audit</a>
+  </div>
+  <div>
+    <h4>The record</h4>
+    <a href="../history/index.html">Six corrections</a>
+    <a href="../history/timeline.html">The timeline</a>
+    <a href="../history/stories.html">Six success stories</a>
+    <a href="../history/numbers.html">The numbers</a>
+    <a href="../practice/index.html">Three licences</a>
+  </div>
+  <div>
+    <h4>Site</h4>
+    <a href="../shipped/index.html">What is missing</a>
+    <a href="../roadmap/index.html">Build order</a>
+    <a href="../documents/index.html">The documents</a>
+    <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
+    <a href="../admin/versions.html">Release history</a>
+    <a href="../about/participant.html">Where we lose</a>
+    <a href="../llms.txt">llms.txt</a>
+    <a href="../llms-full.txt">llms-full.txt</a>
+  </div>
+</div></footer>
+
+</body>
+</html>

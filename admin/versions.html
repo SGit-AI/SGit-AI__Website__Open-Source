@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Release history · open-source.sgit.ai</title>
+<meta name="description" content="Site release history. Every push to dev is a release, validated then auto-tagged by CI against the version in admin/build/version.txt and the release commit's subject.">
+<link rel="canonical" href="https://open-source.sgit.ai/admin/versions.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="open-source.sgit.ai">
+<meta property="og:url" content="https://open-source.sgit.ai/admin/versions.html">
+<meta property="og:title" content="Release history · open-source.sgit.ai">
+<meta property="og:description" content="Every push to dev is a release: validate, verify the version bump, tag the commit, deploy.">
+<link rel="alternate" type="text/markdown" href="versions.md" title="This page as markdown">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav class="site"><div class="row">
+  <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
+  <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
+  <span class="stage-pill">first draft</span>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.0</a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
+  <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../views/index.html">The position</a>
+      <a class="sl" href="../views/sovereignty.html">Sovereignty</a>
+      <a class="sl" href="../views/open-core.html">Open core, or packaging?</a>
+      <a class="sl" href="../views/villagers.html">Somebody has to be the villagers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../survivability/index.html">Survivability<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../survivability/index.html">Not a licence property</a>
+      <a class="sl" href="../survivability/stress-test.html">The stress test</a>
+      <a class="sl" href="../survivability/self-audit.html">The self-audit</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../history/index.html">History<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../history/index.html">Six corrections</a>
+      <a class="sl" href="../history/timeline.html">The timeline</a>
+      <a class="sl" href="../history/stories.html">Six success stories</a>
+      <a class="sl" href="../history/numbers.html">The numbers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../practice/index.html">Practice<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../practice/index.html">Three licences</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../practice/publish-the-source.html">Publish the source</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../agents/index.html">Agents &amp; funding<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../agents/index.html">Agents and open source</a>
+      <a class="sl" href="../funding/index.html">Funding</a>
+      <a class="sl" href="../funding/curl.html">cURL</a>
+      <a class="sl" href="../owasp/index.html">OWASP &amp; the summits</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl here" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../shipped/index.html">What is missing</a>
+      <a class="sl" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../documents/index.html">The documents</a>
+      <a class="sl" href="../admin/comms.html">Comms: tasks &amp; requests</a>
+      <a class="sl here" href="../admin/versions.html">Release history</a>
+      <a class="sl" href="../admin/index.html">Admin &amp; engineering</a>
+      <a class="sl" href="../about/participant.html">Where we lose</a>
+      </div>
+    </div>
+  </div>
+  <a class="gh" href="https://github.com/SGit-AI/SGit-AI__Website__Open-Source">★ GitHub</a>
+  <script src="../assets/nav.js" defer></script>
+</div></nav>
+
+<main class="doc">
+<div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / admin / versions</div>
+<h1>Release history</h1>
+<p class="lead">Every push to <code>dev</code> is a release: CI validates the site, verifies the version bump, tags the commit <code>v{release}.{major}.{minor}</code>, and deploys to GitHub Pages. The version is owned by <code>admin/build/version.txt</code> and must agree with the release commit's subject. <a href="index.html#pipeline">How the pipeline works →</a></p>
+
+<div class="tablewrap"><table class="vers">
+  <thead><tr><th>Version</th><th>Date</th><th>What shipped</th></tr></thead>
+  <tbody>
+    <tr>
+      <td class="vnum">v0.1.0</td>
+      <td>25 Aug 2026</td>
+      <td><b>First release.</b> The site, built from the commissioning brief pack, which is <a href="../documents/index.html">published verbatim alongside it</a>.
+        <p style="margin:.6rem 0 0"><b>The pipeline first</b>, matching the sibling sites: validate → auto-tag → deploy, with the version owned by one file and verified against the release commit's subject. Validation additionally enforces the things this site's own argument depends on — <b>a markdown twin at every URL</b>, <code>llms-full.txt</code> carrying every page, and a CC BY 4.0 footer on every markdown file.</p>
+        <p style="margin:.6rem 0 0"><b>The content:</b> <a href="../views/index.html">the position</a> with every argument carrying its counter-case; <a href="../survivability/index.html">survivability</a> with <a href="../survivability/stress-test.html">the stress test as a working tool</a> and <a href="../survivability/self-audit.html">a self-audit that fails three of its four legs</a>; <a href="../history/index.html">six corrections</a> leading the history rather than a timeline; <a href="../practice/index.html">the three-licence estate</a> and <a href="../practice/apache-vs-mit.html">the Apache-vs-MIT page that existed nowhere</a>; <a href="../agents/index.html">agents</a>; <a href="../funding/index.html">the three funding proposals compared for the first time</a> and <a href="../funding/curl.html">cURL</a>; <a href="../owasp/index.html">the summit history, with the first-person account marked pending</a>; and <a href="../shipped/index.html">what is missing, unsoftened</a>.</p>
+        <p style="margin:.6rem 0 0"><b>Two things deliberately not done:</b> the CC0/CC BY licensing question is <a href="../practice/index.html#reading">published unresolved</a> rather than settled on the author's behalf, and the SBOM the site tells other people to publish <a href="../shipped/index.html#supply-chain">is named as a gap rather than shipped</a>. Both are <a href="../documents/index.html#divergences">recorded as divergences from the brief</a>.</p>
+      </td>
+    </tr>
+  </tbody>
+</table></div>
+
+<div class="note"><b>Reading a version number.</b> <code>v{release}.{major}.{minor}</code> — every push to <code>dev</code> increments the minor. CI refuses a tag that is not the next minor (or a deliberate major), and refuses one where <code>version.txt</code> and the commit subject disagree, so the history above cannot silently skip a release.</div>
+
+<div class="pagenav">
+  <a href="comms.html">← Comms</a>
+  <a href="../index.html">Front page →</a>
+</div>
+</main>
+
+<footer class="site"><div class="cols">
+  <div>
+    <div class="brandline">open-source<span>.sgit.ai</span></div>
+    <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
+    <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
+    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.1.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../admin/versions.md">this page as markdown</a></p>
+  </div>
+  <div>
+    <h4>The argument</h4>
+    <a href="../views/index.html">The position</a>
+    <a href="../views/sovereignty.html">Sovereignty</a>
+    <a href="../views/open-core.html">Open core, or packaging?</a>
+    <a href="../views/villagers.html">Somebody has to be the villagers</a>
+  </div>
+  <div>
+    <h4>Survivability</h4>
+    <a href="../survivability/stress-test.html">&#8594; Run the stress test</a>
+    <a href="../survivability/index.html">Not a licence property</a>
+    <a href="../survivability/self-audit.html">The self-audit</a>
+  </div>
+  <div>
+    <h4>The record</h4>
+    <a href="../history/index.html">Six corrections</a>
+    <a href="../history/timeline.html">The timeline</a>
+    <a href="../history/stories.html">Six success stories</a>
+    <a href="../history/numbers.html">The numbers</a>
+    <a href="../practice/index.html">Three licences</a>
+  </div>
+  <div>
+    <h4>Site</h4>
+    <a href="../shipped/index.html">What is missing</a>
+    <a href="../roadmap/index.html">Build order</a>
+    <a href="../documents/index.html">The documents</a>
+    <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
+    <a href="../admin/versions.html">Release history</a>
+    <a href="../about/participant.html">Where we lose</a>
+    <a href="../llms.txt">llms.txt</a>
+    <a href="../llms-full.txt">llms-full.txt</a>
+  </div>
+</div></footer>
+
+</body>
+</html>

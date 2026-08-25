@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Open core, or packaging? — a contradiction published rather than resolved</title>
+<meta name="description" content="18 June: there should be nothing proprietary. 17 July: customers only have a subset of the code that exists in the main repo. Five weeks apart, and the July document diagnoses itself. Here is the test that settles which one it actually is.">
+<link rel="canonical" href="https://open-source.sgit.ai/views/open-core.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="open-source.sgit.ai">
+<meta property="og:url" content="https://open-source.sgit.ai/views/open-core.html">
+<meta property="og:title" content="Open core, or packaging?">
+<meta property="og:description" content="A dated self-contradiction, five weeks apart, published rather than tidied. And a one-question test that settles it: does the customer build contain anything the public repo does not?">
+<link rel="alternate" type="text/markdown" href="open-core.md" title="This page as markdown">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav class="site"><div class="row">
+  <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
+  <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
+  <span class="stage-pill">first draft</span>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.0</a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
+  <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl here" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../views/index.html">The position</a>
+      <a class="sl" href="../views/sovereignty.html">Sovereignty</a>
+      <a class="sl here" href="../views/open-core.html">Open core, or packaging?</a>
+      <a class="sl" href="../views/villagers.html">Somebody has to be the villagers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../survivability/index.html">Survivability<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../survivability/index.html">Not a licence property</a>
+      <a class="sl" href="../survivability/stress-test.html">The stress test</a>
+      <a class="sl" href="../survivability/self-audit.html">The self-audit</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../history/index.html">History<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../history/index.html">Six corrections</a>
+      <a class="sl" href="../history/timeline.html">The timeline</a>
+      <a class="sl" href="../history/stories.html">Six success stories</a>
+      <a class="sl" href="../history/numbers.html">The numbers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../practice/index.html">Practice<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../practice/index.html">Three licences</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../practice/publish-the-source.html">Publish the source</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../agents/index.html">Agents &amp; funding<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../agents/index.html">Agents and open source</a>
+      <a class="sl" href="../funding/index.html">Funding</a>
+      <a class="sl" href="../funding/curl.html">cURL</a>
+      <a class="sl" href="../owasp/index.html">OWASP &amp; the summits</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../shipped/index.html">What is missing</a>
+      <a class="sl" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../documents/index.html">The documents</a>
+      <a class="sl" href="../admin/comms.html">Comms: tasks &amp; requests</a>
+      <a class="sl" href="../admin/versions.html">Release history</a>
+      <a class="sl" href="../admin/index.html">Admin &amp; engineering</a>
+      <a class="sl" href="../about/participant.html">Where we lose</a>
+      </div>
+    </div>
+  </div>
+  <a class="gh" href="https://github.com/SGit-AI/SGit-AI__Website__Open-Source">★ GitHub</a>
+  <script src="../assets/nav.js" defer></script>
+</div></nav>
+
+<main class="doc">
+<div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / <a href="index.html">the argument</a> / open core</div>
+<h1>Open core, or packaging?</h1>
+<p class="lead">The corpus behind this site argues with itself, in writing, with dates, five weeks apart. It is published here rather than resolved into a tidy position, because a site that shows its own view moving as evidence arrived is worth more than one that only publishes the settled version — and because <b>the July document diagnoses itself</b>, which is the interesting part.</p>
+
+<h2 id="june">18 June — nothing proprietary</h2>
+
+<blockquote class="challenge">"my line is that everything the company does, the code, the logic, the functionality, and the schemas, is open source. <b>There should be nothing proprietary.</b> You never have the temptation of the bait model, where some of the best features are locked behind proprietary stuff, <b>because the community always sees through it</b>."</blockquote>
+
+<p>With a single, clearly-drawn boundary:</p>
+
+<blockquote class="challenge">"The moment you have closed repos is the moment you do customisations for the customer, the moment you hit customer data… that becomes the natural place for proprietary, non-public information, because at that point <b>it is the customer's data and their strategy</b>."</blockquote>
+
+<p>That is a coherent position with a defensible line: the boundary is the customer, not the feature set. Nothing that would be useful to a second customer is withheld from the first.</p>
+
+<h2 id="july">17 July — a subset of the main repo</h2>
+
+<blockquote class="challenge">"more and more we want situations where the <b>customers only have a subset of the code that exists in the main repo</b>, because of security, because of maintainability, because of complexity."</blockquote>
+
+<p>And then, in the same document's own tensions table:</p>
+
+<blockquote class="challenge">"Open source versus the customer subset | A fuller main repo than the customer receives sits uneasily with a pure open-source claim; <b>this is open-core, and worth saying so plainly.</b>"</blockquote>
+
+<div class="note"><b>Why this is worth publishing.</b> The July brief did not have to catch itself. It did, in its own words, in a table it wrote for the purpose — and then the position was never reconciled. That is a more useful artefact than a resolved statement would have been, because it shows the boundary moving under commercial pressure in real time, which is exactly what <a href="../history/index.html#reversals">2018–2024 demonstrated at industry scale</a>.</div>
+
+<h2 id="test">The test that settles it</h2>
+
+<p>There is a real reconciliation available, and it turns on a distinction the June brief did not need to make. From 4 June, the subset is framed as <b>subtraction, not withholding</b>:</p>
+
+<blockquote class="challenge">"a company might only need 10% of them. So we create a version with only 10% of the features. It has <b>much less attack surface</b>, it is much cheaper to run" — "customisation is not only addition; it is subtraction… less attack surface… cheaper to run… maintainable."</blockquote>
+
+<p>That is a genuinely different thing from open core, and the difference is testable in one question:</p>
+
+<div class="warnbox" style="border-left-color:#0f766e"><p style="margin:0;font-size:1rem"><b>Does the customer build contain anything the public repo does not?</b></p>
+<p style="margin:.6rem 0 0"><b>No</b> → it is <b>packaging</b>. A smaller build of public code, shipped for security and operability reasons. Every line the customer runs is public. Nothing is being held back; something is being left out.</p>
+<p style="margin:.4rem 0 0"><b>Yes</b> → it is <b>open core</b>. And per the July brief's own instruction: <em>say so plainly</em>.</p></div>
+
+<p>The test is deliberately blunt because the failure mode is gradual. Open core rarely arrives as a decision; it arrives as a series of individually reasonable exceptions, each one made under revenue pressure, each one moving the boundary toward the vendor. A binary test applied at each release is the only thing that catches that, and it is the same discipline <a href="../survivability/stress-test.html">the stress test</a> applies to a vendor from outside.</p>
+
+<h2 id="bothsides">Both sides of open core, fairly</h2>
+
+<div class="tablewrap"><table>
+  <thead><tr><th>The case for</th><th>The case against</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>It is the only model that has repeatedly funded large-scale development <b>without rent extraction on the core</b>. The core stays genuinely open, genuinely forkable, genuinely usable by people who will never pay — and somebody pays the engineers.</td>
+      <td>The boundary <b>always moves toward the vendor under revenue pressure</b>. That is not cynicism; it is what 2018–2024 recorded. The mechanism is the same every time, and no company has ever announced in advance that it intended to move the line.</td>
+    </tr>
+    <tr>
+      <td><b>VS Code is the strongest live example done well</b> — MIT core, and an ecosystem that is real. It is difficult to argue that the world would be better off if it had not been built this way.</td>
+      <td>And it is the strongest example of the cost: a proprietary shipped binary, a licence-restricted marketplace, and <b>most of its very large user base does not know it is running proprietary software</b>. Executed smoothly enough that the boundary is invisible, which is precisely the problem.</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<h2 id="verdict">Where this leaves the position</h2>
+
+<p>Unresolved, and marked as such. The June statement and the July statement are both on the record; the test above is the site's proposal for settling it, and applying it is a decision for the project rather than for this page. <a href="../survivability/self-audit.html">The self-audit is where that decision will have to be made in public</a>, because the same question — <em>what does the customer actually get, and how does it differ from what is published</em> — is leg one of a stress test we are running on ourselves.</p>
+
+<div class="note"><b>Related and unwritten.</b> Whether the reconciliation holds depends on something nobody has documented: <a href="../shipped/index.html">why any of the estate's projects was open-sourced</a>. Six published projects, one retrospective, and that one written about the author rather than by him.</div>
+
+<div class="pagenav">
+  <a href="sovereignty.html">← Sovereignty</a>
+  <a href="villagers.html">Somebody has to be the villagers →</a>
+</div>
+</main>
+
+<footer class="site"><div class="cols">
+  <div>
+    <div class="brandline">open-source<span>.sgit.ai</span></div>
+    <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
+    <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
+    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.1.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../views/open-core.md">this page as markdown</a></p>
+  </div>
+  <div>
+    <h4>The argument</h4>
+    <a href="../views/index.html">The position</a>
+    <a href="../views/sovereignty.html">Sovereignty</a>
+    <a href="../views/open-core.html">Open core, or packaging?</a>
+    <a href="../views/villagers.html">Somebody has to be the villagers</a>
+  </div>
+  <div>
+    <h4>Survivability</h4>
+    <a href="../survivability/stress-test.html">&#8594; Run the stress test</a>
+    <a href="../survivability/index.html">Not a licence property</a>
+    <a href="../survivability/self-audit.html">The self-audit</a>
+  </div>
+  <div>
+    <h4>The record</h4>
+    <a href="../history/index.html">Six corrections</a>
+    <a href="../history/timeline.html">The timeline</a>
+    <a href="../history/stories.html">Six success stories</a>
+    <a href="../history/numbers.html">The numbers</a>
+    <a href="../practice/index.html">Three licences</a>
+  </div>
+  <div>
+    <h4>Site</h4>
+    <a href="../shipped/index.html">What is missing</a>
+    <a href="../roadmap/index.html">Build order</a>
+    <a href="../documents/index.html">The documents</a>
+    <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
+    <a href="../admin/versions.html">Release history</a>
+    <a href="../about/participant.html">Where we lose</a>
+    <a href="../llms.txt">llms.txt</a>
+    <a href="../llms-full.txt">llms-full.txt</a>
+  </div>
+</div></footer>
+
+</body>
+</html>

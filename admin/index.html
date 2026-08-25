@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Admin &amp; engineering — how this site is built</title>
+<meta name="description" content="The build tooling, the CI pipeline (validate → auto-tag → deploy), the release process, and the markdown-twin generator that makes the site traversable by agents. Published, because a site arguing you should publish the source should publish its own.">
+<link rel="canonical" href="https://open-source.sgit.ai/admin/index.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="open-source.sgit.ai">
+<meta property="og:url" content="https://open-source.sgit.ai/admin/index.html">
+<meta property="og:title" content="Admin &amp; engineering">
+<meta property="og:description" content="Validate, auto-tag, deploy — and the generator that keeps a markdown twin at every URL from ever going stale.">
+<link rel="alternate" type="text/markdown" href="index.md" title="This page as markdown">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav class="site"><div class="row">
+  <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
+  <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
+  <span class="stage-pill">first draft</span>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.0</a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
+  <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../views/index.html">The position</a>
+      <a class="sl" href="../views/sovereignty.html">Sovereignty</a>
+      <a class="sl" href="../views/open-core.html">Open core, or packaging?</a>
+      <a class="sl" href="../views/villagers.html">Somebody has to be the villagers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../survivability/index.html">Survivability<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../survivability/index.html">Not a licence property</a>
+      <a class="sl" href="../survivability/stress-test.html">The stress test</a>
+      <a class="sl" href="../survivability/self-audit.html">The self-audit</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../history/index.html">History<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../history/index.html">Six corrections</a>
+      <a class="sl" href="../history/timeline.html">The timeline</a>
+      <a class="sl" href="../history/stories.html">Six success stories</a>
+      <a class="sl" href="../history/numbers.html">The numbers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../practice/index.html">Practice<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../practice/index.html">Three licences</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../practice/publish-the-source.html">Publish the source</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../agents/index.html">Agents &amp; funding<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../agents/index.html">Agents and open source</a>
+      <a class="sl" href="../funding/index.html">Funding</a>
+      <a class="sl" href="../funding/curl.html">cURL</a>
+      <a class="sl" href="../owasp/index.html">OWASP &amp; the summits</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl here" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../shipped/index.html">What is missing</a>
+      <a class="sl" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../documents/index.html">The documents</a>
+      <a class="sl" href="../admin/comms.html">Comms: tasks &amp; requests</a>
+      <a class="sl" href="../admin/versions.html">Release history</a>
+      <a class="sl here" href="../admin/index.html">Admin &amp; engineering</a>
+      <a class="sl" href="../about/participant.html">Where we lose</a>
+      </div>
+    </div>
+  </div>
+  <a class="gh" href="https://github.com/SGit-AI/SGit-AI__Website__Open-Source">★ GitHub</a>
+  <script src="../assets/nav.js" defer></script>
+</div></nav>
+
+<main class="doc">
+<div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / admin / engineering</div>
+<h1>Admin &amp; engineering</h1>
+<p class="lead">Every page here is hand-written static HTML, deployed to GitHub Pages from <code>dev</code>. What is <em>not</em> hand-maintained is the chrome, the markdown twins and the agent surfaces — those are generated, and CI fails the build if what was committed does not match what the generators produce.</p>
+
+<h2 id="pipeline">The pipeline</h2>
+
+<p>Same order as the sibling sites — <b>validate → tag → publish</b> — because a release that cannot be validated should never acquire a tag, and a release that was never tagged should never reach the web.</p>
+
+<div class="tablewrap"><table>
+  <thead><tr><th>Stage</th><th>What it does</th><th>What stops the release</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><b>1 · validate</b><br><span class="small dim">also on pull requests</span></td>
+      <td>Regenerates the markdown twins and <code>llms-full.txt</code>, then fails if the working tree changed — so a stale generated surface is caught rather than shipped. Then <code>node admin/build/validate.js</code>.</td>
+      <td>A failure here means <b>no tag and no publish</b>. Running on pull requests means branch work is gated before it can reach the release branch.</td>
+    </tr>
+    <tr>
+      <td><b>2 · tag-release</b><br><span class="small dim">pushes to <code>dev</code> only</span></td>
+      <td>Every push to <code>dev</code> is a minor release, tagged <code>v{release}.{major}.{minor}</code>. The version is owned by <code>admin/build/version.txt</code> and <b>must also appear in the release commit's subject</b> (<code>site vX.Y.Z: …</code>). CI verifies the two agree and that the bump is the next minor (or a deliberate major), then tags <b>the release commit</b> — which is HEAD on a direct push and HEAD's parent when a pull request lands as a merge.</td>
+      <td>Version disagreement, a reused version, or a skipped minor. The first run also <b>backfills tags</b> for any historical release from the commit subjects.</td>
+    </tr>
+    <tr>
+      <td><b>3 · deploy</b></td>
+      <td>Publishes the tagged commit to GitHub Pages. Runs on manual dispatch even without a tag.</td>
+      <td><b>Never runs when validation failed</b>, and never from a pull request.</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<h2 id="validate">What validation actually checks</h2>
+
+<ol>
+  <li><b>Version agreement</b> — <code>version.txt</code> against every page's version badge, the versions table, <code>llms.txt</code> and <code>llms-full.txt</code>. It also catches a release listed twice in the history table, which is what a blanket version-bump <code>sed</code> produces and which shipped once on a sibling site.</li>
+  <li><b>Internal links</b> — every relative <code>href</code> and <code>src</code> in every page resolves to a file that exists.</li>
+  <li><b>Canonical host</b> — every <code>rel="canonical"</code> and <code>og:url</code> points at the host in <code>CNAME</code>, and <b>every page has one</b>.</li>
+  <li><b>Markdown twins</b> — every <code>.html</code> has its <code>.md</code> twin, <code>llms-full.txt</code> carries every page, and <code>llms.txt</code> lists every twin. <a href="../practice/publish-the-source.html">The site's agent-discovery argument rests on this</a>, so a missing twin is a release-stopping defect rather than a nice-to-have.</li>
+  <li><b>Licence footers</b> — every markdown file carries the CC BY 4.0 line. The site holds others to declaring their licensing; it does not get to be sloppy about its own.</li>
+  <li><b>Key-leak tripwire</b> — nothing anywhere in the tree may look like a vault key. This site discusses keys; it must never contain one.</li>
+</ol>
+
+<h2 id="tools">The build tooling</h2>
+
+<div class="tablewrap"><table>
+  <thead><tr><th>File</th><th>What it owns</th></tr></thead>
+  <tbody>
+    <tr><td><code>admin/build/version.txt</code></td><td><b>The version.</b> One file, bumped exactly once per release. Everything else derives from it.</td></tr>
+    <tr><td><code>admin/build/chrome.py</code></td><td><b>The single definition of the nav and footer</b>, applied across every page. Pages stay hand-written; the chrome does not drift. It also stamps the version into <code>llms.txt</code>, because hand-editing it silently missed twice on a sibling site.</td></tr>
+    <tr><td><code>admin/build/gen_markdown.py</code></td><td><b>The markdown twin of every page</b>, plus <code>llms.txt</code> and <code>llms-full.txt</code>. Converts the HTML, <b>rewrites internal <code>.html</code> links to <code>.md</code></b> so a traversing agent never leaves the markdown surface, and concatenates everything into one file for agents that cannot follow links at all. No dependencies — it has to run in CI with nothing installed.</td></tr>
+    <tr><td><code>admin/build/validate.js</code></td><td><b>The pre-release gate.</b> Node with no packages, for the same reason.</td></tr>
+    <tr><td><code>assets/site.css</code>, <code>assets/nav.js</code></td><td>The shared sgit.ai design language and the two-level nav component.</td></tr>
+    <tr><td><code>assets/stress-test.{css,js}</code></td><td><a href="../survivability/stress-test.html">The Change-of-Control Stress Test</a>. Entirely client-side; answers persist in <code>localStorage</code> and are never transmitted.</td></tr>
+  </tbody>
+</table></div>
+
+<h2 id="release">The release process</h2>
+
+<ol>
+  <li>Bump <code>admin/build/version.txt</code> (<code>vX.Y.Z</code>, <b>exactly once per release</b>) and add a row to <a href="versions.html"><code>admin/versions.html</code></a>; update <a href="comms.html"><code>admin/comms.html</code></a>.</li>
+  <li><code>python3 admin/build/chrome.py</code> — propagates the version badge and any nav or footer change to every page.</li>
+  <li><code>python3 admin/build/gen_markdown.py</code> — regenerates the twins, <code>llms.txt</code> and <code>llms-full.txt</code>.</li>
+  <li><code>node admin/build/validate.js</code></li>
+  <li><code>git commit -am "site vX.Y.Z: …" &amp;&amp; git push origin dev</code></li>
+</ol>
+
+<div class="note"><b>The commit subject is load-bearing.</b> CI reads the version out of it and refuses to tag if it disagrees with <code>version.txt</code>. That is deliberate: it means the version cannot be bumped in a file without someone also saying so in the history, and the tag always lands on the commit that claims to be the release.</div>
+
+<h2 id="why">Why any of this is published</h2>
+
+<p>Because <a href="../practice/publish-the-source.html">the argument of this site is that you should publish the source next to the render</a>, and a site making that argument with an opaque build would be making it badly. The repository is public, the generators are readable, and <a href="../documents/index.html">the briefs the content was written from are published verbatim</a> — including <a href="../documents/index.html#divergences">the instructions this site did not follow</a>.</p>
+
+<div class="pagenav">
+  <a href="../about/participant.html">← Where we lose</a>
+  <a href="comms.html">Comms →</a>
+</div>
+</main>
+
+<footer class="site"><div class="cols">
+  <div>
+    <div class="brandline">open-source<span>.sgit.ai</span></div>
+    <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
+    <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
+    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.1.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../admin/index.md">this page as markdown</a></p>
+  </div>
+  <div>
+    <h4>The argument</h4>
+    <a href="../views/index.html">The position</a>
+    <a href="../views/sovereignty.html">Sovereignty</a>
+    <a href="../views/open-core.html">Open core, or packaging?</a>
+    <a href="../views/villagers.html">Somebody has to be the villagers</a>
+  </div>
+  <div>
+    <h4>Survivability</h4>
+    <a href="../survivability/stress-test.html">&#8594; Run the stress test</a>
+    <a href="../survivability/index.html">Not a licence property</a>
+    <a href="../survivability/self-audit.html">The self-audit</a>
+  </div>
+  <div>
+    <h4>The record</h4>
+    <a href="../history/index.html">Six corrections</a>
+    <a href="../history/timeline.html">The timeline</a>
+    <a href="../history/stories.html">Six success stories</a>
+    <a href="../history/numbers.html">The numbers</a>
+    <a href="../practice/index.html">Three licences</a>
+  </div>
+  <div>
+    <h4>Site</h4>
+    <a href="../shipped/index.html">What is missing</a>
+    <a href="../roadmap/index.html">Build order</a>
+    <a href="../documents/index.html">The documents</a>
+    <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
+    <a href="../admin/versions.html">Release history</a>
+    <a href="../about/participant.html">Where we lose</a>
+    <a href="../llms.txt">llms.txt</a>
+    <a href="../llms-full.txt">llms-full.txt</a>
+  </div>
+</div></footer>
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The numbers — and the ones this site refuses to publish</title>
+<meta name="description" content="The $8.8 trillion figure and what it actually measures, the 70–90% claim that is really a presence figure, and the statistics the research could not source — listed as unverified rather than published as established.">
+<link rel="canonical" href="https://open-source.sgit.ai/history/numbers.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="open-source.sgit.ai">
+<meta property="og:url" content="https://open-source.sgit.ai/history/numbers.html">
+<meta property="og:title" content="The numbers, and the ones this site refuses to publish">
+<meta property="og:description" content="$8.8tn is a demand-side replacement cost. The supply-side figure is $4.15 billion. A site that corrects other people's unsourced numbers does not get to ship its own.">
+<link rel="alternate" type="text/markdown" href="numbers.md" title="This page as markdown">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav class="site"><div class="row">
+  <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
+  <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
+  <span class="stage-pill">first draft</span>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.0</a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
+  <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../views/index.html">The position</a>
+      <a class="sl" href="../views/sovereignty.html">Sovereignty</a>
+      <a class="sl" href="../views/open-core.html">Open core, or packaging?</a>
+      <a class="sl" href="../views/villagers.html">Somebody has to be the villagers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../survivability/index.html">Survivability<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../survivability/index.html">Not a licence property</a>
+      <a class="sl" href="../survivability/stress-test.html">The stress test</a>
+      <a class="sl" href="../survivability/self-audit.html">The self-audit</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl here" href="../history/index.html">History<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../history/index.html">Six corrections</a>
+      <a class="sl" href="../history/timeline.html">The timeline</a>
+      <a class="sl" href="../history/stories.html">Six success stories</a>
+      <a class="sl here" href="../history/numbers.html">The numbers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../practice/index.html">Practice<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../practice/index.html">Three licences</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../practice/publish-the-source.html">Publish the source</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../agents/index.html">Agents &amp; funding<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../agents/index.html">Agents and open source</a>
+      <a class="sl" href="../funding/index.html">Funding</a>
+      <a class="sl" href="../funding/curl.html">cURL</a>
+      <a class="sl" href="../owasp/index.html">OWASP &amp; the summits</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../shipped/index.html">What is missing</a>
+      <a class="sl" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../documents/index.html">The documents</a>
+      <a class="sl" href="../admin/comms.html">Comms: tasks &amp; requests</a>
+      <a class="sl" href="../admin/versions.html">Release history</a>
+      <a class="sl" href="../admin/index.html">Admin &amp; engineering</a>
+      <a class="sl" href="../about/participant.html">Where we lose</a>
+      </div>
+    </div>
+  </div>
+  <a class="gh" href="https://github.com/SGit-AI/SGit-AI__Website__Open-Source">★ GitHub</a>
+  <script src="../assets/nav.js" defer></script>
+</div></nav>
+
+<main class="doc">
+<div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / <a href="index.html">history</a> / the numbers</div>
+<h1>The numbers, and the ones we refuse to publish</h1>
+<p class="lead">This site's credibility position is that it corrects other people's unsourced figures. That only works if it does not accumulate its own — so this page states what the load-bearing numbers actually measure, and lists the ones the research <b>could not source</b> and which therefore do not appear anywhere else on this site.</p>
+
+<div class="note"><b>The standing warning, from the corpus itself:</b> <em>"the figures circulating are largely recycled from a smaller set of studies through commercial blogs, so <b>the direction is well supported and the precision is not</b>."</em> That is the right way to hold nearly every number in this field, including the ones below that survive scrutiny.</div>
+
+<h2 id="88tn">"Open source is worth $8.8 trillion" — no</h2>
+
+<p>This is the most-repeated figure in the field and it is almost always cited without the thing that makes it meaningful. It comes from a Harvard Business School working paper (24-038), and it is a <b>demand-side replacement cost</b>: what it would cost <em>if every firm using open source independently recreated the software it uses</em>, priced at global average developer wages.</p>
+
+<div class="tablewrap"><table>
+  <thead><tr><th>Measure</th><th>Figure</th><th>What it means</th></tr></thead>
+  <tbody>
+    <tr><td><b>Demand-side replacement</b></td><td><b>$8.8 trillion</b></td><td>Every firm rebuilds everything it uses, separately. Counts the same library once per user.</td></tr>
+    <tr><td><b>Supply-side replacement</b></td><td><b>$4.15 billion</b></td><td>Recreate everything <em>once</em>. Three orders of magnitude smaller, and the same paper's own figure.</td></tr>
+    <tr><td><b>Goods-market model</b></td><td><b>~$177 million</b></td><td>A substantive published critique argues the paper's own alternative model — the realistic counterfactual, in which firms would have bought or substituted rather than rebuilt — yields this. <b>Four orders of magnitude below the headline.</b></td></tr>
+  </tbody>
+</table></div>
+
+<p><b>The rule this site applies:</b> publish $8.8tn only with its definition and the critique attached, or do not publish it. It is not a fabrication — it is a real calculation of a specific counterfactual, and the counterfactual is unrealistic in a way that matters. Quoted bare, it functions as a claim about market value, which is not what it measures.</p>
+
+<div class="warnbox"><b>And the corpus behind this site cites it bare.</b> That is stated here rather than quietly fixed, because <a href="../shipped/index.html">the honesty page</a> exists precisely for this: the site holds others to a standard it had not been meeting, and the correction is the first time it does.</div>
+
+<h2 id="7090">"70–90% of a modern codebase is open source" — a different measurement</h2>
+
+<p>The underlying finding, from Black Duck's OSSRA report, is that <b>98% of 947 audited codebases <em>contain</em> open source</b>. That is a <b>presence</b> figure, not a share-of-lines figure. "Does this codebase contain any open source at all?" and "what proportion of these lines are open source?" are different questions with very different answers.</p>
+
+<p>And the population matters: OSSRA's audit sample is <b>skewed toward M&amp;A due diligence</b> — codebases being examined because someone is buying the company. That is not a random sample of software, and there is no particular reason to think its composition matches the industry's.</p>
+
+<p><b>The direction is not in dispute.</b> Modern applications rest heavily on open source; that is obvious to anyone who has read a lockfile. The precision is what is unsupported, and quoting "70–90% of the code" as though it were measured lends a rhetorical exactness the evidence does not carry.</p>
+
+<h2 id="usable">The numbers that hold up</h2>
+
+<p>These appear elsewhere on the site, with their source, date and caveat:</p>
+
+<div class="tablewrap"><table>
+  <thead><tr><th>Number</th><th>Source and date</th><th>Caveat</th></tr></thead>
+  <tbody>
+    <tr><td><b>2,134 developers</b> on Linux kernel 6.18, the most in its history; 333 first-timers, 13,710 commits</td><td>Kernel release, 30 Nov 2025</td><td>Counts contributors to one release, not the maintainer population.</td></tr>
+    <tr><td><b>55.6% of developers</b> use PostgreSQL — the most-used database</td><td>Stack Overflow Developer Survey 2025, n=49,063</td><td>Self-selected respondents. Reliable for direction, not a census.</td></tr>
+    <tr><td><b>HTTPS page loads: &lt;30% (2015) → ~80% globally, ~95% US</b>; ~10M certificates/day by Sept 2025</td><td>Let's Encrypt / browser telemetry, 2015–2025</td><td>Telemetry measures the browsers reporting it.</td></tr>
+    <tr><td><b>~30 billion cURL installations; seven volunteers on the security team</b></td><td>Project statements, 2025–26</td><td>Installations are an estimate by the project; the security-team figure is a headcount.</td></tr>
+    <tr><td><b>81 genuine reports, &gt;$90,000 paid</b> since 2019; ~20% of 2025 submissions AI slop vs ~5% genuine; bounty closed <b>31 Jan 2026</b></td><td>curl's own published figures, Jan 2026</td><td>First-party, from the programme that ran it. <a href="../funding/curl.html">The full story →</a></td></tr>
+    <tr><td><b>€100,000 in seven weeks</b> to free Blender, Jul–Sep 2002</td><td>Contemporary records</td><td>—</td></tr>
+    <tr><td><b>Three files out of eighteen thousand</b> removed in the USL v. BSDi settlement</td><td>Settlement, Feb 1994</td><td>—</td></tr>
+    <tr><td><b>Licence conflicts in 68% of audited codebases</b>, up 12 points — the highest in the report's history</td><td>OSSRA 2026</td><td>Same skewed audit population as above. Use for direction. <a href="../agents/index.html#compliance">Relevant to the compliance argument →</a></td></tr>
+    <tr><td><b>Mean vulnerabilities per codebase up 107% year on year</b>, attributed to AI-accelerated code creation</td><td>OSSRA 2026</td><td><b>Correlation, not demonstrated causation</b> — and the report's attribution is its own interpretation. <a href="../agents/index.html">Cited that way on the agents page →</a></td></tr>
+  </tbody>
+</table></div>
+
+<h2 id="unverified">The claims this site will not publish</h2>
+
+<p>These were investigated and <b>could not be established from a primary source</b>. They do not appear anywhere else on this site, and this list is the reason.</p>
+
+<div class="tablewrap"><table>
+  <thead><tr><th>The claim</th><th>Why it is not published</th></tr></thead>
+  <tbody>
+    <tr><td><b>"Linux runs 90% of the cloud"</b></td><td><b>No primary source found.</b> Every result traced back to SEO content citing other SEO content. The number may well be roughly right; there is nothing behind it to cite.</td></tr>
+    <tr><td><b>"All 500 of the TOP500 supercomputers run Linux"</b></td><td>TOP500's OS-family table could not be fetched, so this is <b>unverified</b> — though the top five on the June 2026 list are all Linux-derived, which is stated as what it is.</td></tr>
+    <tr><td><b>Wikipedia's traffic figures</b> ("18 billion views, 500M uniques")</td><td>Traces to a <b>February 2014</b> New York Times report. <code>stats.wikimedia.org</code> is cache-only and could not be fetched. A twelve-year-old number presented as current.</td></tr>
+    <tr><td><b>GitHub's scale figures</b></td><td><b>They do not reconcile with each other.</b> Octoverse 2025 reports 630M repositories and 180M+ developers; GitHub separately announced its billionth repository in June 2025; Wikipedia carries "150 million users, May 2025". Cite Octoverse and say which measure you mean — or say nothing.</td></tr>
+    <tr><td><b>CNCF's 2025 headline</b> that Kubernetes is "the de facto operating system for AI"</td><td>The survey <b>published no sample size and no field dates.</b> And its own data shows <b>44% of organisations run no AI/ML workloads on Kubernetes at all</b> — which is difficult to reconcile with the headline.</td></tr>
+  </tbody>
+</table></div>
+
+<div class="note"><b>Why publish a list of things you are not saying?</b> Because the absence is otherwise invisible, and because these are figures a reader will encounter everywhere else. Naming them is more useful than silently omitting them — and it is the same reasoning that puts <a href="../shipped/index.html">the site's own gaps</a> on a page rather than in a footnote.</div>
+
+<div class="pagenav">
+  <a href="stories.html">← Six success stories</a>
+  <a href="../practice/index.html">The practice →</a>
+</div>
+</main>
+
+<footer class="site"><div class="cols">
+  <div>
+    <div class="brandline">open-source<span>.sgit.ai</span></div>
+    <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
+    <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
+    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.1.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../history/numbers.md">this page as markdown</a></p>
+  </div>
+  <div>
+    <h4>The argument</h4>
+    <a href="../views/index.html">The position</a>
+    <a href="../views/sovereignty.html">Sovereignty</a>
+    <a href="../views/open-core.html">Open core, or packaging?</a>
+    <a href="../views/villagers.html">Somebody has to be the villagers</a>
+  </div>
+  <div>
+    <h4>Survivability</h4>
+    <a href="../survivability/stress-test.html">&#8594; Run the stress test</a>
+    <a href="../survivability/index.html">Not a licence property</a>
+    <a href="../survivability/self-audit.html">The self-audit</a>
+  </div>
+  <div>
+    <h4>The record</h4>
+    <a href="../history/index.html">Six corrections</a>
+    <a href="../history/timeline.html">The timeline</a>
+    <a href="../history/stories.html">Six success stories</a>
+    <a href="../history/numbers.html">The numbers</a>
+    <a href="../practice/index.html">Three licences</a>
+  </div>
+  <div>
+    <h4>Site</h4>
+    <a href="../shipped/index.html">What is missing</a>
+    <a href="../roadmap/index.html">Build order</a>
+    <a href="../documents/index.html">The documents</a>
+    <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
+    <a href="../admin/versions.html">Release history</a>
+    <a href="../about/participant.html">Where we lose</a>
+    <a href="../llms.txt">llms.txt</a>
+    <a href="../llms-full.txt">llms-full.txt</a>
+  </div>
+</div></footer>
+
+</body>
+</html>

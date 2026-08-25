@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Survivability is not a property of the licence file</title>
+<meta name="description" content="Every catalogued relicensing between 2018 and 2024 followed the same legal pattern: a single corporate copyright holder, having aggregated contributor copyright via a CLA, exercised the right to change terms going forward. Distributed-copyright projects could not be moved the same way.">
+<link rel="canonical" href="https://open-source.sgit.ai/survivability/index.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="open-source.sgit.ai">
+<meta property="og:url" content="https://open-source.sgit.ai/survivability/index.html">
+<meta property="og:title" content="Survivability is not a property of the licence file">
+<meta property="og:description" content="It is a property of the copyright and trademark structure. PostgreSQL is the control case; OpenSolaris is the counter-case; and HashiCorp went BUSL, IBM acquired it, and the licence stayed.">
+<link rel="alternate" type="text/markdown" href="index.md" title="This page as markdown">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav class="site"><div class="row">
+  <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
+  <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
+  <span class="stage-pill">first draft</span>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.0</a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
+  <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../views/index.html">The position</a>
+      <a class="sl" href="../views/sovereignty.html">Sovereignty</a>
+      <a class="sl" href="../views/open-core.html">Open core, or packaging?</a>
+      <a class="sl" href="../views/villagers.html">Somebody has to be the villagers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl here" href="../survivability/index.html">Survivability<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl here" href="../survivability/index.html">Not a licence property</a>
+      <a class="sl" href="../survivability/stress-test.html">The stress test</a>
+      <a class="sl" href="../survivability/self-audit.html">The self-audit</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../history/index.html">History<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../history/index.html">Six corrections</a>
+      <a class="sl" href="../history/timeline.html">The timeline</a>
+      <a class="sl" href="../history/stories.html">Six success stories</a>
+      <a class="sl" href="../history/numbers.html">The numbers</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../practice/index.html">Practice<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../practice/index.html">Three licences</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../practice/publish-the-source.html">Publish the source</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../agents/index.html">Agents &amp; funding<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../agents/index.html">Agents and open source</a>
+      <a class="sl" href="../funding/index.html">Funding</a>
+      <a class="sl" href="../funding/curl.html">cURL</a>
+      <a class="sl" href="../owasp/index.html">OWASP &amp; the summits</a>
+      </div>
+    </div>
+    <div class="ni ni-has">
+      <a class="nl" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../shipped/index.html">What is missing</a>
+      <a class="sl" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../documents/index.html">The documents</a>
+      <a class="sl" href="../admin/comms.html">Comms: tasks &amp; requests</a>
+      <a class="sl" href="../admin/versions.html">Release history</a>
+      <a class="sl" href="../admin/index.html">Admin &amp; engineering</a>
+      <a class="sl" href="../about/participant.html">Where we lose</a>
+      </div>
+    </div>
+  </div>
+  <a class="gh" href="https://github.com/SGit-AI/SGit-AI__Website__Open-Source">★ GitHub</a>
+  <script src="../assets/nav.js" defer></script>
+</div></nav>
+
+<main class="doc">
+<div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / survivability</div>
+<h1>Survivability is not a property of the licence file</h1>
+<p class="lead">This is the best original idea on the site, and the most immediately useful, because it tells a buyer to stop reading the thing everyone reads and start reading the two things almost nobody does.</p>
+
+<blockquote class="challenge">"Survivable is not a property of the licence file. <b>It is a property of the copyright and trademark structure.</b>"</blockquote>
+
+<h2 id="mechanism">The mechanism — which is what makes this a finding, not an opinion</h2>
+
+<blockquote class="challenge">"An OSI licence is irrevocable for code already published, but the copyright holder may ship the next version under different terms. <b>Every catalogued relicensing between 2018 and 2024 followed the same legal pattern: a single corporate copyright holder, having aggregated contributor copyright via a CLA, exercised the right to change terms going forward. Distributed-copyright projects could not be moved the same way, because no single party had standing.</b>"</blockquote>
+
+<p>Read that carefully, because both halves matter and the first half is what people get wrong. <b>The licence you already have cannot be taken away.</b> That is real, and it is the thing the licence file genuinely guarantees. What the licence file does <em>not</em> tell you is anything at all about who can decide the terms of the <em>next</em> release — and for anyone who intends to keep using a dependency rather than freezing it at a version, that is the only question that matters.</p>
+
+<p>Whoever holds the copyright decides. So the buyer's question is not "what licence is this?" It is <b>"who could change it, and what would stop them?"</b></p>
+
+<h2 id="cla">Why the CLA is the mechanism</h2>
+
+<p>A Contributor Licence Agreement that assigns copyright — or grants a licence broad enough to relicense under — aggregates into one entity the standing that would otherwise be distributed across every contributor. That aggregation is usually presented as administrative hygiene, and it genuinely does solve real problems (provenance, the ability to defend the project, the ability to fix a licensing mistake). It also creates, as a side effect, <b>the single party capable of moving the project</b>.</p>
+
+<p>A DCO — a sign-off attesting you had the right to contribute, with no assignment — does not. Under inbound=outbound, contributors licensed their work to the project under the project's licence, and nobody acquired the standing to change it for everyone. That is the whole difference, and it is visible in a repository from outside.</p>
+
+<div class="note"><b>This is not an argument that CLAs are bad.</b> It is an argument that a CLA is a <em>load-bearing structural fact</em> that a buyer should price, and that "we use a CLA" and "we could relicense" are the same sentence. <a href="stress-test.html">Leg one of the stress test asks for it →</a></div>
+
+<h2 id="acquisition">Acquisition entrenches the closure — it does not reverse it</h2>
+
+<blockquote class="challenge">"<b>HashiCorp went BUSL, IBM acquired it, and the licence stayed.</b>"</blockquote>
+
+<p>This is the kicker, and it disposes of the most common hope. The optimistic story is that a relicensing is a phase — a cash-strapped company under pressure, and a bigger, more comfortable owner will revert it. It did not happen. Terraform went BUSL in August 2023; IBM's acquisition of HashiCorp closed on 27 February 2025; the licence stayed. <b>Acquisition changes who holds the standing, not whether the standing exists.</b> Where the structure permits closure, closure survives ownership changes in both directions.</p>
+
+<h2 id="cases">The control case and the counter-case</h2>
+
+<div class="tablewrap"><table>
+  <thead><tr><th></th><th class="safe">PostgreSQL — the control case</th><th class="fatal">OpenSolaris — the counter-case</th></tr></thead>
+  <tbody>
+    <tr><td><b>Copyright structure</b></td><td><b class="yes">Distributed.</b> No company owns it</td><td><b class="no">Sun retained it</b>, with governance to match</td></tr>
+    <tr><td><b>Could it be relicensed?</b></td><td><b class="yes">No party has standing</b> to do it</td><td><b class="no">Yes</b> — and the licence was deliberately chosen to be GPL-incompatible</td></tr>
+    <tr><td><b>What happened</b></td><td>Survived the entire relicensing wave untouched. Now <b>the most-used database</b> — 55.6% of developers</td><td><b class="no">Killed by Oracle after the acquisition.</b> The community forked to illumos</td></tr>
+    <tr><td><b>The lesson</b></td><td colspan="2"><b>The licence was not the problem; the copyright holder was.</b> OpenSolaris was under an OSI-approved licence the whole time. Being open source did not save it, because being open source was never the property that decides this.</td></tr>
+  </tbody>
+</table></div>
+
+<p>And note the second half of the OpenSolaris story, because it is the point of <a href="stress-test.html#leg4">leg four</a>: <b>illumos survives.</b> Fork capacity mattered, and it mattered because a named party with the ability to run it actually existed. "The community would fork it" is not a plan; illumos was.</p>
+
+<h2 id="reversals">The update that sharpens the argument</h2>
+
+<p>Two of the four relicensings partially reversed after the original argument was written. Elastic added AGPLv3 in August 2024; Redis 8 shipped under AGPLv3 around 1 May 2025. MongoDB remains SSPL; Terraform remains BUSL inside IBM.</p>
+
+<div class="note"><b>That does not weaken the argument. It sharpens it.</b> The same single-holder standing that let them leave is what let them come back. Nobody had to negotiate with thousands of contributors in either direction. <b>Structure determines what is possible in both directions</b> — and a project that can be closed by one party's decision can be reopened by one party's decision, which is a description of dependence, not of safety.</div>
+
+<p>One precision worth keeping: <b>none of the four went closed source.</b> They went <em>source-available</em> — SSPL, BUSL, and similar. The code remained readable; the freedoms did not remain. Conflating the two is the most common error in commentary on this period, and it makes the situation sound both better and worse than it was.</p>
+
+<h2 id="next">What to do with this</h2>
+
+<div class="cards" style="padding:0">
+  <a class="card" href="stress-test.html"><span class="tag">The tool</span><h3>Run the Change-of-Control Stress Test</h3><p>Four legs, all answerable from public artefacts, requiring no cooperation from the vendor. Answer them here and keep the result — nothing is sent anywhere.</p><span class="go">Run it →</span></a>
+  <a class="card" href="self-audit.html"><span class="tag">The self-audit</span><h3>We run it on ourselves, and fail leg one</h3><p>A tool whose author will not apply it to themselves is a marketing asset. Here is our own verdict, what would have to change, and whether we intend to change it.</p><span class="go">Read →</span></a>
+  <a class="card" href="../views/sovereignty.html"><span class="tag">The same argument</span><h3>Sovereignty, at a different scale</h3><p>"A European company gets acquired and the sovereignty moves" is this argument applied to a country instead of a project. Saying so makes both stronger.</p><span class="go">Read →</span></a>
+</div>
+
+<div class="pagenav">
+  <a href="../views/index.html">← The position</a>
+  <a href="stress-test.html">The stress test →</a>
+</div>
+</main>
+
+<footer class="site"><div class="cols">
+  <div>
+    <div class="brandline">open-source<span>.sgit.ai</span></div>
+    <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
+    <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
+    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.1.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../survivability/index.md">this page as markdown</a></p>
+  </div>
+  <div>
+    <h4>The argument</h4>
+    <a href="../views/index.html">The position</a>
+    <a href="../views/sovereignty.html">Sovereignty</a>
+    <a href="../views/open-core.html">Open core, or packaging?</a>
+    <a href="../views/villagers.html">Somebody has to be the villagers</a>
+  </div>
+  <div>
+    <h4>Survivability</h4>
+    <a href="../survivability/stress-test.html">&#8594; Run the stress test</a>
+    <a href="../survivability/index.html">Not a licence property</a>
+    <a href="../survivability/self-audit.html">The self-audit</a>
+  </div>
+  <div>
+    <h4>The record</h4>
+    <a href="../history/index.html">Six corrections</a>
+    <a href="../history/timeline.html">The timeline</a>
+    <a href="../history/stories.html">Six success stories</a>
+    <a href="../history/numbers.html">The numbers</a>
+    <a href="../practice/index.html">Three licences</a>
+  </div>
+  <div>
+    <h4>Site</h4>
+    <a href="../shipped/index.html">What is missing</a>
+    <a href="../roadmap/index.html">Build order</a>
+    <a href="../documents/index.html">The documents</a>
+    <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
+    <a href="../admin/versions.html">Release history</a>
+    <a href="../about/participant.html">Where we lose</a>
+    <a href="../llms.txt">llms.txt</a>
+    <a href="../llms-full.txt">llms-full.txt</a>
+  </div>
+</div></footer>
+
+</body>
+</html>
