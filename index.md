@@ -1,6 +1,6 @@
 <!-- generated from index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/index.html*
 
 > The power of open source is not that it is nice for others. It is that it removes the technology moat, and it is the only structure under which sovereignty is possible. The position, the practice, and a history checked against its sources — including six corrections to the story most sites tell.
 

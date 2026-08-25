@@ -1,6 +1,6 @@
 <!-- generated from owasp/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/owasp/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/owasp/index.html*
 
 > Four summits from 2008 Algarve to 2017 Woburn's 173 sessions, the working-session format and no spectators only participants — all of it written in the third person from public sources. The first-person account is marked pending rather than invented.
 

@@ -1,6 +1,6 @@
 <!-- generated from agents/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/agents/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/agents/index.html*
 
 > Code-reading as the appreciating scarce asset, a dated contradiction about the junior pipeline published rather than resolved, and four theses that follow from the corpus and are written nowhere — including licence compliance at machine speed.
 

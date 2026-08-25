@@ -1,6 +1,6 @@
 <!-- generated from survivability/self-audit.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/survivability/self-audit.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/survivability/self-audit.html*
 
 > SGraph's copyright is held by one company: the exact single-holder pattern our own survivability argument identifies as the failure mode. The four legs run on ourselves, what would have to change, and whether we intend to change it.
 

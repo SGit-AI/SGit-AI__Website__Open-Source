@@ -1,6 +1,6 @@
 <!-- generated from admin/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/admin/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/admin/index.html*
 
 > The build tooling, the CI pipeline (validate → auto-tag → deploy), the release process, and the markdown-twin generator that makes the site traversable by agents. Published, because a site arguing you should publish the source should publish its own.
 

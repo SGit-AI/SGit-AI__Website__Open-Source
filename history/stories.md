@@ -1,6 +1,6 @@
 <!-- generated from history/stories.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/history/stories.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/history/stories.html*
 
 > Linux, Let's Encrypt, SQLite, PostgreSQL, cURL and Blender — six, not fourteen, each chosen because it carries an argument made elsewhere on this site. Plus Kubernetes and VS Code, which complicate the picture honestly.
 

@@ -1,6 +1,6 @@
 <!-- generated from shipped/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/shipped/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/shipped/index.html*
 
 > No community story by design. No SBOM, despite telling companies to declare their supply chain. Three funding proposals never piloted. A self-audit that fails. And the OWASP account that only one person can write.
 

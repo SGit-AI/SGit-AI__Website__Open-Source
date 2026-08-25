@@ -1,6 +1,6 @@
 # open-source.sgit.ai — every page, one file
 
-Site version: v0.1.0. Generated from the HTML by admin/build/gen_markdown.py.
+Site version: v0.1.1. Generated from the HTML by admin/build/gen_markdown.py.
 Canonical host: https://open-source.sgit.ai/ — every section below is one page of the site.
 This file exists so an agent that cannot follow links still gets the whole site.
 All content CC BY 4.0 unless noted.
@@ -11,7 +11,7 @@ PAGE: /index.html  (markdown twin: /index.md)
 
 <!-- generated from index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/index.html*
 
 > The power of open source is not that it is nice for others. It is that it removes the technology moat, and it is the only structure under which sovereignty is possible. The position, the practice, and a history checked against its sources — including six corrections to the story most sites tell.
 
@@ -233,7 +233,7 @@ PAGE: /views/index.html  (markdown twin: /views/index.md)
 
 <!-- generated from views/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/views/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/views/index.html*
 
 > Technology is not the moat; lock-in relocates to quality, certification and maintainability; lock-in degrades your own architecture; and open source frees you to cannibalise your own code. The full position, each argument with its counter-case attached.
 
@@ -360,7 +360,7 @@ PAGE: /views/sovereignty.html  (markdown twin: /views/sovereignty.md)
 
 <!-- generated from views/sovereignty.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/views/sovereignty.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/views/sovereignty.html*
 
 > A four-step argument: open source is the only structure under which independence is possible; the data schemas matter as much as the code; without ownership you are one SLA away from losing access; and company nationality is not sovereignty, because acquisitions move it.
 
@@ -426,7 +426,7 @@ PAGE: /views/open-core.html  (markdown twin: /views/open-core.md)
 
 <!-- generated from views/open-core.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/views/open-core.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/views/open-core.html*
 
 > 18 June: there should be nothing proprietary. 17 July: customers only have a subset of the code that exists in the main repo. Five weeks apart, and the July document diagnoses itself. Here is the test that settles which one it actually is.
 
@@ -498,7 +498,7 @@ PAGE: /views/villagers.html  (markdown twin: /views/villagers.md)
 
 <!-- generated from views/villagers.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/views/villagers.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/views/villagers.html*
 
 > Maintaining the non-functional requirements — version control, reliability, resilience, security, backups, consistency, explainability, documentation — as a market, and the ability to read and repair code somebody else wrote as an appreciating scarce asset. Published with both of its own counter-arguments.
 
@@ -569,7 +569,7 @@ PAGE: /survivability/index.html  (markdown twin: /survivability/index.md)
 
 <!-- generated from survivability/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/survivability/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/survivability/index.html*
 
 > Every catalogued relicensing between 2018 and 2024 followed the same legal pattern: a single corporate copyright holder, having aggregated contributor copyright via a CLA, exercised the right to change terms going forward. Distributed-copyright projects could not be moved the same way.
 
@@ -655,7 +655,7 @@ PAGE: /survivability/stress-test.html  (markdown twin: /survivability/stress-tes
 
 <!-- generated from survivability/stress-test.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/survivability/stress-test.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/survivability/stress-test.html*
 
 > Four legs — copyright structure, trademark holder, schema licence, named fork capacity — every one answerable from public artefacts without the vendor's cooperation. Answer them here and keep the result. A vendor that cannot answer them has answered them.
 
@@ -675,44 +675,44 @@ Four questions to ask about any open-source dependency you are betting on. Every
 
    Who holds copyright in the code, and could one party relicense the next release?
 
-   Passes DCO / inbound=outbound, copyright distributed across contributors. No single party has standing to change the terms.
+   PassesDCO / inbound=outbound, copyright distributed across contributors. No single party has standing to change the terms.
 
-   Fails A single-entity CLA aggregating contributor copyright — or one company simply wrote it all.
+   FailsA single-entity CLA aggregating contributor copyright — or one company simply wrote it all.
 
-   Unclear You could not find out from public artefacts.
+   UnclearYou could not find out from public artefacts.
 
    **Where to look:**`CONTRIBUTING.md`, a `CLA.md` or CLA-bot check on pull requests, `Signed-off-by:` lines in the commit log (a DCO signal), and the copyright headers in source files. **Unclear is not neutral** — see the verdict note below.
 2. ### Leg 2 Trademark holder
 
    Who owns the name, and what would stop them using it against a fork?
 
-   Passes Held by a neutral foundation, with charter-level restrictions on transferring it.
+   PassesHeld by a neutral foundation, with charter-level restrictions on transferring it.
 
-   Fails Held by the operating company, transferable with the company.
+   FailsHeld by the operating company, transferable with the company.
 
-   Unclear No trademark policy published, or the holder is not stated.
+   UnclearNo trademark policy published, or the holder is not stated.
 
    **Why it is a separate leg:** a fork can take the code and cannot take the name. Losing the name means losing the search results, the documentation people have bookmarked, the package identifier, and the recognition a new user needs to find you at all. **Trademark is how a fork is made expensive even when it is legally permitted.**
 3. ### Leg 3 Schema licence
 
    Are the data schemas and formats licensed separately, and openly?
 
-   Passes CC0 or CC BY, licensed *separately* from the code.
+   PassesCC0 or CC BY, licensed *separately* from the code.
 
-   Fails Undeclared, or silently bundled with the code licence.
+   FailsUndeclared, or silently bundled with the code licence.
 
-   Unclear You could not establish what governs the schemas.
+   UnclearYou could not establish what governs the schemas.
 
    **The leg everyone skips.**[The schemas matter as much as the code](../views/sovereignty.md#step2): your data is only portable to the extent that its structure is something you may reimplement. A schema bundled with a code licence that later changes moves with it — and an undeclared schema is a dependency with no terms at all.
 4. ### Leg 4 Fork capacity
 
    If the terms changed tomorrow, who would actually run the fork?
 
-   Passes A **named party** with the headcount and the mandate to run it. You can say who.
+   PassesA **named party** with the headcount and the mandate to run it. You can say who.
 
-   Fails "The community would fork it" — with no named party.
+   Fails"The community would fork it" — with no named party.
 
-   Unclear There are candidates, but none with a stated mandate.
+   UnclearThere are candidates, but none with a stated mandate.
 
    **The test is whether you can name them.** illumos existed and OpenSolaris users had somewhere to go; OpenTofu and Valkey existed within weeks because organisations with engineers decided to fund them. A fork is not a right that gets exercised automatically — **it is a payroll**, and if nobody's payroll is available, the right is theoretical.
 
@@ -747,7 +747,7 @@ PAGE: /survivability/self-audit.html  (markdown twin: /survivability/self-audit.
 
 <!-- generated from survivability/self-audit.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/survivability/self-audit.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/survivability/self-audit.html*
 
 > SGraph's copyright is held by one company: the exact single-holder pattern our own survivability argument identifies as the failure mode. The four legs run on ourselves, what would have to change, and whether we intend to change it.
 
@@ -812,7 +812,7 @@ PAGE: /history/index.html  (markdown twin: /history/index.md)
 
 <!-- generated from history/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/history/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/history/index.html*
 
 > Unix circulated because it was illegal to sell it. BSD lost to litigation risk, not its licence. Netscape's release was a six-year near-failure. Christine Peterson coined open source. Eyeballs are not a security property. And two of the four relicensings reversed.
 
@@ -920,7 +920,7 @@ PAGE: /history/timeline.html  (markdown twin: /history/timeline.md)
 
 <!-- generated from history/timeline.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/history/timeline.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/history/timeline.html*
 
 > A sourced timeline of open source from the 1956 AT&T consent decree to the relicensing wave and its partial reversals — placed behind the corrections rather than in front of them, because the corrections are the part worth reading first.
 
@@ -988,7 +988,7 @@ PAGE: /history/stories.html  (markdown twin: /history/stories.md)
 
 <!-- generated from history/stories.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/history/stories.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/history/stories.html*
 
 > Linux, Let's Encrypt, SQLite, PostgreSQL, cURL and Blender — six, not fourteen, each chosen because it carries an argument made elsewhere on this site. Plus Kubernetes and VS Code, which complicate the picture honestly.
 
@@ -1079,7 +1079,7 @@ PAGE: /history/numbers.html  (markdown twin: /history/numbers.md)
 
 <!-- generated from history/numbers.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/history/numbers.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/history/numbers.html*
 
 > The $8.8 trillion figure and what it actually measures, the 70–90% claim that is really a presence figure, and the statistics the research could not source — listed as unverified rather than published as established.
 
@@ -1156,7 +1156,7 @@ PAGE: /practice/index.html  (markdown twin: /practice/index.md)
 
 <!-- generated from practice/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/practice/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/practice/index.html*
 
 > Apache-2.0 on the code, CC BY 4.0 on around 1,100 brief footers, and CC0 1.0 on the published articles — which no document in the corpus mentions or reconciles. The licensing of the estate, stated, with the open question left open.
 
@@ -1252,7 +1252,7 @@ PAGE: /practice/apache-vs-mit.html  (markdown twin: /practice/apache-vs-mit.md)
 
 <!-- generated from practice/apache-vs-mit.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/practice/apache-vs-mit.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/practice/apache-vs-mit.html*
 
 > The patent grant, defensive termination, the NOTICE file, and the explicit contribution clause — the four things Apache-2.0 does that MIT does not, the honest costs of each, and when MIT is the better choice.
 
@@ -1337,7 +1337,7 @@ PAGE: /practice/publish-the-source.html  (markdown twin: /practice/publish-the-s
 
 <!-- generated from practice/publish-the-source.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/practice/publish-the-source.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/practice/publish-the-source.html*
 
 > Every page available as markdown at the same path with the extension swapped, and the links inside the markdown pointing at markdown — the practice, how it was actually built with edge functions, and how this site implements it.
 
@@ -1421,7 +1421,7 @@ PAGE: /agents/index.html  (markdown twin: /agents/index.md)
 
 <!-- generated from agents/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/agents/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/agents/index.html*
 
 > Code-reading as the appreciating scarce asset, a dated contradiction about the junior pipeline published rather than resolved, and four theses that follow from the corpus and are written nowhere — including licence compliance at machine speed.
 
@@ -1523,7 +1523,7 @@ PAGE: /funding/index.html  (markdown twin: /funding/index.md)
 
 <!-- generated from funding/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/funding/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/funding/index.html*
 
 > Market forces and supply-chain labelling, a maintainer platform, and sovereignty bounties that fund the exit rather than the supply. None was costed, none piloted, and none compared against the others — until here.
 
@@ -1618,7 +1618,7 @@ PAGE: /funding/curl.html  (markdown twin: /funding/curl.md)
 
 <!-- generated from funding/curl.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/funding/curl.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/funding/curl.html*
 
 > On 31 January 2026 curl closed its bug bounty because roughly 20% of 2025 submissions were AI-generated slop against roughly 5% genuine. An externality nobody was paying for destroyed a funding mechanism, with a date and a named casualty.
 
@@ -1697,7 +1697,7 @@ PAGE: /owasp/index.html  (markdown twin: /owasp/index.md)
 
 <!-- generated from owasp/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/owasp/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/owasp/index.html*
 
 > Four summits from 2008 Algarve to 2017 Woburn's 173 sessions, the working-session format and no spectators only participants — all of it written in the third person from public sources. The first-person account is marked pending rather than invented.
 
@@ -1798,7 +1798,7 @@ PAGE: /shipped/index.html  (markdown twin: /shipped/index.md)
 
 <!-- generated from shipped/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/shipped/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/shipped/index.html*
 
 > No community story by design. No SBOM, despite telling companies to declare their supply chain. Three funding proposals never piloted. A self-audit that fails. And the OWASP account that only one person can write.
 
@@ -1887,7 +1887,7 @@ PAGE: /roadmap/index.html  (markdown twin: /roadmap/index.md)
 
 <!-- generated from roadmap/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/roadmap/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/roadmap/index.html*
 
 > What is built, what is next, and eight open questions published without answers — including whether the customer subset is open core, which funding model to back, and whether the estate will change to pass its own stress test.
 
@@ -1959,7 +1959,7 @@ PAGE: /documents/index.html  (markdown twin: /documents/index.md)
 
 <!-- generated from documents/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/documents/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/documents/index.html*
 
 > The commissioning brief pack this site was built from, published whole and unedited: nine briefs, an 18,000-word history research document, and a 55-row source manifest. The raw markdown is the source of truth.
 
@@ -2025,7 +2025,7 @@ PAGE: /about/participant.html  (markdown twin: /about/participant.md)
 
 <!-- generated from about/participant.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/about/participant.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/about/participant.html*
 
 > This site is published by a company with a commercial interest in the argument it makes, and which fails its own stress test. The disclosure, what it means for how to read each section, and where our own approach loses.
 
@@ -2099,7 +2099,7 @@ PAGE: /admin/index.html  (markdown twin: /admin/index.md)
 
 <!-- generated from admin/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/admin/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/admin/index.html*
 
 > The build tooling, the CI pipeline (validate → auto-tag → deploy), the release process, and the markdown-twin generator that makes the site traversable by agents. Published, because a site arguing you should publish the source should publish its own.
 
@@ -2166,7 +2166,7 @@ PAGE: /admin/comms.html  (markdown twin: /admin/comms.md)
 
 <!-- generated from admin/comms.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/admin/comms.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/admin/comms.html*
 
 > The open board: what this site needs from its author that no amount of research supplies, and the tasks it is carrying. Numbered, dated, and published rather than held privately.
 
@@ -2222,7 +2222,7 @@ PAGE: /admin/versions.html  (markdown twin: /admin/versions.md)
 
 <!-- generated from admin/versions.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/admin/versions.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/admin/versions.html*
 
 > Site release history. Every push to dev is a release, validated then auto-tagged by CI against the version in admin/build/version.txt and the release commit's subject.
 
@@ -2234,6 +2234,7 @@ Every push to `dev` is a release: CI validates the site, verifies the version bu
 
 | Version | Date | What shipped |
 |---|---|---|
+| v0.1.1 | 25 Aug 2026 | **The build tooling was never committed.** The repository's stock Python `.gitignore` carries a bare `build/` rule, which silently swallowed the whole of `admin/build/` — `chrome.py`, `gen_markdown.py`, `validate.js` and `version.txt`. Everything passed locally, where the files exist; the first CI run failed at once, on the very first step, because they were not in the checkout. Fixed with the same `!admin/build/` negation the sibling sites carry. Recorded here rather than amended away, because [a site that publishes its own failed audit](../survivability/self-audit.md) does not get to quietly rewrite a bad release out of its history. It is also a small illustration of the pipeline working as intended: **the release that could not be validated never got a tag and was never published.** |
 | v0.1.0 | 25 Aug 2026 | **First release.** The site, built from the commissioning brief pack, which is [published verbatim alongside it](../documents/index.md). **The pipeline first**, matching the sibling sites: validate → auto-tag → deploy, with the version owned by one file and verified against the release commit's subject. Validation additionally enforces the things this site's own argument depends on — **a markdown twin at every URL**, `llms-full.txt` carrying every page, and a CC BY 4.0 footer on every markdown file.**The content:**[the position](../views/index.md) with every argument carrying its counter-case; [survivability](../survivability/index.md) with [the stress test as a working tool](../survivability/stress-test.md) and [a self-audit that fails three of its four legs](../survivability/self-audit.md); [six corrections](../history/index.md) leading the history rather than a timeline; [the three-licence estate](../practice/index.md) and [the Apache-vs-MIT page that existed nowhere](../practice/apache-vs-mit.md); [agents](../agents/index.md); [the three funding proposals compared for the first time](../funding/index.md) and [cURL](../funding/curl.md); [the summit history, with the first-person account marked pending](../owasp/index.md); and [what is missing, unsoftened](../shipped/index.md).**Two things deliberately not done:** the CC0/CC BY licensing question is [published unresolved](../practice/index.md#reading) rather than settled on the author's behalf, and the SBOM the site tells other people to publish [is named as a gap rather than shipped](../shipped/index.md#supply-chain). Both are [recorded as divergences from the brief](../documents/index.md#divergences). |
 
 > **Reading a version number.**`v{release}.{major}.{minor}` — every push to `dev` increments the minor. CI refuses a tag that is not the next minor (or a deliberate major), and refuses one where `version.txt` and the commit subject disagree, so the history above cannot silently skip a release.

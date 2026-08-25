@@ -1,6 +1,6 @@
 <!-- generated from survivability/stress-test.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/survivability/stress-test.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/survivability/stress-test.html*
 
 > Four legs — copyright structure, trademark holder, schema licence, named fork capacity — every one answerable from public artefacts without the vendor's cooperation. Answer them here and keep the result. A vendor that cannot answer them has answered them.
 
@@ -20,44 +20,44 @@ Four questions to ask about any open-source dependency you are betting on. Every
 
    Who holds copyright in the code, and could one party relicense the next release?
 
-   Passes DCO / inbound=outbound, copyright distributed across contributors. No single party has standing to change the terms.
+   PassesDCO / inbound=outbound, copyright distributed across contributors. No single party has standing to change the terms.
 
-   Fails A single-entity CLA aggregating contributor copyright — or one company simply wrote it all.
+   FailsA single-entity CLA aggregating contributor copyright — or one company simply wrote it all.
 
-   Unclear You could not find out from public artefacts.
+   UnclearYou could not find out from public artefacts.
 
    **Where to look:**`CONTRIBUTING.md`, a `CLA.md` or CLA-bot check on pull requests, `Signed-off-by:` lines in the commit log (a DCO signal), and the copyright headers in source files. **Unclear is not neutral** — see the verdict note below.
 2. ### Leg 2 Trademark holder
 
    Who owns the name, and what would stop them using it against a fork?
 
-   Passes Held by a neutral foundation, with charter-level restrictions on transferring it.
+   PassesHeld by a neutral foundation, with charter-level restrictions on transferring it.
 
-   Fails Held by the operating company, transferable with the company.
+   FailsHeld by the operating company, transferable with the company.
 
-   Unclear No trademark policy published, or the holder is not stated.
+   UnclearNo trademark policy published, or the holder is not stated.
 
    **Why it is a separate leg:** a fork can take the code and cannot take the name. Losing the name means losing the search results, the documentation people have bookmarked, the package identifier, and the recognition a new user needs to find you at all. **Trademark is how a fork is made expensive even when it is legally permitted.**
 3. ### Leg 3 Schema licence
 
    Are the data schemas and formats licensed separately, and openly?
 
-   Passes CC0 or CC BY, licensed *separately* from the code.
+   PassesCC0 or CC BY, licensed *separately* from the code.
 
-   Fails Undeclared, or silently bundled with the code licence.
+   FailsUndeclared, or silently bundled with the code licence.
 
-   Unclear You could not establish what governs the schemas.
+   UnclearYou could not establish what governs the schemas.
 
    **The leg everyone skips.**[The schemas matter as much as the code](../views/sovereignty.md#step2): your data is only portable to the extent that its structure is something you may reimplement. A schema bundled with a code licence that later changes moves with it — and an undeclared schema is a dependency with no terms at all.
 4. ### Leg 4 Fork capacity
 
    If the terms changed tomorrow, who would actually run the fork?
 
-   Passes A **named party** with the headcount and the mandate to run it. You can say who.
+   PassesA **named party** with the headcount and the mandate to run it. You can say who.
 
-   Fails "The community would fork it" — with no named party.
+   Fails"The community would fork it" — with no named party.
 
-   Unclear There are candidates, but none with a stated mandate.
+   UnclearThere are candidates, but none with a stated mandate.
 
    **The test is whether you can name them.** illumos existed and OpenSolaris users had somewhere to go; OpenTofu and Valkey existed within weeks because organisations with engineers decided to fund them. A fork is not a right that gets exercised automatically — **it is a payroll**, and if nobody's payroll is available, the right is theoretical.
 

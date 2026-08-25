@@ -1,6 +1,6 @@
 <!-- generated from admin/comms.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.0 · canonical: https://open-source.sgit.ai/admin/comms.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/admin/comms.html*
 
 > The open board: what this site needs from its author that no amount of research supplies, and the tasks it is carrying. Numbered, dated, and published rather than held privately.
 
