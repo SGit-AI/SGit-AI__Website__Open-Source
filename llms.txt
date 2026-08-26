@@ -3,7 +3,7 @@
 > Open source as a strategy rather than a charity: the position, the practice,
 > and a history checked against its sources. Part of the sgit.ai network.
 
-Site version: v0.1.1
+Site version: v0.1.2
 Canonical host: https://open-source.sgit.ai/
 All content CC BY 4.0 unless noted. Code under the repository licence.
 

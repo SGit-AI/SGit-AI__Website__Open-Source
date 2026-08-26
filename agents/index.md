@@ -1,6 +1,6 @@
 <!-- generated from agents/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/agents/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/agents/index.html*
 
 > Code-reading as the appreciating scarce asset, a dated contradiction about the junior pipeline published rather than resolved, and four theses that follow from the corpus and are written nowhere — including licence compliance at machine speed.
 
@@ -78,6 +78,14 @@ It was written about **human** authorship and never applied to machine-generated
 One substantive passage exists, from a 2025 article: *"European lawmakers and creative industries are discussing mechanisms so that **creators can be remunerated when AI uses their works**… **Open-source projects can lead the way here by openly cataloguing their training sets** and filtering out data that's proprietary or sensitive. Ultimately, an ecosystem where **both models and their training data are open and auditable** is one where users (and regulators) have far more control."*
 
 The argument has moved a long way since then and the corpus has not followed it. The live question is the **OSI's Open Source AI Definition**, which drew heavy criticism, and the fact that **almost no model marketed as "open source AI" meets it** — "open weights" being the accurate term for most of them. That is a licensing argument, it is exactly this site's subject, and it is unwritten.
+
+> **A browser vendor is now betting on that distinction, in public.** Mozilla's chief executive **Anthony Enzor-DeMeo**, interviewed by Sabrina Ortiz for [↗ The Deep View](https://www.thedeepview.com/articles/why-mozilla-is-on-a-mission-to-prevent-ai-lock-in) (August 2026), states that Mozilla will *not* build a frontier model and will instead ship **model choice** in Firefox — *"We want to give users access to different things they wouldn't normally have access to when they're kind of confined and locked in."* The stated failure mode being avoided is the search default: one provider becoming everyone's default and the default becoming the market. The bet is placed on **open-weight** models, which is precisely the term this thesis says is the accurate one.
+
+The reason he gives is [this site's own argument](../views/index.md#zero-contributions), arrived at independently and applied to models rather than to code — *"if you're giving something away, it's obviously easier to gain adoption, and then more people will conform to those standards — and thus those people will be in more control. We saw that with the web"*, his own pull-quote from the same conversation. Giving it away is not generosity. It is how the standard gets set, and whoever sets the standard keeps the control. That is the strategy-not-charity claim in somebody else's words, made by somebody with a browser to fund.
+
+> **Read it as positioning rather than as evidence.** It is a strategy statement from an interested party — Mozilla's commercial position depends on there being no single gatekeeper, so it would make this argument whether or not it were correct, and a stated intention to ship is not a shipped thing. What it does establish is a **dated instance**: an organisation with real distribution choosing open weights on lock-in grounds in 2026.
+>
+> **And it sharpens [Q7](../roadmap/index.md#open) rather than settling it.** "Open weight" is exactly the category the OSI's definition holds is *not* open source AI. So the most prominent organisation making the openness argument for models is backing the thing the definition excludes, and the interview does not address training data at all — which is the whole of what the definition is about. That gap, between the openness people are willing to fund and the openness the definition requires, is the argument this thesis still has to make.
 
 ### (d) What CC0 means for machine reuse
 

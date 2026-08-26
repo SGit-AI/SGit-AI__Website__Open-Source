@@ -1,6 +1,6 @@
 <!-- generated from admin/comms.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/admin/comms.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/admin/comms.html*
 
 > The open board: what this site needs from its author that no amount of research supplies, and the tasks it is carrying. Numbered, dated, and published rather than held privately.
 
@@ -37,6 +37,7 @@ The open board. **Needs (N)** are things only the author can supply — no amoun
 | **T10** | **Separately license the schemas** (CC0 or CC BY), which is the cheapest self-audit fix and has no argument against it. | open |
 | **T11** | **Visual assets** — a timeline, a licence-family diagram, a map of the estate. [A real production gap.](../shipped/index.md#visual) | open |
 | **T12** | **Verify the marked-unverified facts** in the research document — several founding dates and licences are flagged. [Nothing flagged has been published as established.](../history/numbers.md#unverified) | open |
+| **T14** | **Link the sources this site names.**[The HBS paper](../history/numbers.md#88tn) and [the Mozilla interview](../agents/index.md#training) are now linked; **OSSRA, the Stack Overflow survey, the kernel release notes and the Let's Encrypt telemetry are still named without a URL**. A site whose credibility position is that it checks other people's citations should make its own followable — by a reader and by [the agents it says are its primary audience](../agents/index.md#audience). | open |
 | **T13** | **Get indexed** — [the top rung of the ladder, and the real fix](../practice/publish-the-source.md#ladder). The other three rungs are shipped. | open |
 
 ## Corrections

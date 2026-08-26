@@ -1,6 +1,6 @@
 <!-- generated from views/sovereignty.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/views/sovereignty.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/views/sovereignty.html*
 
 > A four-step argument: open source is the only structure under which independence is possible; the data schemas matter as much as the code; without ownership you are one SLA away from losing access; and company nationality is not sovereignty, because acquisitions move it.
 

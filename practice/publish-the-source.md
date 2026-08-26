@@ -1,6 +1,6 @@
 <!-- generated from practice/publish-the-source.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/practice/publish-the-source.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/practice/publish-the-source.html*
 
 > Every page available as markdown at the same path with the extension swapped, and the links inside the markdown pointing at markdown — the practice, how it was actually built with edge functions, and how this site implements it.
 

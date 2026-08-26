@@ -1,6 +1,6 @@
 <!-- generated from practice/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/practice/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/practice/index.html*
 
 > Apache-2.0 on the code, CC BY 4.0 on around 1,100 brief footers, and CC0 1.0 on the published articles — which no document in the corpus mentions or reconciles. The licensing of the estate, stated, with the open question left open.
 

@@ -1,6 +1,6 @@
 <!-- generated from history/numbers.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/history/numbers.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/history/numbers.html*
 
 > The $8.8 trillion figure and what it actually measures, the 70–90% claim that is really a presence figure, and the statistics the research could not source — listed as unverified rather than published as established.
 
@@ -15,6 +15,10 @@ This site's credibility position is that it corrects other people's unsourced fi
 ## "Open source is worth $8.8 trillion" — no
 
 This is the most-repeated figure in the field and it is almost always cited without the thing that makes it meaningful. It comes from a Harvard Business School working paper (24-038), and it is a **demand-side replacement cost**: what it would cost *if every firm using open source independently recreated the software it uses*, priced at global average developer wages.
+
+> **The source, linked — because this page asks other people to cite theirs.**[↗ Revealing Value: The Economic Power of Open Source Software](https://aiinstitute.hbs.edu/revealing-value-the-economic-power-of-open-source-software/), the HBS AI Institute's own summary of working paper 24-038 by **Manuel Hoffmann** (Harvard LISH), **Frank Nagle** (HBS Strategy Unit) and **Yanuo Zhou** (Rotman Toronto). It is worth reading rather than citing second-hand for one reason: it carries **both** figures, in the same table, which is exactly the context that falls off in transmission. It ends where this site does — on the *tragedy of the commons*, the risk that something free and ubiquitous is overused and underfunded, with the remedy framed as treating open source as critical infrastructure rather than as goodwill.
+>
+> **And two findings in it travel better than the trillion does.** Six languages — JavaScript, Java, Go, TypeScript, C, Python — account for **84% of the demand-side value**, and roughly **5% of developers** create the bulk of it. Those are *concentration* figures rather than valuation ones, they are measured rather than counterfactual, and concentration is [a survivability question](../survivability/index.md). The headline is the least useful number in the paper.
 
 | Measure | Figure | What it means |
 |---|---|---|

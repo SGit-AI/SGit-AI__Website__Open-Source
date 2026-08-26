@@ -1,6 +1,6 @@
 <!-- generated from about/participant.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/about/participant.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/about/participant.html*
 
 > This site is published by a company with a commercial interest in the argument it makes, and which fails its own stress test. The disclosure, what it means for how to read each section, and where our own approach loses.
 

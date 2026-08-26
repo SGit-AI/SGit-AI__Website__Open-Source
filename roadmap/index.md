@@ -1,6 +1,6 @@
 <!-- generated from roadmap/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/roadmap/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/roadmap/index.html*
 
 > What is built, what is next, and eight open questions published without answers — including whether the customer subset is open core, which funding model to back, and whether the estate will change to pass its own stress test.
 

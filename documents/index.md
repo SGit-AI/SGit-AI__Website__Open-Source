@@ -1,6 +1,6 @@
 <!-- generated from documents/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/documents/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/documents/index.html*
 
 > The commissioning brief pack this site was built from, published whole and unedited: nine briefs, an 18,000-word history research document, and a 55-row source manifest. The raw markdown is the source of truth.
 

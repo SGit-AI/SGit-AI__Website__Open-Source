@@ -1,6 +1,6 @@
 <!-- generated from views/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/views/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/views/index.html*
 
 > Technology is not the moat; lock-in relocates to quality, certification and maintainability; lock-in degrades your own architecture; and open source frees you to cannibalise your own code. The full position, each argument with its counter-case attached.
 

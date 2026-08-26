@@ -1,6 +1,6 @@
 <!-- generated from history/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.1 · canonical: https://open-source.sgit.ai/history/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/history/index.html*
 
 > Unix circulated because it was illegal to sell it. BSD lost to litigation risk, not its licence. Netscape's release was a six-year near-failure. Christine Peterson coined open source. Eyeballs are not a security property. And two of the four relicensings reversed.
 
