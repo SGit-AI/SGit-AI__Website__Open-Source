@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Three licences across three layers</title>
-<meta name="description" content="Apache-2.0 on the code, CC BY 4.0 on around 1,100 working documents, and CC0 1.0 on the published essays. The licensing actually in force across the estate, what each licence is for, the reasoning behind the CC BY choice, and the one alignment question still open.">
+<title>Two licences, three layers</title>
+<meta name="description" content="Apache-2.0 on the code, CC BY 4.0 on around 1,100 working documents and on the published essays — decided 6 September 2026, after the published-articles repository was found to carry CC0. The licensing in force across the estate, what each licence is for, and the reasoning behind the CC BY choice.">
 <link rel="canonical" href="https://open-source.sgit.ai/practice/index.html">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="open-source.sgit.ai">
 <meta property="og:url" content="https://open-source.sgit.ai/practice/index.html">
-<meta property="og:title" content="Three licences across three layers">
-<meta property="og:description" content="A site about open-source licensing that carried an unexplained licence mismatch would be caught. Here it is, stated first, before anyone else finds it.">
+<meta property="og:title" content="Two licences, three layers">
+<meta property="og:description" content="A site about open-source licensing should show its own licence files. Here they are — with the one mismatch found while writing this page, and the decision that settled it.">
 <link rel="alternate" type="text/markdown" href="index.md" title="This page as markdown">
 <link rel="stylesheet" href="../assets/site.css">
 </head>
@@ -19,7 +19,7 @@
 <nav class="site"><div class="row">
   <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
   <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
-  <a class="ver" href="../admin/versions.html" title="Site release history">v0.2.1</a>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.2.2</a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
   <div class="nav-items">
     <div class="ni ni-has">
@@ -92,7 +92,7 @@
 <main class="doc">
 <div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / practice</div>
 <h1>Three licences, three layers, and one nobody had noticed</h1>
-<p class="lead">Anyone can hold a position on open source. Showing the licence file is different. This page is the licensing actually in force across the estate — three licences, three layers, and what each one is for — followed by the reasoning behind the choices, and the one question about aligning them that is still open.</p>
+<p class="lead">Anyone can hold a position on open source. Showing the licence file is different. This page is the licensing actually in force across the estate — two licences across three layers, and what each one is for — followed by the reasoning behind the choices, and the one alignment question, found while building this page and since settled.</p>
 
 <h2 id="three">What is actually in force</h2>
 
@@ -101,26 +101,25 @@
   <tbody>
     <tr><td><b>Code</b> — the application repositories and the Issues-FS estate</td><td><b>Apache-2.0</b></td><td><code>LICENSE</code> files, and <code>license = "Apache 2.0"</code> in every <code>pyproject.toml</code></td></tr>
     <tr><td><b>Briefs and corpus documents</b></td><td><b>CC BY 4.0</b></td><td>A footer on roughly 1,100+ files: <em>"This document is released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0)."</em></td></tr>
-    <tr><td><b>Published articles</b> — <code>docs.diniscruz.ai</code></td><td><b>CC0 1.0 Universal</b> — public domain</td><td>The repository's <code>LICENSE</code> file</td></tr>
+    <tr><td><b>Published articles</b> — <code>docs.diniscruz.ai</code></td><td><b>CC0 1.0 Universal</b> in the <code>LICENSE</code> file — <b>decided 6 September 2026: CC BY 4.0</b>; the file follows</td><td>The repository's <code>LICENSE</code> file, reported as it is on disk</td></tr>
   </tbody>
 </table></div>
 
-<div class="note"><b>Three layers, three jobs.</b> Apache-2.0 for code, where the patent grant matters. CC BY 4.0 for the working documents, where attribution carries provenance — it is <em>rule two</em> of the writing discipline, applied to every document, which is what produced 1,100 consistent footers. And CC0 for the published essays, which are public domain: built to travel, with attribution left to courtesy rather than obligation.</div>
+<div class="note"><b>Three layers, three jobs.</b> Apache-2.0 for code, where the patent grant matters. CC BY 4.0 for the working documents, where attribution carries provenance — it is <em>rule two</em> of the writing discipline, applied to every document, which is what produced 1,100 consistent footers. And CC BY 4.0 for the published essays too — decided on 6 September 2026, after the repository's <code>LICENSE</code> file was found to say CC0. <b>Two licences, three layers: Apache-2.0 for code, CC BY 4.0 for everything written.</b></div>
 
-<h2 id="reading">The alignment question, still open</h2>
+<h2 id="reading">The alignment question — decided: CC BY</h2>
 
-<p>The CC0 layer sits outside the CC BY rule that governs everything else in writing, and the working documents do not say whether that was a deliberate carve-out. Two readings are available, and the reasoning is worth having either way:</p>
+<p>The CC0 licence on the published-articles repository sat outside the CC BY rule that governs everything else in writing, and the working documents did not say whether that was a deliberate carve-out. Two readings were available, and both were published here until the author settled it:</p>
 
 <div class="tablewrap"><table>
-  <thead><tr><th></th><th class="safe">Reading A — deliberate layering</th><th>Reading B — drift</th></tr></thead>
+  <thead><tr><th></th><th>Reading A — deliberate layering</th><th>Reading B — drift</th></tr></thead>
   <tbody>
-    <tr><td><b>The claim</b></td><td>Each layer got the licence its <em>function</em> needs: Apache-2.0 for code, where a patent grant matters; CC BY for the working corpus, where attribution carries provenance; CC0 for finished essays, where the goal is maximum reach and attribution is friction.</td><td>Three repositories were set up at three different times, each with a sensible default for its job, and the layers were never written up as one policy.</td></tr>
-    <tr><td><b>What supports it</b></td><td>It is genuinely coherent, and the estate does think in layers. There is real logic to a published essay being public domain while a working brief carries attribution: <b>the essay is meant to travel; the brief is meant to be traceable.</b></td><td>Rule two says CC BY without a stated carve-out, and a three-layer policy is the sort of thing the author normally writes down. That it is not written up yet is the whole of the evidence.</td></tr>
-    <tr><td><b>What it would take to confirm</b></td><td>One sentence from the author saying it was intended.</td><td>The same sentence, saying it was not.</td></tr>
+    <tr><td><b>The claim</b></td><td>Each layer got the licence its <em>function</em> needs: Apache-2.0 for code, where a patent grant matters; CC BY for the working documents, where attribution carries provenance; CC0 for finished essays, where the goal is maximum reach and attribution is friction.</td><td>Three repositories were set up at three different times, each with a sensible default for its job, and the layers were never written up as one policy.</td></tr>
+    <tr><td><b>What supported it</b></td><td>It is coherent, and the estate does think in layers: the essay is meant to travel; the brief is meant to be traceable.</td><td>Rule two of the writing discipline says CC BY, without exception or carve-out — and a deliberate third layer is exactly the kind of thing that discipline writes down.</td></tr>
   </tbody>
 </table></div>
 
-<div class="note"><b>Where it stands.</b> Reading A is the natural one and it is defensible; writing it up as policy is <a href="../roadmap/index.html#open">Q5 on the build order</a>, and one sentence from the author settles it. What is <em>not</em> open is this site's own content, which is CC BY 4.0 throughout and stamped in CI.</div>
+<div class="note"><b>Decided, 6 September 2026: CC BY.</b> Reading B was the right one. The documents layer — working briefs and published essays alike — is <b>CC BY 4.0 throughout</b>, and the estate has <b>two licences across three layers</b>: Apache-2.0 for code, CC BY 4.0 for everything written. The <code>LICENSE</code> file in the published-articles repository is the follow-through; until it is replaced it still reads CC0, which is why the table above reports what is on disk rather than what was decided. <b>Attribution survives</b> — into human reuse and, more interestingly, into machine reuse, which is <a href="../agents/index.html#cc0">the fourth agent-era thesis</a>.</div>
 
 <h2 id="ccby">The CC BY reasoning, which <em>is</em> documented</h2>
 
@@ -128,7 +127,7 @@
 
 <p><b>Alignment, not compliance.</b> <em>"The Creative Commons licence aligns with our zero-lock-in principle. We are already committed to zero lock-in and open standards. A project released entirely under CC BY 4.0, using open source tools, with no proprietary components — this is the natural extension of our existing values."</em></p>
 
-<p><b>It is a hard rule, not a preference.</b> Rule two of the writing discipline is a licence footer at the bottom of every document, and every day-index brief closes with it. That is what produced 1,100+ consistent footers — <b>a rule, mechanically applied</b>, which is why the CC0 divergence stands out as much as it does.</p>
+<p><b>It is a hard rule, not a preference.</b> Rule two of the writing discipline is a licence footer at the bottom of every document, and every day-index brief closes with it. That is what produced 1,100+ consistent footers — <b>a rule, mechanically applied</b>, which is why the CC0 divergence stood out as much as it did.</p>
 
 <p><b>BY versus BY-SA was actively considered, and BY won.</b> The question is recorded — <em>"CC BY-SA 4.0 or CC BY 4.0 for the licence? BY-SA encourages derivatives to stay open; BY is more permissive"</em> — and permissive was chosen. That is a real decision, and it sits interestingly against <a href="../survivability/index.html">the survivability argument</a>, which is in effect the claim that <b>licences are the weakest of the structural protections</b>. If you believe that, choosing the more permissive licence costs you less than it appears to, because you were never relying on the licence to do the work.</p>
 
@@ -181,7 +180,7 @@
     <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
     <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
     <p class="authorline">Written by <a href="../about/index.html" style="display:inline;padding:0"><b>Dinis Cruz</b></a> — founder of The Cyber Boardroom, MyFeeds.ai and the sgit.ai network; former OWASP Board member. <a href="https://www.linkedin.com/in/diniscruz" style="display:inline;padding:0">↗ LinkedIn</a> · <a href="../about/index.html#interests" style="display:inline;padding:0">interests declared</a>.</p>
-    <p class="verline">site <a href="../admin/versions.html">v0.2.1</a> · <a href="../admin/index.html">engineering</a> · <a href="../practice/index.md">this page as markdown</a></p>
+    <p class="verline">site <a href="../admin/versions.html">v0.2.2</a> · <a href="../admin/index.html">engineering</a> · <a href="../practice/index.md">this page as markdown</a></p>
   </div>
   <div>
     <h4>The argument</h4>

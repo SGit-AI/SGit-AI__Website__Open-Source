@@ -1,6 +1,6 @@
 <!-- generated from agents/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/agents/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.2 · canonical: https://open-source.sgit.ai/agents/index.html*
 
 > Code-reading as the appreciating scarce asset, two dated positions on the junior pipeline both published, and four theses that follow from the author's writing and are next to be written — including licence compliance at machine speed.
 
@@ -87,11 +87,11 @@ The reason he gives is [this site's own argument](../views/index.md#zero-contrib
 >
 > **And it sharpens [Q7](../roadmap/index.md#open) rather than settling it.** "Open weight" is exactly the category the OSI's definition holds is *not* open source AI. So the most prominent organisation making the openness argument for models is backing the thing the definition excludes, and the interview does not address training data at all — which is the whole of what the definition is about. That gap, between the openness people are willing to fund and the openness the definition requires, is the argument this thesis still has to make.
 
-### (d) What CC0 means for machine reuse
+### (d) What CC BY means for machine reuse
 
-[The estate's articles are CC0](../practice/index.md) — public domain, no attribution obligation. In a world where models train on public text and agents synthesise from it, **choosing CC0 over CC BY is a decision about machine reuse, not human reuse**: it removes the one obligation that would otherwise survive into a synthesised output.
+[The estate's writing is CC BY 4.0 throughout](../practice/index.md#reading) — the published essays included, since 6 September 2026, when the CC0 in that repository's licence file was settled as drift rather than a third layer. In a world where models train on public text and agents synthesise from it, **choosing CC BY over CC0 is a decision about machine reuse, not human reuse**: it keeps the one obligation that can survive into a synthesised output — attribution — where CC0 would have removed it.
 
-Whether that was deliberate is [an open question the site refuses to answer on the author's behalf](../practice/index.md#reading). What it *means* is a page nobody has written, and it may be the most interesting of the four.
+What attribution *means* when the reuser is a model rather than a person is the page nobody has written: what a synthesised paragraph owes its sources, whether a licence footer is machine-readable enough to count, and whether the estate's provenance discipline — every document dated and footed — is exactly the artefact that makes the obligation enforceable. It may be the most interesting of the four.
 
 ## Agents are a primary audience of this site
 

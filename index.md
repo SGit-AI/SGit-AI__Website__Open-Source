@@ -1,6 +1,6 @@
 <!-- generated from index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.2 · canonical: https://open-source.sgit.ai/index.html*
 
 > Open source as a strategy rather than a charity — by Dinis Cruz, founder of the sgit.ai network, MyFeeds.ai and The Cyber Boardroom, and former OWASP Board member. Guidance for founders on owning the code or opening it; the position with its counter-cases; the licences actually in force; and a history checked against its sources, including six corrections to the story most sites tell.
 
@@ -176,11 +176,11 @@ Technology is not the moat. Lock-in relocates to quality and certification. Lock
 
 This is the page that makes the rest credible: the licences actually in force across a shipping estate, and the reasoning behind each of them.
 
-### [Apache-2.0, CC BY 4.0 — and CC0](practice/index.md)
+### [Apache-2.0 on the code, CC BY 4.0 on everything written](practice/index.md)
 
 *Three licences*
 
-Code is Apache-2.0, where the patent grant matters. Around 1,100 working documents carry CC BY 4.0, where attribution carries provenance. The published essays at `docs.diniscruz.ai` are CC0 — public domain, built to travel. Three layers, and what each licence is for.
+Code is Apache-2.0, where the patent grant matters. Around 1,100 working documents and the published essays at `docs.diniscruz.ai` carry CC BY 4.0, where attribution carries provenance — settled on 6 September 2026, after the published-articles repository was found to say CC0. Two licences, three layers, and what each is for.
 
 ### [Why Apache-2.0 rather than MIT](practice/apache-vs-mit.md)
 
@@ -221,9 +221,9 @@ The site argues that companies should declare their supply chain. The estate's o
 
 *Four theses*
 
-Licence compliance at machine speed, provenance of AI-generated code, training-data licensing, and what CC0 means for machine reuse. Each follows from material already published; each is named, and next to be written.
+Licence compliance at machine speed, provenance of AI-generated code, training-data licensing, and what CC BY means for machine reuse. Each follows from material already published; each is named, and next to be written.
 
-### [Eight questions, still open](roadmap/index.md#open)
+### [Seven questions still open, one decided](roadmap/index.md#open)
 
 *Open questions*
 

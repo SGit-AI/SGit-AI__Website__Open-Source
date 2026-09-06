@@ -1,6 +1,6 @@
 <!-- generated from views/villagers.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/views/villagers.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.2 · canonical: https://open-source.sgit.ai/views/villagers.html*
 
 > Maintaining the non-functional requirements — version control, reliability, resilience, security, backups, consistency, explainability, documentation — as a market, and the ability to read and repair code somebody else wrote as an appreciating scarce asset. Published with both of its own counter-arguments.
 

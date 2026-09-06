@@ -1,6 +1,6 @@
 <!-- generated from documents/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/documents/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.2 · canonical: https://open-source.sgit.ai/documents/index.html*
 
 > The commissioning brief pack this site was built from, published whole and unedited: nine briefs, an 18,000-word history research document, and a 55-row source manifest. The raw markdown is the source of truth.
 
@@ -44,7 +44,7 @@ Publishing the instructions makes the divergences checkable, so they are stated 
 
 | The brief said | What was done, and why |
 |---|---|
-| **"Resolve the licensing inconsistency *before* writing a word"** — it is described as blocking the practice section. | **Not resolved.**[Both readings are published and neither is picked.](../practice/index.md#reading) Retrospectively declaring an intention on the author's behalf would be precisely the tidying this site argues against, and only he can settle it. The section shipped with the question open and [logged as Q5](../roadmap/index.md#open). |
+| **"Resolve the licensing inconsistency *before* writing a word"** — it is described as blocking the practice section. | **Resolved by the author on 6 September 2026: CC BY.** Until then [both readings were published and neither picked](../practice/index.md#reading), because declaring an intention on his behalf would have been the tidying this site argues against. The decision is recorded on the practice page and [Q5 is closed](../roadmap/index.md#open). |
 | **"Copy `pki.sgit.ai`. Add the `/llms-full.txt` it lacks."** | **Done, and extended.** Same CI pipeline (validate → tag → deploy), same chrome tooling. `llms-full.txt` ships, and so does [a markdown twin at every URL](../practice/publish-the-source.md#ladder) — generated, and **enforced by the build** rather than maintained by hand. |
 | **"Ship the stress test as a form or checklist, not an essay."** | **Done** — [it runs in the browser](../survivability/stress-test.md), keeps your answers locally, and exports a markdown summary. Nothing is sent anywhere. |
 | **"Ship `/practice/` with an SBOM, or state the gap with a date."** | **Stated as a gap, without a date** — which the brief itself calls the weaker of the two options. It is [first on the build order](../roadmap/index.md#supply-chain). |

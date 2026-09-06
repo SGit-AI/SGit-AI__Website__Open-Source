@@ -1,6 +1,6 @@
 <!-- generated from funding/curl.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/funding/curl.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.2 · canonical: https://open-source.sgit.ai/funding/curl.html*
 
 > On 31 January 2026 curl closed its bug bounty because roughly 20% of 2025 submissions were AI-generated slop against roughly 5% genuine. An externality nobody was paying for destroyed a funding mechanism, with a date and a named casualty.
 

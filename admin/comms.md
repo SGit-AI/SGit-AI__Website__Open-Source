@@ -1,6 +1,6 @@
 <!-- generated from admin/comms.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/admin/comms.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.2 · canonical: https://open-source.sgit.ai/admin/comms.html*
 
 > The open board: the items only the author can supply, and the tasks the site is carrying. Numbered, dated, and published rather than held privately.
 
@@ -14,7 +14,7 @@ The open board. **Needs (N)** are items only the author can supply — first-per
 
 | # | What is needed | What it unblocks | State |
 |---|---|---|---|
-| **N1** | **Was CC0 on `docs.diniscruz.ai` deliberate?** One sentence settles it: a deliberate three-layer licensing choice, or drift to be corrected. | [The practice section](../practice/index.md#reading), which currently publishes both readings and picks neither. Also [the CC0-and-machine-reuse thesis](../agents/index.md#cc0), which cannot be written until the intent is known. | open |
+| **N1** | **Was CC0 on `docs.diniscruz.ai` deliberate?** Answered 6 September 2026: **no — CC BY.** The documents layer is CC BY 4.0 throughout; replacing that repository's `LICENSE` file is the follow-through. | [The practice section](../practice/index.md#reading) now records the decision, and [thesis (d)](../agents/index.md#cc0) is reframed as what CC BY means for machine reuse. | answered |
 | **N2** | **The OWASP interview** — [thirteen questions, published in full](../owasp/index.md#interview). Board tenure and what the role involved, projects led, whether `owasp-sbot` hosting was deliberate, why 2017 left the OWASP umbrella, and whether the Open Security Summit still runs. | [The whole OWASP section](../owasp/index.md), which currently ships the summit history in the third person and marks the rest pending. | open |
 | **N3** | **Why was each project open-sourced?** O2 Platform, MGraph-DB, OSBot, memory_fs, sgit-ai, Issues-FS. **Six published projects, not one retrospective** — the O2 article being the exception, and written about him rather than by him. | A retrospectives section, and it would make [the practice page](../practice/index.md#published) something other than a list of packages. | open |
 | **N4** | **Q1: is the customer subset open core or packaging?**[The test is proposed](../views/open-core.md#test) — does the customer build contain anything the public repo does not? — and the answer is a fact about the product that only the project knows. | [The open-core page](../views/open-core.md) can then state a verdict rather than a test. | open |

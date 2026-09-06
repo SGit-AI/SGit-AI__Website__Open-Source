@@ -1,14 +1,14 @@
 <!-- generated from practice/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/practice/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.2 · canonical: https://open-source.sgit.ai/practice/index.html*
 
-> Apache-2.0 on the code, CC BY 4.0 on around 1,100 working documents, and CC0 1.0 on the published essays. The licensing actually in force across the estate, what each licence is for, the reasoning behind the CC BY choice, and the one alignment question still open.
+> Apache-2.0 on the code, CC BY 4.0 on around 1,100 working documents and on the published essays — decided 6 September 2026, after the published-articles repository was found to carry CC0. The licensing in force across the estate, what each licence is for, and the reasoning behind the CC BY choice.
 
 ---
 
 # Three licences, three layers, and one nobody had noticed
 
-Anyone can hold a position on open source. Showing the licence file is different. This page is the licensing actually in force across the estate — three licences, three layers, and what each one is for — followed by the reasoning behind the choices, and the one question about aligning them that is still open.
+Anyone can hold a position on open source. Showing the licence file is different. This page is the licensing actually in force across the estate — two licences across three layers, and what each one is for — followed by the reasoning behind the choices, and the one alignment question, found while building this page and since settled.
 
 ## What is actually in force
 
@@ -16,21 +16,20 @@ Anyone can hold a position on open source. Showing the licence file is different
 |---|---|---|
 | **Code** — the application repositories and the Issues-FS estate | **Apache-2.0** | `LICENSE` files, and `license = "Apache 2.0"` in every `pyproject.toml` |
 | **Briefs and corpus documents** | **CC BY 4.0** | A footer on roughly 1,100+ files: *"This document is released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0)."* |
-| **Published articles** — `docs.diniscruz.ai` | **CC0 1.0 Universal** — public domain | The repository's `LICENSE` file |
+| **Published articles** — `docs.diniscruz.ai` | **CC0 1.0 Universal** in the `LICENSE` file — **decided 6 September 2026: CC BY 4.0**; the file follows | The repository's `LICENSE` file, reported as it is on disk |
 
-> **Three layers, three jobs.** Apache-2.0 for code, where the patent grant matters. CC BY 4.0 for the working documents, where attribution carries provenance — it is *rule two* of the writing discipline, applied to every document, which is what produced 1,100 consistent footers. And CC0 for the published essays, which are public domain: built to travel, with attribution left to courtesy rather than obligation.
+> **Three layers, three jobs.** Apache-2.0 for code, where the patent grant matters. CC BY 4.0 for the working documents, where attribution carries provenance — it is *rule two* of the writing discipline, applied to every document, which is what produced 1,100 consistent footers. And CC BY 4.0 for the published essays too — decided on 6 September 2026, after the repository's `LICENSE` file was found to say CC0. **Two licences, three layers: Apache-2.0 for code, CC BY 4.0 for everything written.**
 
-## The alignment question, still open
+## The alignment question — decided: CC BY
 
-The CC0 layer sits outside the CC BY rule that governs everything else in writing, and the working documents do not say whether that was a deliberate carve-out. Two readings are available, and the reasoning is worth having either way:
+The CC0 licence on the published-articles repository sat outside the CC BY rule that governs everything else in writing, and the working documents did not say whether that was a deliberate carve-out. Two readings were available, and both were published here until the author settled it:
 
 |  | Reading A — deliberate layering | Reading B — drift |
 |---|---|---|
-| **The claim** | Each layer got the licence its *function* needs: Apache-2.0 for code, where a patent grant matters; CC BY for the working corpus, where attribution carries provenance; CC0 for finished essays, where the goal is maximum reach and attribution is friction. | Three repositories were set up at three different times, each with a sensible default for its job, and the layers were never written up as one policy. |
-| **What supports it** | It is genuinely coherent, and the estate does think in layers. There is real logic to a published essay being public domain while a working brief carries attribution: **the essay is meant to travel; the brief is meant to be traceable.** | Rule two says CC BY without a stated carve-out, and a three-layer policy is the sort of thing the author normally writes down. That it is not written up yet is the whole of the evidence. |
-| **What it would take to confirm** | One sentence from the author saying it was intended. | The same sentence, saying it was not. |
+| **The claim** | Each layer got the licence its *function* needs: Apache-2.0 for code, where a patent grant matters; CC BY for the working documents, where attribution carries provenance; CC0 for finished essays, where the goal is maximum reach and attribution is friction. | Three repositories were set up at three different times, each with a sensible default for its job, and the layers were never written up as one policy. |
+| **What supported it** | It is coherent, and the estate does think in layers: the essay is meant to travel; the brief is meant to be traceable. | Rule two of the writing discipline says CC BY, without exception or carve-out — and a deliberate third layer is exactly the kind of thing that discipline writes down. |
 
-> **Where it stands.** Reading A is the natural one and it is defensible; writing it up as policy is [Q5 on the build order](../roadmap/index.md#open), and one sentence from the author settles it. What is *not* open is this site's own content, which is CC BY 4.0 throughout and stamped in CI.
+> **Decided, 6 September 2026: CC BY.** Reading B was the right one. The documents layer — working briefs and published essays alike — is **CC BY 4.0 throughout**, and the estate has **two licences across three layers**: Apache-2.0 for code, CC BY 4.0 for everything written. The `LICENSE` file in the published-articles repository is the follow-through; until it is replaced it still reads CC0, which is why the table above reports what is on disk rather than what was decided. **Attribution survives** — into human reuse and, more interestingly, into machine reuse, which is [the fourth agent-era thesis](../agents/index.md#cc0).
 
 ## The CC BY reasoning, which *is* documented
 
@@ -38,7 +37,7 @@ Four distinct arguments exist for the CC BY choice, and they are worth separatin
 
 **Alignment, not compliance.***"The Creative Commons licence aligns with our zero-lock-in principle. We are already committed to zero lock-in and open standards. A project released entirely under CC BY 4.0, using open source tools, with no proprietary components — this is the natural extension of our existing values."*
 
-**It is a hard rule, not a preference.** Rule two of the writing discipline is a licence footer at the bottom of every document, and every day-index brief closes with it. That is what produced 1,100+ consistent footers — **a rule, mechanically applied**, which is why the CC0 divergence stands out as much as it does.
+**It is a hard rule, not a preference.** Rule two of the writing discipline is a licence footer at the bottom of every document, and every day-index brief closes with it. That is what produced 1,100+ consistent footers — **a rule, mechanically applied**, which is why the CC0 divergence stood out as much as it did.
 
 **BY versus BY-SA was actively considered, and BY won.** The question is recorded — *"CC BY-SA 4.0 or CC BY 4.0 for the licence? BY-SA encourages derivatives to stay open; BY is more permissive"* — and permissive was chosen. That is a real decision, and it sits interestingly against [the survivability argument](../survivability/index.md), which is in effect the claim that **licences are the weakest of the structural protections**. If you believe that, choosing the more permissive licence costs you less than it appears to, because you were never relying on the licence to do the work.
 

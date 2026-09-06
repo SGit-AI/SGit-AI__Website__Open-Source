@@ -1,6 +1,6 @@
 <!-- generated from about/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/about/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.2 · canonical: https://open-source.sgit.ai/about/index.html*
 
 > Dinis Cruz — founder of The Cyber Boardroom, MyFeeds.ai, RiskMandate.ai, VoiceDebrief.ai and the sgit.ai network (commercialised through sgraph.ai); former OWASP Board member and organiser of the OWASP Summits; creator of the O2 Platform. This site is the open-source strategy those companies run on, written from the experience of running it — with the author's interests declared.
 
@@ -27,7 +27,7 @@ This site is my position on open source — what it is for, how to practise it, 
 
 The argument on this site is that [open source is a strategy rather than a charity](../views/index.md), and the strongest evidence I can offer for it is that I run companies on it. That extends past the code:
 
-- **The code** is Apache-2.0. **The working documents** — roughly 1,100 of them — are CC BY 4.0. **The published essays** at [docs.diniscruz.ai](https://docs.diniscruz.ai) are CC0, public domain. [The three layers, and what each licence is for →](../practice/index.md)
+- **The code** is Apache-2.0. **The working documents** — roughly 1,100 of them — are CC BY 4.0. **The published essays** at [docs.diniscruz.ai](https://docs.diniscruz.ai) are CC BY 4.0 as well — decided on 6 September 2026, after that repository's licence file was found to say CC0; the file follows. [Two licences, three layers, and what each is for →](../practice/index.md#reading)
 - **The investor materials are public.**[MyFeeds.ai's investor relations site](https://investor.myfeeds.ai/), its [source repository](https://github.com/the-cyber-boardroom/MyFeeds-AI__Investor_Relations), and [The Cyber Boardroom's investment repository](https://github.com/the-cyber-boardroom/cbr-investment) are on GitHub rather than behind a data room. If technology is not the moat, neither is the pitch deck.
 - **This site's own source** — every page as markdown, the build tooling, the briefs it was written from — is [in the repository](https://github.com/SGit-AI/SGit-AI__Website__Open-Source), and the estate is run through [its own stress test](../survivability/self-audit.md) with the result published.
 - **The advice is published too.**[Owning the code, or opening it](../founders/index.md) is the reasoning from a strategy session with another founder, released CC BY so that it applies to every founder asking the same question.

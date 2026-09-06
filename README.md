@@ -93,10 +93,9 @@ markdown file — plus the usual structure, link, version, canonical and key-lea
 
 ## Open items, published
 
-- **Aligning the three licence layers** — `docs.diniscruz.ai` is CC0 1.0 while the
-  working documents are CC BY 4.0. Both readings are
-  [published](https://open-source.sgit.ai/practice/index.html#reading) and writing the
-  layers up as one policy is Q5 on the build order.
+- **The licence layers — decided 6 Sep 2026: CC BY 4.0 across everything written.** The
+  published-articles repository's `LICENSE` file had said CC0 1.0; that was drift, and the
+  file follows. [Recorded on the practice page](https://open-source.sgit.ai/practice/index.html#reading).
 - **The SBOM this site tells other people to publish** is
   [first on the build order](https://open-source.sgit.ai/roadmap/index.html#supply-chain).
 
