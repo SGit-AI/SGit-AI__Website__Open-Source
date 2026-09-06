@@ -1,6 +1,6 @@
 <!-- generated from practice/apache-vs-mit.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/practice/apache-vs-mit.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/practice/apache-vs-mit.html*
 
 > The patent grant, defensive termination, the NOTICE file, and the explicit contribution clause — the four things Apache-2.0 does that MIT does not, the honest costs of each, and when MIT is the better choice.
 
@@ -10,7 +10,7 @@
 
 This page is written fresh. The entire estate is Apache-2.0 and **the reasoning existed nowhere** — no brief, no document, no commit message. For a site about open source that was the most conspicuous unwritten page in the whole commission, so here is the argument, including where it does not hold.
 
-> **Read this as reasoning, not as legal advice.** Nothing here is a lawyer's opinion, and licence choice has consequences that depend on your jurisdiction, your patent position and your corporate structure. What this page can honestly offer is *what the differences are and why they might matter to you*, which is more than the corpus previously offered anyone.
+> **Read this as reasoning, not as legal advice.** Nothing here is a lawyer's opinion, and licence choice has consequences that depend on your jurisdiction, your patent position and your corporate structure. What this page can honestly offer is *what the differences are and why they might matter to you*, which is more than had been written down anywhere before.
 
 ## Start with what is the same
 
@@ -70,7 +70,7 @@ A page arguing for one licence that cannot describe when the other wins is advoc
 
 **And CC0 or CC BY for content**, which is a different question entirely — software licences applied to prose produce nonsense, and [the estate's own three-layer split is the subject of the previous page](index.md#reading).
 
-> **What this page is not.** It is not a licence taxonomy, and the site does not yet have one — no worked treatment of copyleft versus permissive, licence compatibility, or where AGPL fits. That is [a stated gap](../shipped/index.md): the [history research](../history/index.md) supplies the ground for it, but the position has to be written. [standards.sgit.ai owns the SPDX machinery](https://standards.sgit.ai); the argument belongs here, and it is not written yet.
+> **What this page is not.** It is not a licence taxonomy, and the site does not yet have one — no worked treatment of copyleft versus permissive, licence compatibility, or where AGPL fits. That is [next on the build order](../roadmap/index.md#taxonomy): the [history research](../history/index.md) supplies the ground for it, and the position is to be written. [standards.sgit.ai owns the SPDX machinery](https://standards.sgit.ai); the argument belongs here, and it is not written yet.
 
 [← Three licences](index.md)[Publish the source →](publish-the-source.md)
 

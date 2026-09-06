@@ -1,6 +1,6 @@
 <!-- generated from history/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/history/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/history/index.html*
 
 > Unix circulated because it was illegal to sell it. BSD lost to litigation risk, not its licence. Netscape's release was a six-year near-failure. Christine Peterson coined open source. Eyeballs are not a security property. And two of the four relicensings reversed.
 
@@ -10,7 +10,7 @@
 
 Everyone has a timeline. [So does this site](timeline.md) — but it sits behind these, because the corrections are the part almost nobody publishes and they are the part that matters. Each one is checkable. And every one of them points the same way: **the model succeeds on economics and structure, not on virtue and not on eyeballs.**
 
-> **Why this section exists at all.** The corpus this site was built from contains **no history of open source**. Not thin — absent. Zero occurrences of "free software", "copyleft", "Stallman", "GNU" as a movement, "Netscape", "SourceForge" or "FSF"; nothing before 2001; the GPL mentioned exactly twice, both times as litigation precedent, never as a philosophy. So it was [researched from scratch](../documents/index.md). The finding that shaped everything else is that **the accurate history is a better argument than the romantic one**.
+> **Why this section leads.** The author's own writing on open source is about strategy and structure, not history — it argues from what companies and projects actually do, not from the movement's story about itself. So the history was [researched for this site from primary sources](../documents/index.md), 1955 to 2026, with every claim carrying its source and date. The finding that shaped everything else is that **the accurate history is a better argument than the romantic one**.
 
 ## 1. Unix circulated because it was illegal to sell it
 

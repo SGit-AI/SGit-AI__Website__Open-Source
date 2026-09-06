@@ -1,6 +1,6 @@
 <!-- generated from funding/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/funding/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/funding/index.html*
 
 > Market forces and supply-chain labelling, a maintainer platform, and sovereignty bounties that fund the exit rather than the supply. None was costed, none piloted, and none compared against the others — until here.
 
@@ -8,7 +8,7 @@
 
 # Three funding proposals, and a position
 
-The corpus behind this site proposes three answers to the sustainability question and **never compares them**. It also admits the problem: *"the sustainable funding question is unsettled."* Three unreconciled proposals read as thinking. Three unreconciled proposals presented as a position read as indecision — so this page compares them, says what each one actually fixes, and takes a position.
+The author has proposed three answers to the sustainability question at different times, while being clear that *"the sustainable funding question is unsettled."* This page puts them side by side for the first time, says what each one actually fixes, and takes a position on how they fit together.
 
 > **The framing that makes the whole page work** comes from [the site's central argument](../views/index.md): if open source is a gift, underfunding is a moral failure and the remedy is persuasion. If it is [a strategy whose costs someone always bears](../views/index.md#not-free), underfunding is an **externality** — and externalities have never once been corrected by asking nicely.
 
@@ -18,7 +18,7 @@ The corpus behind this site proposes three answers to the sustainability questio
 
 The mechanism: declare your supply chain, calculate your value contribution, pay the projects you depend on proportionally — *"Not as charity. As a cost of doing business. The same way you pay for cloud infrastructure, for office space, for salaries"* — and **publish a rating**.
 
-With the best image in the corpus:
+With the best image in the argument:
 
 > "Just like a restaurant health rating on the door: you can still choose to eat at the restaurant with a bad rating. **But you know.**"
 
@@ -46,7 +46,7 @@ And a principle it refuses to trade away: *"It does not pull docs behind paywall
 
 ## 3. Sovereignty bounties — fund the exit, not the supply
 
-The strongest single idea in the corpus, and genuinely unclaimed elsewhere.
+The strongest single idea of the three, and genuinely unclaimed elsewhere.
 
 > "**Every one of those programmes funds the supply side**… None of them funds the **substitution side**… on present evidence nobody is funding it."
 
@@ -62,7 +62,7 @@ Two second-order ideas make it more than a grant scheme:
 |---|---|
 | The **substitution problem**, which nothing else addresses and which is the binding constraint on every sovereignty argument ever made. It also converts a political goal into a procurement line item, which is where things actually get funded. | **Nobody has piloted it, no bounty has been sized, and the moral hazard is unaddressed** — a vendor sponsoring its own exit path controls how good that path is. An exit path that technically works and is miserable to walk is worse than none, because it can be pointed at. |
 
-## The comparison the corpus never made
+## The three, side by side
 
 |  | Labelling | Platform | Sovereignty bounties |
 |---|---|---|---|

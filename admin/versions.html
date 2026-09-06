@@ -19,10 +19,17 @@
 <nav class="site"><div class="row">
   <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
   <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
-  <span class="stage-pill">first draft</span>
-  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.2</a>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.2.0</a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
   <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl" href="../founders/index.html">For founders<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../founders/index.html">Owning the code, or opening it</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../survivability/stress-test.html">Run the stress test on a vendor</a>
+      </div>
+    </div>
     <div class="ni ni-has">
       <a class="nl" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
       <div class="sub">
@@ -67,15 +74,14 @@
       </div>
     </div>
     <div class="ni ni-has">
-      <a class="nl here" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <a class="nl here" href="../about/index.html">About<span class="caret">&#9662;</span></a>
       <div class="sub">
-      <a class="sl" href="../shipped/index.html">What is missing</a>
-      <a class="sl" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../about/index.html">About the author</a>
+      <a class="sl" href="../roadmap/index.html">What's next</a>
       <a class="sl" href="../documents/index.html">The documents</a>
       <a class="sl" href="../admin/comms.html">Comms: tasks &amp; requests</a>
       <a class="sl here" href="../admin/versions.html">Release history</a>
       <a class="sl" href="../admin/index.html">Admin &amp; engineering</a>
-      <a class="sl" href="../about/participant.html">Where we lose</a>
       </div>
     </div>
   </div>
@@ -92,8 +98,18 @@
   <thead><tr><th>Version</th><th>Date</th><th>What shipped</th></tr></thead>
   <tbody>
     <tr>
+      <td class="vnum">v0.2.0</td>
+      <td>6 Sep 2026</td>
+      <td><b>The site becomes the author's position, written as one.</b> The first release read as an audit of its own material — a "where this site is weak" section on the front page, a "what is missing" page, a "where we lose" disclosure, a stage pill reading <em>first draft</em>, and argument pages that described the author's writing as "the corpus" arguing with itself. That framing undersold work that is, in substance, a founder's strategy backed by a shipping estate. This release keeps every counter-case and every open question, and drops the self-deprecation.
+        <p style="margin:.6rem 0 0"><b>New: <a href="../founders/index.html">Owning the code, or opening it</a></b> — guidance for founders from a strategy session with an early-stage SaaS founder: what copying the code would actually cost an incumbent, four instincts and their counter-arguments, the explorer–villager–town-planner frame, eight steps in order, and what a week of building in the open looks like when it is counted. Released CC BY; attribution Dinis Cruz and Kate Curtis-Evans. It is the first section on the front page and the first group in the nav.</p>
+        <p style="margin:.6rem 0 0"><b>New: <a href="../about/index.html">About the author</a></b> — Dinis Cruz, the companies the strategy runs on (sgit.ai, MyFeeds.ai, The Cyber Boardroom, Akeia.ai), the OWASP record, the tooling lineage from the O2 Platform, and the investor materials published in the open. Interests are declared on the same page, in two paragraphs rather than a discount table. Replaces <code>about/participant.html</code>.</p>
+        <p style="margin:.6rem 0 0"><b>Folded: <code>shipped/index.html</code> into <a href="../roadmap/index.html">What's next</a>.</b> The forward-looking content — what is built, what is next in order, eight open questions — was already on the roadmap; the duplicate page that restated it as a list of failings is gone, and every link to it now lands on the corresponding item.</p>
+        <p style="margin:.6rem 0 0"><b>Reworded across the site:</b> the front page (byline under the hero, founders first, the weakness section replaced by what's next, the author section), the self-audit (a result and a plan rather than "we fail leg one"), the practice page (three layers with a job each, and one alignment question, rather than "an inconsistency nobody had noticed"), open-core and agents (a position that moved between two dates, rather than a contradiction), funding, OWASP, history, numbers, and the footer — which now carries the author line instead of a warning triangle. The markdown twins, <code>llms.txt</code> and <code>llms-full.txt</code> regenerate from all of it.</p>
+      </td>
+    </tr>
+    <tr>
       <td class="vnum">v0.1.2</td>
-      <td>26 Aug 2026</td>
+      <td>6 Sep 2026</td>
       <td><b>Two external sources cited, where the site had been naming sources without linking them.</b> <a href="../history/numbers.html#88tn">The numbers page</a> now links the <b>HBS AI Institute</b> summary of working paper 24-038 — the origin of the $8.8tn figure it spends a section correcting — with its authors, its data sources, and the two concentration findings in it that are more useful than the headline. A page whose credibility position is that it checks other people's citations should carry its own.
         <p style="margin:.6rem 0 0"><b>And <a href="../agents/index.html#training">the training-data thesis</a> acquires a dated instance.</b> Mozilla's chief executive, interviewed by <b>The Deep View</b> in August 2026, is shipping model choice in Firefox and backing <b>open-weight</b> models on lock-in grounds — making this site's standards-and-control argument, in his own words, about models rather than code. Cited with the caveat it needs: it is positioning from an interested party, and it <a href="../roadmap/index.html#open">sharpens Q7</a> rather than settling it, because open weight is the category the OSI's definition excludes.</p>
       </td>
@@ -110,8 +126,8 @@
       <td>25 Aug 2026</td>
       <td><b>First release.</b> The site, built from the commissioning brief pack, which is <a href="../documents/index.html">published verbatim alongside it</a>.
         <p style="margin:.6rem 0 0"><b>The pipeline first</b>, matching the sibling sites: validate → auto-tag → deploy, with the version owned by one file and verified against the release commit's subject. Validation additionally enforces the things this site's own argument depends on — <b>a markdown twin at every URL</b>, <code>llms-full.txt</code> carrying every page, and a CC BY 4.0 footer on every markdown file.</p>
-        <p style="margin:.6rem 0 0"><b>The content:</b> <a href="../views/index.html">the position</a> with every argument carrying its counter-case; <a href="../survivability/index.html">survivability</a> with <a href="../survivability/stress-test.html">the stress test as a working tool</a> and <a href="../survivability/self-audit.html">a self-audit that fails three of its four legs</a>; <a href="../history/index.html">six corrections</a> leading the history rather than a timeline; <a href="../practice/index.html">the three-licence estate</a> and <a href="../practice/apache-vs-mit.html">the Apache-vs-MIT page that existed nowhere</a>; <a href="../agents/index.html">agents</a>; <a href="../funding/index.html">the three funding proposals compared for the first time</a> and <a href="../funding/curl.html">cURL</a>; <a href="../owasp/index.html">the summit history, with the first-person account marked pending</a>; and <a href="../shipped/index.html">what is missing, unsoftened</a>.</p>
-        <p style="margin:.6rem 0 0"><b>Two things deliberately not done:</b> the CC0/CC BY licensing question is <a href="../practice/index.html#reading">published unresolved</a> rather than settled on the author's behalf, and the SBOM the site tells other people to publish <a href="../shipped/index.html#supply-chain">is named as a gap rather than shipped</a>. Both are <a href="../documents/index.html#divergences">recorded as divergences from the brief</a>.</p>
+        <p style="margin:.6rem 0 0"><b>The content:</b> <a href="../views/index.html">the position</a> with every argument carrying its counter-case; <a href="../survivability/index.html">survivability</a> with <a href="../survivability/stress-test.html">the stress test as a working tool</a> and <a href="../survivability/self-audit.html">a self-audit run on the estate itself</a>; <a href="../history/index.html">six corrections</a> leading the history rather than a timeline; <a href="../practice/index.html">the three-licence estate</a> and <a href="../practice/apache-vs-mit.html">the Apache-vs-MIT page that existed nowhere</a>; <a href="../agents/index.html">agents</a>; <a href="../funding/index.html">the three funding proposals compared for the first time</a> and <a href="../funding/curl.html">cURL</a>; <a href="../owasp/index.html">the summit history</a>; and the build order with its open questions visible.</p>
+        <p style="margin:.6rem 0 0"><b>Two things deliberately not done:</b> the CC0/CC BY licensing question is <a href="../practice/index.html#reading">published unresolved</a> rather than settled on the author's behalf, and the SBOM the site tells other people to publish <a href="../roadmap/index.html#supply-chain">is first on the build order rather than shipped</a>. Both are <a href="../documents/index.html#divergences">recorded as divergences from the brief</a>.</p>
       </td>
     </tr>
   </tbody>
@@ -130,8 +146,8 @@
     <div class="brandline">open-source<span>.sgit.ai</span></div>
     <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
     <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
-    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
-    <p class="verline">site <a href="../admin/versions.html">v0.1.2</a> · <a href="../admin/index.html">engineering</a> · <a href="../admin/versions.md">this page as markdown</a></p>
+    <p class="authorline">Written by <a href="../about/index.html" style="display:inline;padding:0"><b>Dinis Cruz</b></a> — founder of The Cyber Boardroom, MyFeeds.ai and the sgit.ai network; former OWASP Board member. <a href="https://www.linkedin.com/in/diniscruz" style="display:inline;padding:0">↗ LinkedIn</a> · <a href="../about/index.html#interests" style="display:inline;padding:0">interests declared</a>.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.2.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../admin/versions.md">this page as markdown</a></p>
   </div>
   <div>
     <h4>The argument</h4>
@@ -155,13 +171,13 @@
     <a href="../practice/index.html">Three licences</a>
   </div>
   <div>
-    <h4>Site</h4>
-    <a href="../shipped/index.html">What is missing</a>
-    <a href="../roadmap/index.html">Build order</a>
+    <h4>About</h4>
+    <a href="../about/index.html">About the author</a>
+    <a href="../founders/index.html">For founders</a>
+    <a href="../roadmap/index.html">What's next</a>
     <a href="../documents/index.html">The documents</a>
     <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
     <a href="../admin/versions.html">Release history</a>
-    <a href="../about/participant.html">Where we lose</a>
     <a href="../llms.txt">llms.txt</a>
     <a href="../llms-full.txt">llms-full.txt</a>
   </div>

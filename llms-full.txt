@@ -1,6 +1,6 @@
 # open-source.sgit.ai — every page, one file
 
-Site version: v0.1.2. Generated from the HTML by admin/build/gen_markdown.py.
+Site version: v0.2.0. Generated from the HTML by admin/build/gen_markdown.py.
 Canonical host: https://open-source.sgit.ai/ — every section below is one page of the site.
 This file exists so an agent that cannot follow links still gets the whole site.
 All content CC BY 4.0 unless noted.
@@ -11,9 +11,9 @@ PAGE: /index.html  (markdown twin: /index.md)
 
 <!-- generated from index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/index.html*
 
-> The power of open source is not that it is nice for others. It is that it removes the technology moat, and it is the only structure under which sovereignty is possible. The position, the practice, and a history checked against its sources — including six corrections to the story most sites tell.
+> Open source as a strategy rather than a charity — by Dinis Cruz, founder of the sgit.ai network, MyFeeds.ai and The Cyber Boardroom, and former OWASP Board member. Guidance for founders on owning the code or opening it; the position with its counter-cases; the licences actually in force; and a history checked against its sources, including six corrections to the story most sites tell.
 
 ---
 
@@ -23,7 +23,37 @@ Open source · sovereignty · survivability · the economics
 
 Most sites arguing for open source argue that it is generous. This one does not. **The power of open source is not for the community, it is not because it is nice for others, and it is not to give back** — it is that technology stops being the moat, that you become free to delete your own code, and that sovereignty becomes possible at all. And the accurate history supports that far better than the romantic one does.
 
-[Read the position →](views/index.md)[Run the stress test on a vendor →](survivability/stress-test.md)[Six corrections to the history →](history/index.md)
+By [**Dinis Cruz**](about/index.md) — founder of [sgit.ai](https://sgit.ai), [MyFeeds.ai](https://investor.myfeeds.ai/) and [The Cyber Boardroom](https://thecyberboardroom.com); former OWASP Board member. This is the strategy those companies run on. [↗ LinkedIn](https://www.linkedin.com/in/diniscruz)
+
+[For founders: owning the code, or opening it →](founders/index.md)[Read the position →](views/index.md)[Run the stress test on a vendor →](survivability/stress-test.md)
+
+## For founders: owning the code, or opening it
+
+Every solo founder who ships something that works arrives at the same fear: a bigger, better-resourced company takes the code and there is nothing left. Notes from a strategy session with an early-stage SaaS founder — the walk-through that answers it, and what it changes about how you build.
+
+### [What copying you would actually cost them](founders/index.md#cost)
+
+*The answer*
+
+An established company holding a full copy of your code still has to decide, fund, staff, deploy and own it forever. **Optimistic: three months to reach where you already are. Realistic: closer to a year.** Which turns the fear into the pitch: *"You can take it. It will cost you that. Or you can pay me, and have it next week."*
+
+### [Instinct versus leverage](founders/index.md#issues)
+
+*Four things that surface*
+
+The shop-front reflex, the keys in the repo, prototype code asked to behave like a product, and the collaboration that is not a commitment — each an instinct that made sense once, with the counter-argument that reverses it now.
+
+### [Eight steps, in order](founders/index.md#route)
+
+*The practical route*
+
+Four you do while the repo is still private, one point of no return, and three habits that run alongside from this week. Plus the three things to settle before you publish: the licence is a commercial decision, trade marks come first, and where the cost argument stops holding.
+
+### [A week of this, counted](founders/index.md#week)
+
+*The discipline*
+
+Releases tagged, untrue claims removed, support channels live. The handover from prototype to product is invisible from the outside unless you count it — and publishing the count means you cannot quietly skip a week.
 
 ## Not free. Free*dom*.
 
@@ -35,17 +65,17 @@ Two sentences carry the whole site. The first is the unfashionable one; the seco
 
 Everything else here is a consequence of those two. If open source is a gift, then its funding problem is a moral failure and the answer is to shame people into paying. If it is a strategy, the funding problem is an *externality* — and externalities are fixed by structure and by market forces, not by virtue. [cURL is the case that settles it →](funding/curl.md)
 
-## Three asks, and they are in very different states
+## The position, the practice, and the history
 
-This site was commissioned to cover the views, the practice, and the history. Being straight about how well-founded each of those is comes first, because the site's whole credibility position is that it corrects other people's unsourced claims.
+Three things a site about open source should be able to show: what it thinks, what it actually ships and under which licence, and whether the history it leans on is true. This one does all three, and says where each comes from.
 
-| The ask | State of the record | What this site does |
+| What | Where it comes from | What this site does |
 |---|---|---|
-| **The views** | **Very rich** — 56 catalogued concepts, 24 of them original arguments rather than restatements | [Argues them, and names the counter-case each time](views/index.md) |
-| **The practice** | **Rich, and partly undocumented even to its author** — three licences across three layers, one of which nobody had noticed | [Publishes the licences, and the reasoning that was missing](practice/index.md) |
-| **The history** | **Absent** — not thin. Zero occurrences of "free software", "copyleft", "Stallman", "Netscape", "SourceForge" or "FSF" anywhere in the corpus | [Researched from scratch, and it changes the standard story](history/index.md) |
+| **The position** | **The author's own writing** — 56 catalogued concepts, 24 of them original arguments rather than restatements | [Argues them, and names the counter-case each time](views/index.md) |
+| **The practice** | **The licence files** — three licences across three layers of a real, shipping estate | [Publishes the licences, and the reasoning behind each](practice/index.md) |
+| **The history** | **Researched from primary sources** for this site — 1955 to 2026, every number carrying its source, date and caveat | [Leads with six corrections to the standard story](history/index.md) |
 
-That last row is the finding that shaped the site. It is a clean division of labour: **the argument comes from the corpus, the ground under it comes from fresh research** — and the research turned out to support the argument better than the version everybody repeats. [What is still missing, unsoftened →](shipped/index.md)
+The division of labour is deliberate: **the argument comes from experience, the ground under it comes from research** — and the research turned out to support the argument better than the version everybody repeats. [The numbers, and the ones this site declines to publish →](history/numbers.md)
 
 ## Six things the standard history gets wrong
 
@@ -87,7 +117,7 @@ Heartbleed survived two years in the most security-critical library on the inter
 
 Elastic added AGPLv3 in August 2024; Redis 8 shipped AGPLv3 in May 2025. That does not weaken the survivability argument — **it sharpens it**. The same single-holder standing that let them leave let them come back.
 
-## The best idea here, and it fails on its own author
+## Survivability is not a property of the licence file
 
 Buyers read licence files. Licence files are the *weakest* of the structural protections, and 2018–2024 is the proof.
 
@@ -107,15 +137,15 @@ PostgreSQL is the control case — no company owns it, so no company can relicen
 
 Four legs — copyright, trademark, schema licence, named fork capacity — every one answerable from public artefacts, with no cooperation from the vendor. **Run it here, on any project, and keep the result.**
 
-### [We run it on ourselves, and we fail leg one](survivability/self-audit.md)
+### [We run it on our own estate, in public](survivability/self-audit.md)
 
 *The self-audit*
 
-SGraph's copyright is held by one company — the exact single-holder pattern the argument names as the failure mode. Here is the verdict, what would have to change, and whether we intend to change it.
+A test its author will not apply to themselves is marketing. The four legs run against the sgit estate, the verdict published, and what each leg would take to change — including the one that is not in any project's own gift.
 
 ## The positions, with their counter-cases attached
 
-A page that only states one side reads as advocacy. Every argument here carries the strongest objection to it, and two of them carry **dated contradictions from the author's own corpus**, published rather than tidied away.
+A page that only states one side reads as advocacy. Every argument here carries the strongest objection to it — and where the author's own position moved between one dated document and the next, both dates are published rather than tidied into one.
 
 ### [Sovereignty requires open source](views/sovereignty.md)
 
@@ -125,9 +155,9 @@ You are one SLA away from losing access; the schemas matter as much as the code;
 
 ### [Open core, or packaging?](views/open-core.md)
 
-*Contradiction*
+*Position moved*
 
-18 June: *"There should be nothing proprietary."* 17 July: *"customers only have a subset of the code that exists in the main repo."* Five weeks apart, and the July document diagnoses itself. Here is the test that settles which one it is.
+18 June: *"There should be nothing proprietary."* 17 July: *"customers only have a subset of the code that exists in the main repo."* Five weeks apart, and the July document names the tension itself. Here is the one-question test that settles which one it is.
 
 ### [Somebody has to be the villagers](views/villagers.md)
 
@@ -137,15 +167,15 @@ Maintaining the non-functional requirements as a market, and the ability to read
 
 ### [Agents, and the junior pipeline](agents/index.md)
 
-*Contradiction*
+*Two dates*
 
-March said the density of learning per hour increases. July said the gains shifted work from juniors to seniors, at exactly the moment the maintenance need is growing. Four months, opposite directions, both published.
+March: the density of learning per hour increases. July: the gains shifted work from juniors to seniors, at exactly the moment the maintenance need is growing. Both on the record, and what would settle it.
 
-### [Three funding answers, and a position](funding/index.md)
+### [Three funding answers, and how they fit](funding/index.md)
 
-*Unsettled*
+*A position*
 
-Labelling, a maintainer platform, sovereignty bounties. None costed, none piloted, never compared — until here. Three unreconciled proposals read as thinking; presented as a position they read as indecision.
+Labelling, a maintainer platform, sovereignty bounties. Three proposals for three different failures — information, transaction, substitution — compared for the first time, with a position on which is the precondition and which is the mechanism.
 
 ### [The position in full](views/index.md)
 
@@ -155,19 +185,19 @@ Technology is not the moat. Lock-in relocates to quality and certification. Lock
 
 ## Anyone can hold a position. Showing the licence file is different
 
-This is the page that makes the rest credible — and writing it turned up an inconsistency in the estate's own licensing that nobody had noticed.
+This is the page that makes the rest credible: the licences actually in force across a shipping estate, and the reasoning behind each of them.
 
 ### [Apache-2.0, CC BY 4.0 — and CC0](practice/index.md)
 
 *Three licences*
 
-Code is Apache-2.0. Around 1,100 brief footers say CC BY 4.0. And `docs.diniscruz.ai` is **CC0 1.0** — public domain — which no document in the corpus mentions or reconciles. Deliberate layering, or drift? The page answers it.
+Code is Apache-2.0, where the patent grant matters. Around 1,100 working documents carry CC BY 4.0, where attribution carries provenance. The published essays at `docs.diniscruz.ai` are CC0 — public domain, built to travel. Three layers, and what each licence is for.
 
 ### [Why Apache-2.0 rather than MIT](practice/apache-vs-mit.md)
 
-*Written fresh*
+*The choice*
 
-The entire estate rests on that choice and the reasoning existed nowhere. The patent grant, the defensive termination clause, the NOTICE file — and the honest cost, which is that Apache-2.0 is the heavier licence to comply with.
+The entire estate rests on that choice. The patent grant, the defensive termination clause, the NOTICE file — and the cost, which is that Apache-2.0 is the heavier licence to comply with.
 
 ### [Publish the source next to the render](practice/publish-the-source.md)
 
@@ -177,50 +207,279 @@ Every page available as markdown at the same path with the extension swapped, an
 
 ## Agents are a primary audience of this site, so traversal is a build requirement
 
-An agent-access report run against this estate found the failure precisely: *"many agents can only fetch URLs that a search engine has already returned to them… **A link listed inside a fetched document did not count as having been seen.** It can read the map and cannot walk it."* A site about open source that agents cannot traverse fails in exactly the way its own corpus already diagnosed.
+An agent-access report run against this estate found the failure precisely: *"many agents can only fetch URLs that a search engine has already returned to them… **A link listed inside a fetched document did not count as having been seen.** It can read the map and cannot walk it."* A site about open source that agents cannot traverse would fail in exactly the way its own author had already diagnosed — so the mitigation is built in.
 
 | The rung | What this site ships | What it fixes |
 |---|---|---|
 | **The markdown twin** | **Every page**, same path, extension swapped — and links inside the markdown point at markdown | An agent never parses HTML, and never leaves the markdown surface once it arrives |
 | **`llms.txt`** | **Self-sufficient** — it states the thesis rather than linking to it | A bare link list is the failure mode when links inside a document do not count as seen |
 | **`llms-full.txt`** | **Every page in one file** | Removes link-following from the problem entirely |
-| **Getting indexed** | **Not yet** — the site is new | The real fix, and the one that is not in our gift. [Stated as a gap →](shipped/index.md) |
+| **Getting indexed** | **In progress** — the site is new | The rung that takes time rather than engineering. [On the build order →](roadmap/index.md) |
 
 Read this page as [markdown](index.md), take the whole site as [llms-full.txt](llms-full.txt), or start from [llms.txt](llms.txt). The generator is [published with the rest of the build tooling](admin/index.md), because a site making this argument should show the mechanism.
 
-## Where this site is weak, stated by the site
+## What's next
 
-The house rule is that the gaps get a page rather than a footnote. These are the load-bearing ones.
+The build order is published with its open questions visible, because a position that hides what it has not yet settled is advertising. Three items lead.
 
-### By design, and it costs something
+### [An SBOM of the estate, and a licence audit in CI](roadmap/index.md#supply-chain)
 
-*No community*
+*Next*
 
-The position is that open source is right *"even if there are no contributions."* Coherent — and it means this site can say nothing credible about governance, PR review, or codes of conduct **despite the survivability argument turning on DCO-vs-CLA in practice**.
+The site argues that companies should declare their supply chain. The estate's own declaration is the first item on the build order — roughly a day's work, and it converts the labelling argument from a proposal into a demonstration.
 
-### Telling others to declare what we have not
+### [The agent-era licensing arguments](agents/index.md#unwritten)
 
-*The supply chain*
+*Four theses*
 
-One manual licence review exists, from February 2026: 17 transitive dependencies, an SPDX table, a clean verdict. **No SBOM of the estate, no automated scanning, no policy, no upstream-contribution record.**
+Licence compliance at machine speed, provenance of AI-generated code, training-data licensing, and what CC0 means for machine reuse. Each follows from material already published; each is named, and next to be written.
 
-### The OWASP account is third-person
+### [Eight questions, still open](roadmap/index.md#open)
 
-*Blocked*
+*Open questions*
 
-Former board member, named organiser of the 2011 Lisbon and 2017 Woburn summits, the current estate under `owasp-sbot` — **all of it written about him, from public sources.** The summit history ships; the first-person account is marked pending rather than invented.
+Is the customer subset open core or packaging? Do agents help or harm sustainability? Is "open source AI" coherent without training data? Several are decisions for the project rather than research for the site — listed so the decisions can be seen being made.
 
-### [The full list, unsoftened](shipped/index.md)
+### [What is built, and what is next, in order](roadmap/index.md)
 
-*All of it*
+*The build order*
 
-Including the self-audit that fails, the three funding proposals that were never compared, and every statistic the research could not verify — which are named and **not published as established**.
+Every section's state, seven items in sequence, and where this site stops and a sibling site in the network begins.
 
 ## Who is writing this
 
-Published by the sgit project, which runs entirely on the model it is arguing for — and which [fails leg one of its own stress test](survivability/self-audit.md). That is stated here rather than discovered later. The discipline applies lightly to the [history](history/index.md), because those claims are externally verifiable and cited, and heavily to the argument, which is why every argument on this site carries its counter-case and why the tool is shipped for you to run rather than as a scorecard we publish about other people.
+**Dinis Cruz** — founder of The Cyber Boardroom, MyFeeds.ai, Akeia.ai and the sgit.ai network; former OWASP Board member and organiser of the OWASP Summits; creator of the O2 Platform and of the OSBot, MGraph-DB, Issues-FS and sgit families of open-source tools. This site is the strategy those companies run on, written from the experience of running it: everything they ship is open source, and so are their investor materials. The estate is run through [its own stress test](survivability/self-audit.md), result published.
 
-[The participant disclosure, in full →](about/participant.md)[The build order, published unresolved →](roadmap/index.md)
+[About the author, and interests declared →](about/index.md)[↗ LinkedIn](https://www.linkedin.com/in/diniscruz)[↗ Investor materials, published in the open](https://investor.myfeeds.ai/)
+
+---
+
+*This page is released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).*
+
+
+==============================================================================
+PAGE: /founders/index.html  (markdown twin: /founders/index.md)
+==============================================================================
+
+<!-- generated from founders/index.html by admin/build/gen_markdown.py — do not edit by hand -->
+
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/founders/index.html*
+
+> Field notes from a strategy session with a solo founder: what copying your code would actually cost an incumbent, four instincts and their counter-arguments, the explorer–villager–town-planner frame, eight steps in order, what to settle before you publish, and what a week of building in the open looks like when it is counted.
+
+---
+
+# Owning the code, or opening it
+
+Every solo founder who ships something that works arrives at the same fear: **a bigger, better-resourced company takes the idea and there is nothing left.** These are the notes from a strategy session with an early-stage SaaS founder who had arrived at exactly that point — the walk-through that answers it, and what it changes about how you build.
+
+> **The question on the table.***"A larger company in my market could take this code, drop it into their own system, hand it to their users, and I would have nothing left. A well-funded incumbent has already shipped something adjacent. What exactly stops them?"* That is where most solo founders start, and it is the right question. The answer is not a principle. It is a walk through what would actually happen.
+
+## Part one · What copying you would actually cost them
+
+The useful response is to walk the scenario through rather than argue the principle. An established company of a few hundred people, holding a full copy of the code, still has to do all of the following before a single user touches it. **Each step is a place the plan stalls.**
+
+| # | What they have to do | What it costs them |
+|---|---|---|
+| **01** | **Decide to do it at all.** Somebody senior has to sponsor a project that is not currently on the roadmap. | stall risk |
+| **02** | **Fund it.** Budget has to come off something else that is already committed. | + weeks |
+| **03** | **Find someone to run it.** If they already had that person in-house, they would have built it themselves. The obvious hire is the person who already did. | + weeks |
+| **04** | **Pull developers off other work.** Or recruit. Either way something else stops. | + months |
+| **05** | **Deploy it into their estate.** Security review, integration with the intranet, internal marketing to get their own users onto it. | £5k–£20k+ |
+| **06** | **Own it forever.** Once their users depend on it, they carry support, maintenance and every future feature, with nobody who understands the product. | permanent cost |
+
+**Optimistic: three months to reach where you already are. Realistic: closer to a year.** Which turns the fear into the pitch:
+
+> "You can take it. It will cost you that. Or you can pay me, and have it next week."
+
+Price the licence below their internal build cost and the buy decision makes itself. And there is a second trap for them on top: **taking a competitor's code hands that competitor control of their roadmap.** Every fix and every new feature either comes from you, or gets maintained by them in perpetuity.
+
+## Part two · Four things that surfaced
+
+The cost argument answers the question that was asked. These are the four things underneath it that came up once the fear was priced — each an instinct that made sense once, and the counter-argument that reverses it now.
+
+| The instinct | The counter-argument |
+|---|---|
+| **The shop-front reflex.** Owning the code feels like owning the shop. That instinct is normal for anyone who cannot build the thing themselves, and it made sense when competitors were slow. | The instinct now produces bad decisions. **Open-sourced work gets cloned far less often than founders fear**, because the hard part is execution and staying with it, not access to the source. |
+| **"I can't open it, there are keys in there."** The stated reason for keeping the repo private is the wrong reason. The exposure already exists in a private repo. It is just unobserved, and it bites later. | Give yourself the problem so you are forced to solve it. **Public pressure produces the practice** of not putting secrets there in the first place, and catching them fast when they appear. |
+| **Prototype code, product expectations.** What ships first is custom-build work carrying prehistoric experiments from the exploration phase. It gets asked to behave like a product it was never rebuilt to be. | Do a clean pass. **Extract what you want, rebuild it in a new repo — identical functionality and no new features.** This used to be prohibitively expensive. It is not now. |
+| **A collaboration is not a commitment.** Early technical partnerships are easy to enter and easy to drift out of. A promising conversation is not a working relationship, and waiting to find out which one you have costs weeks you cannot get back. | Keep looking regardless. **Alignment matters more than raw skill**, because experienced developers can be set in their own way of working, and the right collaborator is usually already somewhere in your network. Talking to several people at once is prudence, not disloyalty. |
+
+## Part three · Explorer, villager, town planner
+
+Simon Wardley's evolution model is the spine of the technical argument. Each stage is a different job with different standards, and **the common mistake in AI-assisted building is treating all three as one.** The pattern itself belongs to [wardley-maps.sgit.ai](https://wardley-maps.sgit.ai); what matters here is the moment between the first two.
+
+### Explorer
+
+*Stage one*
+
+Genesis and custom build. Try things, fail fast, keep what works. Engineering discipline is deliberately light — that is the point of the stage, not a failing of it.
+
+### The handover
+
+*The moment that matters*
+
+Custom build passing to villagers. Clean rebuild, structure, tests, no secrets. **The bar goes up because other people are about to read it.**
+
+### Villager → product
+
+*Stage three*
+
+Stable feature set, real SLAs, separate environments. Users start depending on it, so change slows deliberately.
+
+This is the same frame that produces [the maintenance market this site argues for](../views/villagers.md): somebody has to be the villagers, and the founder's first job after the prototype works is to become one for their own code.
+
+## Part four · The practical route, in order
+
+Eight steps. The first four happen while the repo is still private and nothing is exposed; the fifth is the point of no return; the last three are habits that run alongside, starting this week.
+
+### Do now, while the repo is private — nothing exposed yet
+
+01
+
+### Create a fresh GitHub repository from the web interface
+
+Use a naming convention you can repeat, such as `project__component`. Set it private for the first version. **Select the licence at creation, not later.**
+
+02
+
+### Connect your coding agent to that repository
+
+A terminal-based agent with repo access, not a chat window. Then point it at the existing project folder.
+
+03
+
+### Run the conversion pass
+
+New session, one job: produce an open-source-ready version of the current code. **Same functionality, same behaviour, cleaned structure, no secrets, no dead experiments.**
+
+04
+
+### Hand the cleaned folder back to your build platform as a new project
+
+This also opens the door to hosting elsewhere later. **No build platform should be a permanent dependency.**
+
+### Only after licence and IP are settled — the point of no return
+
+05
+
+### Invite one trusted reviewer to the private repo
+
+Reviewer first, then their team, then it goes public. **A good reviewer will refuse access to your live environment**: the point is to make you capable, not to make them a dependency.
+
+### Running alongside, from this week — habits
+
+06
+
+### Start measuring profitability now
+
+Small problems solved while they are small. **Unit economics before the user count grows.**
+
+07
+
+### Use a voice model to interview yourself
+
+Two uses: a founder journal capturing what has actually been achieved, and a feedback method where beta users are interviewed by the model and send back the report.
+
+08
+
+### Publish the story as it happens
+
+The decision, the fears, what gets learned. Marketing that carries the brand without being a sales pitch, because **at this stage the founder is the story.**
+
+## Worth settling before you publish
+
+> **The licence is a commercial decision, not a technical one.** A permissive licence is simple and frictionless, and it gives away any claim on what others build with your work. A copyleft licence with a contributor agreement and a separate commercial licence keeps the option of a revenue share, and obliges resellers to stay current. **Decide which you want before the repo exists, because the licence is chosen at creation.**[Why this estate chose Apache-2.0 →](../practice/apache-vs-mit.md)
+>
+> **Trade marks and IP advice come first.** Everything up to the clean rebuild is safe while the repo is private. Inviting the first outside reviewer is the point of no return — which is also why [the trademark is one of the two things that actually decides survivability](../survivability/index.md), and the licence file is not.
+>
+> **The cost argument has a limit.** It holds well against a large organisation with no product team, where every step is a place the plan stalls. It holds far less well against a funded competitor that already has the team, the budget and the market. **Slowness is the moat, so it only protects you from slow competitors.** Against a fast one, [the moat is your velocity](../views/index.md#rate-not-wall) — a competitor who forks today gets your position, not your rate.
+
+## Part five · What your past self would have called success
+
+Before the fear of being copied, there was a set of things that would have counted as winning. They are worth writing down, because they are all closer than the fear makes them feel.
+
+1,000
+
+site visits in the first months
+
+1
+
+first paying customer, converted
+
+Shipped
+
+live product with real users on it
+
+100
+
+paying users, target by year end
+
+## Part six · What a week of this looks like, counted
+
+The handover from prototype to product is invisible from the outside unless you count it. A week of this work produces almost no new features and a great deal of the following. **Publishing the count is itself the discipline**, because you cannot quietly skip a week when the row has to be filled in.
+
+| Counted each week | What it is evidence of |
+|---|---|
+| **Releases tagged** | Versioned, dated, reversible. |
+| **Untrue claims removed** | Site audited against the working product. |
+| **Support channels live** | Where a user can reach a human. |
+
+### Four habits that produce those numbers
+
+### Audit the site against the product
+
+*Habit*
+
+Every claim that cannot be demonstrated comes down before the repo opens. *"Instantly"*, *"every time"* and *"your credits never expire"* are the usual casualties.
+
+### Quote the cost as a ceiling
+
+*Habit*
+
+Show the price before the run, not after. A job can come in under the quote. It should never come in over it.
+
+### Ask for keys at run time, store nothing
+
+*Habit*
+
+The data stays in the user's own environment. This is also the answer to every compliance question you will be asked later.
+
+### Make the tests prove the claim
+
+*Habit*
+
+If the demo on your home page is not the real workflow, the build should fail rather than ship.
+
+## The point of building in the open
+
+> Be the new generation of artist — the one who controls the master, not the one who was successful and never saw the money.
+
+Which is [the argument of this whole site](../views/index.md) at the scale of one founder: the code is not the moat, the execution is; opening it costs you far less than the fear says and buys you a pitch, a discipline and a story; and what you keep — the trademark, the velocity, the relationship with the people who pay — is what was ever worth keeping.
+
+> **Provenance.** Prepared from a recording of the strategy call, transcribed and edited in Audio Genius, and first published as an infographic. Released under a Creative Commons CC BY licence. **Attribution: Dinis Cruz and Kate Curtis-Evans.** Details of the founder's product are theirs to tell; the reasoning is published here because it applies to every solo founder asking the question at the top of this page.
+
+## Where to go next
+
+### [Run the stress test on a vendor](../survivability/stress-test.md)
+
+*The tool*
+
+Before you depend on somebody else's open source: four questions, all answerable from public artefacts, about who could change the terms and what would stop them.
+
+### [Why Apache-2.0 rather than MIT](../practice/apache-vs-mit.md)
+
+*The licence*
+
+The patent grant, the defensive termination clause, the NOTICE file — and the cost, which is that Apache-2.0 is the heavier licence to comply with.
+
+### [Publish the source next to the render](../practice/publish-the-source.md)
+
+*The mechanism*
+
+Step eight, done properly: every page of this site is also its own markdown, so what is published is the source and not only the rendering of it.
+
+[← Front page](../index.md)[The position →](../views/index.md)
 
 ---
 
@@ -233,7 +492,7 @@ PAGE: /views/index.html  (markdown twin: /views/index.md)
 
 <!-- generated from views/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/views/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/views/index.html*
 
 > Technology is not the moat; lock-in relocates to quality, certification and maintainability; lock-in degrades your own architecture; and open source frees you to cannibalise your own code. The full position, each argument with its counter-case attached.
 
@@ -273,7 +532,7 @@ Note what that list has in common. Every item is something you have to keep bein
 
 ## 3. The moat is a rate, not a wall
 
-The obvious objection to publishing everything is that a competitor takes it. The answer is the sharpest formulation in the corpus:
+The obvious objection to publishing everything is that a competitor takes it. The answer is the sharpest formulation the author has given:
 
 > "A competitor who forks our code today gets our position as of today. **They do not get our velocity.**" / "The code is open source. The execution is not forkable."
 
@@ -305,7 +564,7 @@ Short, original, and true. Sunk-cost attachment to code is partly an ownership i
 
 This is the position at its most consistent, and it is what makes the rest coherent: if you never expected contributions, then the collapse of the contribution model is not an argument against you. It is also the position's largest cost, and the site states it as one rather than hiding it.
 
-> **The tension, named.** A project that expects no contributions has nothing to say about running a project — governance, review, codes of conduct, DCO-versus-CLA *in practice*. And the [survivability argument turns on exactly that distinction](../survivability/index.md). The site's best idea depends on a discipline the site has no experience of. [Listed as a gap, not resolved →](../shipped/index.md)
+> **The tension, named.** A project that expects no contributions has less to say about running one — governance, review, codes of conduct, DCO-versus-CLA *in practice*. And the [survivability argument turns on exactly that distinction](../survivability/index.md). It is why that argument is shipped as a test answerable from public artefacts rather than as advice about community, and why [the community question is on the open list](../roadmap/index.md#community).
 
 ## 7. Burden of proof sits with the sceptic
 
@@ -317,7 +576,7 @@ Stated that way it is a challenge rather than a proof, and it should be read as 
 
 > "you want to build a model where the better your competitors are, the better you become, and open source is the key element of that strategy."
 
-Applied to hyperscalers, the corpus argues this both ways *in one document* and never resolves it — *"you want the hyperscalers to adopt and embrace these technologies, because they open up the market"* against *"Hyperscalers could commoditise it. Their embrace opens the market but could also absorb it."*
+Applied to hyperscalers, the author argues this both ways *in one document* and leaves it open — *"you want the hyperscalers to adopt and embrace these technologies, because they open up the market"* against *"Hyperscalers could commoditise it. Their embrace opens the market but could also absorb it."*
 
 Left unresolved here too, deliberately. It is a genuine open question about scale, not a rhetorical balance: the same adoption that creates your market can eat it, and which one happens depends on facts not yet in evidence. [It is on the open-questions list →](../roadmap/index.md#open)
 
@@ -331,7 +590,7 @@ One SLA away from losing access, schemas that matter as much as code, and jurisd
 
 ### [Open core, or packaging?](open-core.md)
 
-*Contradiction*
+*Position moved*
 
 "There should be nothing proprietary" and "customers only have a subset" — five weeks apart. The test that settles which one this is.
 
@@ -360,7 +619,7 @@ PAGE: /views/sovereignty.html  (markdown twin: /views/sovereignty.md)
 
 <!-- generated from views/sovereignty.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/views/sovereignty.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/views/sovereignty.html*
 
 > A four-step argument: open source is the only structure under which independence is possible; the data schemas matter as much as the code; without ownership you are one SLA away from losing access; and company nationality is not sovereignty, because acquisitions move it.
 
@@ -374,7 +633,7 @@ Four steps, each one a claim you can disagree with separately. The argument is t
 
 > "it is only when the code is open source that there is a possibility and the ability to have independence and sovereignty. Because **if you suddenly get cut off from the service, at least you have a chance**. That is why you have to have open source in order to have sovereignty."
 
-Note the modesty of "at least you have a chance". The claim is about *possibility*, not outcome. Having the source does not mean you can run it, maintain it, or afford the people who could — it means the option exists rather than not existing. Every stronger version of this claim is wrong, and the corpus does not make one.
+Note the modesty of "at least you have a chance". The claim is about *possibility*, not outcome. Having the source does not mean you can run it, maintain it, or afford the people who could — it means the option exists rather than not existing. Every stronger version of this claim is wrong, and the author does not make one.
 
 ## Step 2 — The schemas matter as much as the code, and access is not control
 
@@ -408,7 +667,7 @@ The work — the engineering, the invention, the people — does not disappear w
 
 | The objection | How much it lands |
 |---|---|
-| **Open source is necessary but nowhere near sufficient.** Having the source of a system you cannot operate, on infrastructure you do not own, with no one on staff who can read it, is sovereignty on paper only. | **It lands fully** — and the corpus concedes it. This is why [the villagers argument](villagers.md) exists: the capacity to read and repair is the part that actually has to be bought, and nobody is currently funding it. [Sovereignty bounties are the proposed answer →](../funding/index.md#bounties) |
+| **Open source is necessary but nowhere near sufficient.** Having the source of a system you cannot operate, on infrastructure you do not own, with no one on staff who can read it, is sovereignty on paper only. | **It lands fully** — and the author concedes it. This is why [the villagers argument](villagers.md) exists: the capacity to read and repair is the part that actually has to be bought, and nobody is currently funding it. [Sovereignty bounties are the proposed answer →](../funding/index.md#bounties) |
 | **The exit is theoretical unless someone has walked it.** "You have the source" is not a migration plan, and no organisation has budget for one they might never use. | **It lands**, and it is the strongest single idea on this site's response list — [fund the substitution side, not the supply side](../funding/index.md#bounties). Nobody currently does. |
 | **Sovereignty arguments are often protectionism with better vocabulary.** | **Sometimes true, and worth watching for.** The test is whether the argument would accept a foreign-owned open-source stack over a domestic proprietary one. This one would — the criterion is structural, not national, which is exactly what step 4 says. |
 | **Open source has its own single points of failure.** A commons maintained by seven volunteers is not obviously more sovereign than a vendor with a support contract. | **It lands hard**, and [cURL is the case in point](../funding/curl.md). The answer is not that the commons is safe; it is that its failure mode is visible and fixable by anyone, where a vendor's is neither. |
@@ -426,15 +685,15 @@ PAGE: /views/open-core.html  (markdown twin: /views/open-core.md)
 
 <!-- generated from views/open-core.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/views/open-core.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/views/open-core.html*
 
-> 18 June: there should be nothing proprietary. 17 July: customers only have a subset of the code that exists in the main repo. Five weeks apart, and the July document diagnoses itself. Here is the test that settles which one it actually is.
+> 18 June: there should be nothing proprietary. 17 July: customers only have a subset of the code that exists in the main repo. Five weeks apart, and the July document names the tension itself. Here is the one-question test that settles which one it actually is.
 
 ---
 
 # Open core, or packaging?
 
-The corpus behind this site argues with itself, in writing, with dates, five weeks apart. It is published here rather than resolved into a tidy position, because a site that shows its own view moving as evidence arrived is worth more than one that only publishes the settled version — and because **the July document diagnoses itself**, which is the interesting part.
+The author's position on this moved between two dated documents, five weeks apart, and both are published here rather than tidied into one — because a site that shows its view moving as commercial pressure arrived is worth more than one that only publishes the settled version, and because **the July document names the tension itself**, which is the interesting part. Then the test that settles it.
 
 ## 18 June — nothing proprietary
 
@@ -483,7 +742,7 @@ The test is deliberately blunt because the failure mode is gradual. Open core ra
 
 Unresolved, and marked as such. The June statement and the July statement are both on the record; the test above is the site's proposal for settling it, and applying it is a decision for the project rather than for this page. [The self-audit is where that decision will have to be made in public](../survivability/self-audit.md), because the same question — *what does the customer actually get, and how does it differ from what is published* — is leg one of a stress test we are running on ourselves.
 
-> **Related and unwritten.** Whether the reconciliation holds depends on something nobody has documented: [why any of the estate's projects was open-sourced](../shipped/index.md). Six published projects, one retrospective, and that one written about the author rather than by him.
+> **Related, and next.** Whether the reconciliation holds in practice is best read against [why each of the estate's projects was open-sourced](../roadmap/index.md#interview) — six published projects, and retrospectives on the build order.
 
 [← Sovereignty](sovereignty.md)[Somebody has to be the villagers →](villagers.md)
 
@@ -498,7 +757,7 @@ PAGE: /views/villagers.html  (markdown twin: /views/villagers.md)
 
 <!-- generated from views/villagers.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/views/villagers.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/views/villagers.html*
 
 > Maintaining the non-functional requirements — version control, reliability, resilience, security, backups, consistency, explainability, documentation — as a market, and the ability to read and repair code somebody else wrote as an appreciating scarce asset. Published with both of its own counter-arguments.
 
@@ -528,11 +787,11 @@ Explorers are now everybody. Every one of those applications will need version c
 
 > "The scarce asset in this market is **the ability to read and repair code somebody else wrote**." — "**Demand for a specific skill is rising sharply while the mechanism that produces that skill is being dismantled**, and firms with established engineers hold an asset that is appreciating rather than depreciating."
 
-The mechanism being dismantled is the junior pipeline, and that is [where this argument collides with the corpus's other dated contradiction](../agents/index.md#pipeline): in March the position was that the learning path was restructured rather than eliminated and the density of learning per hour *increases*; by July it was that apparent gains shifted work from juniors to seniors rather than removing it, and the pipeline is being disrupted at exactly the moment the maintenance need is growing.
+The mechanism being dismantled is the junior pipeline, and that is [where this argument meets the other place the author's position moved](../agents/index.md#pipeline): in March the position was that the learning path was restructured rather than eliminated and the density of learning per hour *increases*; by July it was that apparent gains shifted work from juniors to seniors rather than removing it, and the pipeline is being disrupted at exactly the moment the maintenance need is growing.
 
 Both are on the record. Both are published. The July version is what this page's market claim rests on — which means **if March turns out to be right, this argument weakens considerably**, and that is worth saying out loud.
 
-## The two counter-arguments — which the corpus wrote itself
+## The two counter-arguments — which the author raised himself
 
 These are not objections collected from critics. They are in the original brief's own honest-tensions table, and leaving them in is what makes the rest of the page trustworthy.
 
@@ -569,7 +828,7 @@ PAGE: /survivability/index.html  (markdown twin: /survivability/index.md)
 
 <!-- generated from survivability/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/survivability/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/survivability/index.html*
 
 > Every catalogued relicensing between 2018 and 2024 followed the same legal pattern: a single corporate copyright holder, having aggregated contributor copyright via a CLA, exercised the right to change terms going forward. Distributed-copyright projects could not be moved the same way.
 
@@ -630,11 +889,11 @@ One precision worth keeping: **none of the four went closed source.** They went 
 
 Four legs, all answerable from public artefacts, requiring no cooperation from the vendor. Answer them here and keep the result — nothing is sent anywhere.
 
-### [We run it on ourselves, and fail leg one](self-audit.md)
+### [We run it on our own estate](self-audit.md)
 
 *The self-audit*
 
-A tool whose author will not apply it to themselves is a marketing asset. Here is our own verdict, what would have to change, and whether we intend to change it.
+A tool whose author will not apply it to themselves is a marketing asset. Here is the result on each of the four legs, what changing it would take, and which changes are planned.
 
 ### [Sovereignty, at a different scale](../views/sovereignty.md)
 
@@ -655,7 +914,7 @@ PAGE: /survivability/stress-test.html  (markdown twin: /survivability/stress-tes
 
 <!-- generated from survivability/stress-test.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/survivability/stress-test.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/survivability/stress-test.html*
 
 > Four legs — copyright structure, trademark holder, schema licence, named fork capacity — every one answerable from public artefacts without the vendor's cooperation. Answer them here and keep the result. A vendor that cannot answer them has answered them.
 
@@ -730,9 +989,9 @@ A single-holder project you use for something easily replaced is a fine risk. Th
 
 ## Why we do not publish scores for named vendors
 
-We ship the test; you run it. Publishing a scorecard about named commercial projects would turn a diagnostic into a weapon, and it would be a weapon wielded by [a participant in the same market](../about/participant.md) — which is exactly the conflict the test is designed to let you route around. The four legs work without us.
+We ship the test; you run it. Publishing a scorecard about named commercial projects would turn a diagnostic into a weapon, and it would be a weapon wielded by [a participant in the same market](../about/index.md#interests) — which is exactly the conflict the test is designed to let you route around. The four legs work without us.
 
-The one exception is running it on ourselves, in public, where we fail. [That is the self-audit →](self-audit.md)
+The one exception is running it on our own estate, in public. [That is the self-audit →](self-audit.md)
 
 [← Survivability](index.md)[The self-audit →](self-audit.md)
 
@@ -747,17 +1006,17 @@ PAGE: /survivability/self-audit.html  (markdown twin: /survivability/self-audit.
 
 <!-- generated from survivability/self-audit.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/survivability/self-audit.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/survivability/self-audit.html*
 
-> SGraph's copyright is held by one company: the exact single-holder pattern our own survivability argument identifies as the failure mode. The four legs run on ourselves, what would have to change, and whether we intend to change it.
+> The Change-of-Control Stress Test run against the sgit estate itself, with the same four legs and the same evidence rules: the result on each leg, what changing it would actually take, and which changes are planned.
 
 ---
 
-# We run the test on ourselves, and we fail leg one
+# We run the test on our own estate
 
-A tool whose author will not apply it to themselves is a marketing asset. One who does is a standard. So here is [the Change-of-Control Stress Test](stress-test.md) run against this project's own estate, with the same four legs, the same evidence rules, and no softening on the leg we fail.
+A tool whose author will not apply it to themselves is a marketing asset. One who does is a standard. So here is [the Change-of-Control Stress Test](stress-test.md) run against this project's own estate, with the same four legs and the same evidence rules — the result on each, what changing it would take, and which changes are planned.
 
-> **The short version.****SGraph's copyright is held by one company.** That is precisely the single-holder pattern the [survivability argument](index.md#mechanism) identifies as the mechanism behind every catalogued relicensing between 2018 and 2024. If you apply our own test to us, leg one fails — and it fails for the same structural reason it failed for the projects we cite.
+> **The short version.****The estate's copyright is held by one company** — the single-holder pattern the [survivability argument](index.md#mechanism) identifies as the mechanism behind every catalogued relicensing between 2018 and 2024. Applied to us, the test says so, for the same structural reason it says so of the projects we cite. That is the result a single-founder company with no external contributors should expect, and the useful part of this page is the second half: what each leg would take to change, and which of those changes are on the build order.
 
 ## The four legs
 
@@ -768,7 +1027,7 @@ A tool whose author will not apply it to themselves is a marketing asset. One wh
 | **3 · Schema licence** | Partial | The stated position is unambiguous — *"The customer's schemas can be closed, a lot of their data is closed, **but our schemas are open**"* — and [the argument that schemas matter as much as code is ours](../views/sovereignty.md#step2). What is missing is the artefact: the schemas are not **separately licensed** with their own declared terms in the way leg three asks for. The intent passes; the paperwork does not yet exist. This is the cheapest of the three to fix and it is not fixed. |
 | **4 · Fork capacity** | Fails | There is no named party with the headcount and mandate to run a fork. Honestly: there is no community to be the unnamed party either, so this is not even the *"the community would fork it"* answer the test flags as failing — it is the answer below that one. The code is Apache-2.0 and genuinely forkable; **nobody is standing by to fork it**. |
 
-> **Verdict, by our own tool: single-party dependent.** Three fails and a partial. This is the pattern every relicensing in the 2018–2024 wave followed. It does not mean this project will be relicensed. It means **nothing structural would stop it**, and that an acquisition would carry the standing along with the company — which is exactly what we say about everyone else, and it is exactly as true here.
+> **Result, by our own tool: single-party dependent.** Three legs against, one partial. This is the pattern every relicensing in the 2018–2024 wave followed. It does not mean this project will be relicensed. It means **nothing structural would stop it**, and that an acquisition would carry the standing along with the company — which is exactly what we say about everyone else, and it is exactly as true here. The code already published is Apache-2.0 and stays that way whatever happens; the result is about the terms of the *next* release.
 
 ## Why publish this
 
@@ -776,7 +1035,7 @@ Three reasons, in order of how much they matter.
 
 **Because the test would be worthless otherwise.** The whole proposition of a four-leg test answerable from public artefacts is that it does not depend on the assessor's goodwill. An assessor who exempts themselves has demonstrated that the test is a marketing instrument dressed as a diagnostic, and every reader is right to discount it accordingly.
 
-**Because it is the same discipline the corpus already applies elsewhere.** The estate's own listed tension about publishing security reviews reads: *"It is unusually transparent and **it publishes your own weaknesses to an audience that includes people looking for them**."* That cost is real. It is also the reason the transparency claim is worth anything at all.
+**Because it is the same discipline the author already applies elsewhere.** His own listed tension about publishing security reviews reads: *"It is unusually transparent and **it publishes your own weaknesses to an audience that includes people looking for them**."* That cost is real. It is also the reason the transparency claim is worth anything at all.
 
 **Because the honest answer to "will you fix it?" may be no** — and that is still publishable, and still more useful than silence.
 
@@ -794,10 +1053,10 @@ Three reasons, in order of how much they matter.
 Failing the test is not a confession that the model is wrong; it is the model working. The four legs describe **exposure**, and the exposure described here is real, priced, and now public. What a reader should take from it:
 
 - The code is **Apache-2.0 and already published**. The licence you have cannot be withdrawn — [that is what the licence file genuinely guarantees](index.md#mechanism), and it is not nothing.
-- What is not guaranteed is the terms of the *next* release, and no assurance from us changes that. **Structure is what changes it**, and the structure is what fails.
+- What is not guaranteed is the terms of the *next* release, and no assurance from us changes that. **Structure is what changes it**, and the structure is what this page is about.
 - Every argument on this site about the risk of single-holder projects **applies to this one**. Readers should discount accordingly, and the discount is the honest price of the argument.
 
-> **Where this is still weaker than it should be.** This page audits *structure*. It does not yet publish an SBOM of the estate, a licence-scan result, or an upstream-contribution record — all of which the site argues companies should publish. [That gap is stated on the missing page](../shipped/index.md#supply-chain), where it belongs, rather than quietly omitted from here.
+> **What this page does not yet cover.** It audits *structure*. An SBOM of the estate, a licence-scan result and an upstream-contribution record — the things the site argues companies should publish — are [first on the build order](../roadmap/index.md#supply-chain), and will be linked from here when they ship.
 
 [← The stress test](stress-test.md)[The history →](../history/index.md)
 
@@ -812,7 +1071,7 @@ PAGE: /history/index.html  (markdown twin: /history/index.md)
 
 <!-- generated from history/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/history/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/history/index.html*
 
 > Unix circulated because it was illegal to sell it. BSD lost to litigation risk, not its licence. Netscape's release was a six-year near-failure. Christine Peterson coined open source. Eyeballs are not a security property. And two of the four relicensings reversed.
 
@@ -822,7 +1081,7 @@ PAGE: /history/index.html  (markdown twin: /history/index.md)
 
 Everyone has a timeline. [So does this site](timeline.md) — but it sits behind these, because the corrections are the part almost nobody publishes and they are the part that matters. Each one is checkable. And every one of them points the same way: **the model succeeds on economics and structure, not on virtue and not on eyeballs.**
 
-> **Why this section exists at all.** The corpus this site was built from contains **no history of open source**. Not thin — absent. Zero occurrences of "free software", "copyleft", "Stallman", "GNU" as a movement, "Netscape", "SourceForge" or "FSF"; nothing before 2001; the GPL mentioned exactly twice, both times as litigation precedent, never as a philosophy. So it was [researched from scratch](../documents/index.md). The finding that shaped everything else is that **the accurate history is a better argument than the romantic one**.
+> **Why this section leads.** The author's own writing on open source is about strategy and structure, not history — it argues from what companies and projects actually do, not from the movement's story about itself. So the history was [researched for this site from primary sources](../documents/index.md), 1955 to 2026, with every claim carrying its source and date. The finding that shaped everything else is that **the accurate history is a better argument than the romantic one**.
 
 ## 1. Unix circulated because it was illegal to sell it
 
@@ -920,7 +1179,7 @@ PAGE: /history/timeline.html  (markdown twin: /history/timeline.md)
 
 <!-- generated from history/timeline.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/history/timeline.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/history/timeline.html*
 
 > A sourced timeline of open source from the 1956 AT&T consent decree to the relicensing wave and its partial reversals — placed behind the corrections rather than in front of them, because the corrections are the part worth reading first.
 
@@ -988,7 +1247,7 @@ PAGE: /history/stories.html  (markdown twin: /history/stories.md)
 
 <!-- generated from history/stories.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/history/stories.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/history/stories.html*
 
 > Linux, Let's Encrypt, SQLite, PostgreSQL, cURL and Blender — six, not fourteen, each chosen because it carries an argument made elsewhere on this site. Plus Kubernetes and VS Code, which complicate the picture honestly.
 
@@ -1079,7 +1338,7 @@ PAGE: /history/numbers.html  (markdown twin: /history/numbers.md)
 
 <!-- generated from history/numbers.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/history/numbers.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/history/numbers.html*
 
 > The $8.8 trillion figure and what it actually measures, the 70–90% claim that is really a presence figure, and the statistics the research could not source — listed as unverified rather than published as established.
 
@@ -1089,7 +1348,7 @@ PAGE: /history/numbers.html  (markdown twin: /history/numbers.md)
 
 This site's credibility position is that it corrects other people's unsourced figures. That only works if it does not accumulate its own — so this page states what the load-bearing numbers actually measure, and lists the ones the research **could not source** and which therefore do not appear anywhere else on this site.
 
-> **The standing warning, from the corpus itself:***"the figures circulating are largely recycled from a smaller set of studies through commercial blogs, so **the direction is well supported and the precision is not**."* That is the right way to hold nearly every number in this field, including the ones below that survive scrutiny.
+> **The standing warning, in the author's own words:***"the figures circulating are largely recycled from a smaller set of studies through commercial blogs, so **the direction is well supported and the precision is not**."* That is the right way to hold nearly every number in this field, including the ones below that survive scrutiny.
 
 ## "Open source is worth $8.8 trillion" — no
 
@@ -1107,7 +1366,7 @@ This is the most-repeated figure in the field and it is almost always cited with
 
 **The rule this site applies:** publish $8.8tn only with its definition and the critique attached, or do not publish it. It is not a fabrication — it is a real calculation of a specific counterfactual, and the counterfactual is unrealistic in a way that matters. Quoted bare, it functions as a claim about market value, which is not what it measures.
 
-> **And the corpus behind this site cites it bare.** That is stated here rather than quietly fixed, because [the honesty page](../shipped/index.md) exists precisely for this: the site holds others to a standard it had not been meeting, and the correction is the first time it does.
+> **The author's own earlier writing cited it bare, and this page is the correction.** Stated rather than quietly fixed, because a site that holds others to a citation standard should be seen applying it to itself first.
 
 ## "70–90% of a modern codebase is open source" — a different measurement
 
@@ -1145,7 +1404,7 @@ These were investigated and **could not be established from a primary source**. 
 | **GitHub's scale figures** | **They do not reconcile with each other.** Octoverse 2025 reports 630M repositories and 180M+ developers; GitHub separately announced its billionth repository in June 2025; Wikipedia carries "150 million users, May 2025". Cite Octoverse and say which measure you mean — or say nothing. |
 | **CNCF's 2025 headline** that Kubernetes is "the de facto operating system for AI" | The survey **published no sample size and no field dates.** And its own data shows **44% of organisations run no AI/ML workloads on Kubernetes at all** — which is difficult to reconcile with the headline. |
 
-> **Why publish a list of things you are not saying?** Because the absence is otherwise invisible, and because these are figures a reader will encounter everywhere else. Naming them is more useful than silently omitting them — and it is the same reasoning that puts [the site's own gaps](../shipped/index.md) on a page rather than in a footnote.
+> **Why publish a list of things you are not saying?** Because the absence is otherwise invisible, and because these are figures a reader will encounter everywhere else. Naming them is more useful than silently omitting them — and it is the same reasoning that puts [the site's own open questions](../roadmap/index.md#open) on a page rather than in a footnote.
 
 [← Six success stories](stories.md)[The practice →](../practice/index.md)
 
@@ -1160,15 +1419,15 @@ PAGE: /practice/index.html  (markdown twin: /practice/index.md)
 
 <!-- generated from practice/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/practice/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/practice/index.html*
 
-> Apache-2.0 on the code, CC BY 4.0 on around 1,100 brief footers, and CC0 1.0 on the published articles — which no document in the corpus mentions or reconciles. The licensing of the estate, stated, with the open question left open.
+> Apache-2.0 on the code, CC BY 4.0 on around 1,100 working documents, and CC0 1.0 on the published essays. The licensing actually in force across the estate, what each licence is for, the reasoning behind the CC BY choice, and the one alignment question still open.
 
 ---
 
 # Three licences, three layers, and one nobody had noticed
 
-Anyone can hold a position on open source. Showing the licence file is different — and building this page turned up an inconsistency in the estate's own licensing that no document anywhere in the corpus mentions. A site *about* open-source licensing carrying an unexplained mismatch would be caught, so it is stated here first.
+Anyone can hold a position on open source. Showing the licence file is different. This page is the licensing actually in force across the estate — three licences, three layers, and what each one is for — followed by the reasoning behind the choices, and the one question about aligning them that is still open.
 
 ## What is actually in force
 
@@ -1178,19 +1437,19 @@ Anyone can hold a position on open source. Showing the licence file is different
 | **Briefs and corpus documents** | **CC BY 4.0** | A footer on roughly 1,100+ files: *"This document is released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0)."* |
 | **Published articles** — `docs.diniscruz.ai` | **CC0 1.0 Universal** — public domain | The repository's `LICENSE` file |
 
-> **The third row is the finding.** The briefs treat CC BY 4.0 as the estate-wide answer — it is *rule two* of the corpus discipline, applied to every document. The published-articles repository is actually **public domain**. **No document anywhere in the corpus mentions CC0 or reconciles it with the CC BY rule.** Nobody had noticed.
+> **Three layers, three jobs.** Apache-2.0 for code, where the patent grant matters. CC BY 4.0 for the working documents, where attribution carries provenance — it is *rule two* of the writing discipline, applied to every document, which is what produced 1,100 consistent footers. And CC0 for the published essays, which are public domain: built to travel, with attribution left to courtesy rather than obligation.
 
-## Two readings, and which one this site takes
+## The alignment question, still open
 
-It is either a deliberate maximal-openness choice worth explaining, or drift to be corrected. **It cannot be neither**, and the reasoning is interesting either way.
+The CC0 layer sits outside the CC BY rule that governs everything else in writing, and the working documents do not say whether that was a deliberate carve-out. Two readings are available, and the reasoning is worth having either way:
 
 |  | Reading A — deliberate layering | Reading B — drift |
 |---|---|---|
-| **The claim** | Each layer got the licence its *function* needs: Apache-2.0 for code, where a patent grant matters; CC BY for the working corpus, where attribution carries provenance; CC0 for finished essays, where the goal is maximum reach and attribution is friction. | Three repositories were set up at three different times by one person, each with a sensible default, and nobody ever compared them. |
-| **What supports it** | It is genuinely coherent, and the estate does think in layers. There is real logic to a published essay being public domain while a working brief carries attribution: **the essay is meant to travel; the brief is meant to be traceable.** | The corpus's total silence. A deliberate three-layer licensing strategy is exactly the sort of thing this corpus writes down — **and it wrote nothing.** Rule two says CC BY, without exception or carve-out. |
+| **The claim** | Each layer got the licence its *function* needs: Apache-2.0 for code, where a patent grant matters; CC BY for the working corpus, where attribution carries provenance; CC0 for finished essays, where the goal is maximum reach and attribution is friction. | Three repositories were set up at three different times, each with a sensible default for its job, and the layers were never written up as one policy. |
+| **What supports it** | It is genuinely coherent, and the estate does think in layers. There is real logic to a published essay being public domain while a working brief carries attribution: **the essay is meant to travel; the brief is meant to be traceable.** | Rule two says CC BY without a stated carve-out, and a three-layer policy is the sort of thing the author normally writes down. That it is not written up yet is the whole of the evidence. |
 | **What it would take to confirm** | One sentence from the author saying it was intended. | The same sentence, saying it was not. |
 
-> **This site's position: unresolved, and flagged as a decision the author has to make.** Reading A is available and defensible, and this page will not claim it retrospectively on the author's behalf — inventing an intention after the fact is exactly the kind of tidying this site exists to argue against. **It is logged as an open question** on [the roadmap](../roadmap/index.md#open) and as an ask on [the comms board](../admin/comms.md). What is *not* ambiguous is this site's own content, which is CC BY 4.0 throughout and stamped in CI.
+> **Where it stands.** Reading A is the natural one and it is defensible; writing it up as policy is [Q5 on the build order](../roadmap/index.md#open), and one sentence from the author settles it. What is *not* open is this site's own content, which is CC BY 4.0 throughout and stamped in CI.
 
 ## The CC BY reasoning, which *is* documented
 
@@ -1198,7 +1457,7 @@ Four distinct arguments exist for the CC BY choice, and they are worth separatin
 
 **Alignment, not compliance.***"The Creative Commons licence aligns with our zero-lock-in principle. We are already committed to zero lock-in and open standards. A project released entirely under CC BY 4.0, using open source tools, with no proprietary components — this is the natural extension of our existing values."*
 
-**It is a hard rule, not a preference.** Rule two of the corpus discipline is a licence footer at the bottom of every document, and every day-index brief closes with it. That is what produced 1,100+ consistent footers — **a rule, mechanically applied**, which is why the CC0 divergence stands out as much as it does.
+**It is a hard rule, not a preference.** Rule two of the writing discipline is a licence footer at the bottom of every document, and every day-index brief closes with it. That is what produced 1,100+ consistent footers — **a rule, mechanically applied**, which is why the CC0 divergence stands out as much as it does.
 
 **BY versus BY-SA was actively considered, and BY won.** The question is recorded — *"CC BY-SA 4.0 or CC BY 4.0 for the licence? BY-SA encourages derivatives to stay open; BY is more permissive"* — and permissive was chosen. That is a real decision, and it sits interestingly against [the survivability argument](../survivability/index.md), which is in effect the claim that **licences are the weakest of the structural protections**. If you believe that, choosing the more permissive licence costs you less than it appears to, because you were never relying on the licence to do the work.
 
@@ -1214,7 +1473,7 @@ This site applies the same rule and states it explicitly, because it quotes the 
 
 > "The line is very simple: **everything is open source**, so you do not even have that conversation. It is a key pillar. It is not for everybody, some investors will not like it, but you find the ones who do, and it is a good match. You can always commercial-license or relicense everything for a customer who wants it, but the core is all open source. **No part of the company or the ecosystem is not open source.**"
 
-Note the mechanism hidden in the middle of that: *"you can always commercial-license or relicense everything for a customer who wants it."* That is only possible **because a single company holds the copyright** — which is [exactly the structure that fails leg one of our own stress test](../survivability/self-audit.md). The flexibility and the exposure are the same fact viewed from two sides, and it is worth being clear that they cannot be separated.
+Note the mechanism hidden in the middle of that: *"you can always commercial-license or relicense everything for a customer who wants it."* That is only possible **because a single company holds the copyright** — which is [exactly the structure leg one of our own stress test asks about](../survivability/self-audit.md). The flexibility and the exposure are the same fact viewed from two sides, and it is worth being clear that they cannot be separated.
 
 And the commercial hook is explicitly not the code: *"We do not have that lock-in on technology, and that is fundamental. The natural line is a business line, and that is okay: that is when you charge to maintain it. It is the hook, but a hook based on value… The customer's schemas can be closed, a lot of their data is closed, **but our schemas are open**."*
 
@@ -1229,7 +1488,7 @@ Whether the customer subset makes this open core rather than packaging is [a sep
 | **`issues-fs`** and six siblings | `owasp-sbot` | All Apache-2.0. [The org choice is itself a thread →](../owasp/index.md) |
 | **The `osbot-*` / `mgraph-*` family** | PyPI · `owasp-sbot` | Described internally as *"2 years of open source infrastructure"*. **`MGraph-DB` is publicly credited to the OWASP community.** |
 
-> **And the gap underneath all of it.** There is **no document anywhere explaining why any of these was open-sourced**, what the licence decision was for each, or what happened afterwards. Six real published projects and not one retrospective — with one honourable exception, the O2 Platform article, which is written *about* the author rather than by him. [Listed as a gap →](../shipped/index.md)
+> **Next for this page: the retrospectives.** Six published projects, and the story of why each was open-sourced, what the licence decision was, and what happened afterwards is still to be written — the O2 Platform account exists, written about the author rather than by him, and is the model. [On the build order →](../roadmap/index.md#interview)
 
 ### [Why Apache-2.0 rather than MIT](apache-vs-mit.md)
 
@@ -1256,7 +1515,7 @@ PAGE: /practice/apache-vs-mit.html  (markdown twin: /practice/apache-vs-mit.md)
 
 <!-- generated from practice/apache-vs-mit.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/practice/apache-vs-mit.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/practice/apache-vs-mit.html*
 
 > The patent grant, defensive termination, the NOTICE file, and the explicit contribution clause — the four things Apache-2.0 does that MIT does not, the honest costs of each, and when MIT is the better choice.
 
@@ -1266,7 +1525,7 @@ PAGE: /practice/apache-vs-mit.html  (markdown twin: /practice/apache-vs-mit.md)
 
 This page is written fresh. The entire estate is Apache-2.0 and **the reasoning existed nowhere** — no brief, no document, no commit message. For a site about open source that was the most conspicuous unwritten page in the whole commission, so here is the argument, including where it does not hold.
 
-> **Read this as reasoning, not as legal advice.** Nothing here is a lawyer's opinion, and licence choice has consequences that depend on your jurisdiction, your patent position and your corporate structure. What this page can honestly offer is *what the differences are and why they might matter to you*, which is more than the corpus previously offered anyone.
+> **Read this as reasoning, not as legal advice.** Nothing here is a lawyer's opinion, and licence choice has consequences that depend on your jurisdiction, your patent position and your corporate structure. What this page can honestly offer is *what the differences are and why they might matter to you*, which is more than had been written down anywhere before.
 
 ## Start with what is the same
 
@@ -1326,7 +1585,7 @@ A page arguing for one licence that cannot describe when the other wins is advoc
 
 **And CC0 or CC BY for content**, which is a different question entirely — software licences applied to prose produce nonsense, and [the estate's own three-layer split is the subject of the previous page](index.md#reading).
 
-> **What this page is not.** It is not a licence taxonomy, and the site does not yet have one — no worked treatment of copyleft versus permissive, licence compatibility, or where AGPL fits. That is [a stated gap](../shipped/index.md): the [history research](../history/index.md) supplies the ground for it, but the position has to be written. [standards.sgit.ai owns the SPDX machinery](https://standards.sgit.ai); the argument belongs here, and it is not written yet.
+> **What this page is not.** It is not a licence taxonomy, and the site does not yet have one — no worked treatment of copyleft versus permissive, licence compatibility, or where AGPL fits. That is [next on the build order](../roadmap/index.md#taxonomy): the [history research](../history/index.md) supplies the ground for it, and the position is to be written. [standards.sgit.ai owns the SPDX machinery](https://standards.sgit.ai); the argument belongs here, and it is not written yet.
 
 [← Three licences](index.md)[Publish the source →](publish-the-source.md)
 
@@ -1341,7 +1600,7 @@ PAGE: /practice/publish-the-source.html  (markdown twin: /practice/publish-the-s
 
 <!-- generated from practice/publish-the-source.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/practice/publish-the-source.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/practice/publish-the-source.html*
 
 > Every page available as markdown at the same path with the extension swapped, and the links inside the markdown pointing at markdown — the practice, how it was actually built with edge functions, and how this site implements it.
 
@@ -1375,7 +1634,7 @@ That is the real failure mode. Not that your documentation is bad — that **a w
 
 | Rung | What it does | Status here |
 |---|---|---|
-| **Get indexed** | **The real fix**, and the only one that addresses the root cause: agents that can only fetch what a search engine returned need the search engine to have returned it. | **Not yet** — the site is new. Not in our gift on any particular timescale, and [stated as a gap](../shipped/index.md) rather than quietly hoped for. |
+| **Get indexed** | **The real fix**, and the only one that addresses the root cause: agents that can only fetch what a search engine returned need the search engine to have returned it. | **In progress** — the site is new. Not in our gift on any particular timescale, and [on the build order](../roadmap/index.md) rather than quietly hoped for. |
 | **Make `llms.txt` self-sufficient** | **The cheap fix.** If a link inside a document does not count as seen, then a file that is *only* links is the failure mode restated. It has to carry the substance. | **Shipped.**[llms.txt](../llms.txt) states the thesis, the central claim and its mechanism in the file itself. |
 | **Ship `llms-full.txt`** | **Removes link-following entirely.** Every page, one file, one fetch. | **Shipped.**[llms-full.txt](../llms-full.txt), generated from the pages themselves. |
 | **The markdown twin at every URL** | Keeps a traversing agent on the markdown surface once it arrives anywhere. | **Shipped, and enforced.**`validate.js` fails the build if any page lacks a twin, and CI regenerates and fails if a committed twin is stale. |
@@ -1404,7 +1663,7 @@ That is a genuinely radical openness claim and it is barely stated anywhere publ
 
 This site ships part of it and should be precise about which part. **The source materials are published verbatim** — [the briefs this site was built from are in the repository](../documents/index.md), in full, as the source of truth for anything the pages summarise. The evidence trail is partial: [every number carries its source, date and caveat, and the unverifiable ones are listed as unpublished](../history/numbers.md). **The workflow provenance and the prompts are not published**, and claiming otherwise would be exactly the kind of thing this page argues against.
 
-> **The honest cost of this practice.** The corpus lists it as a tension in its own words: *"Publishing security reviews — it is unusually transparent and **it publishes your own weaknesses to an audience that includes people looking for them**."* That is real, it is the argument against everything on this page, and it is disclosed rather than glossed. It is also the reason the transparency is worth anything: [a self-audit that could not fail would not be evidence of anything](../survivability/self-audit.md).
+> **The cost of this practice, in the author's own words.** He lists it as a tension: *"Publishing security reviews — it is unusually transparent and **it publishes your own weaknesses to an audience that includes people looking for them**."* That is real, it is the argument against everything on this page, and it is disclosed rather than glossed. It is also the reason the transparency is worth anything: [a self-audit that could not fail would not be evidence of anything](../survivability/self-audit.md).
 
 ## One place the openness stops, and why
 
@@ -1425,9 +1684,9 @@ PAGE: /agents/index.html  (markdown twin: /agents/index.md)
 
 <!-- generated from agents/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/agents/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/agents/index.html*
 
-> Code-reading as the appreciating scarce asset, a dated contradiction about the junior pipeline published rather than resolved, and four theses that follow from the corpus and are written nowhere — including licence compliance at machine speed.
+> Code-reading as the appreciating scarce asset, two dated positions on the junior pipeline both published, and four theses that follow from the author's writing and are next to be written — including licence compliance at machine speed.
 
 ---
 
@@ -1441,15 +1700,15 @@ The argument opens by refusing its own easy version, which is why it is worth re
 
 > "Before AI agents started writing code, you could argue that **90% of the code running in production was not being read by anyone**… So let us not pretend that 'nobody reads the code anymore' is a new problem. **It is an old problem, accelerated.**"
 
-And the passage underneath it, which is the best-written thing in the corpus on this subject:
+And the passage underneath it, which is the best-written thing the author has published on this subject:
 
 > "I would argue that this narrative has caused more damage than people admit… **Applications with 2,000 dependencies. CI pipelines that download half the internet. Layers of abstraction where nobody on the team understands what is happening below their layer.** The answer was never 'stop abstracting.' The answer was '**someone still needs to understand what is underneath.**' Linus Torvalds reads C code."
 
 The three-phase answer maps onto [the Wardley teams](../views/villagers.md): *"Explorers: agents read it (scans, checks, basic quality)… Villagers: mid-level developers read it… Town Planners: senior developers really read it."* Which is a coherent structure — and it depends entirely on the middle tier continuing to exist.
 
-## The dated contradiction, published rather than resolved
+## Two dated positions on the junior pipeline, both published
 
-This is the second place the corpus argues with itself in writing, with dates. Like [the open-core contradiction](../views/open-core.md), it is more valuable published than tidied.
+This is the second place the author's position moved between two dated documents. Like [the open-core question](../views/open-core.md), it is more valuable published as two dates than tidied into one.
 
 | When | The position |
 |---|---|
@@ -1463,7 +1722,7 @@ Four months, opposite directions. The March position is a plausible theory about
 
 ## Agents currently add maintenance load
 
-The corpus reached this before the evidence arrived, which is the strongest form of a prediction:
+The author wrote this down before the evidence arrived, which is the strongest form of a prediction:
 
 > "**AI slop** for low-quality, auto-generated pull requests that flood maintainer queues without adding value, increasing the burden on already-stretched maintainers. So AI is, for now, **adding maintenance load** rather than only creating maintainable work. **This does not refute the thesis, it sharpens it.**"
 
@@ -1473,7 +1732,7 @@ Independent corroboration, with the caveat it needs: Black Duck's OSSRA 2026 rep
 
 ## Where the economics genuinely do change
 
-Four pieces exist in the corpus and have never been assembled into a claim. Assembled:
+Four pieces exist across the author's writing and had not been assembled into one claim. Assembled:
 
 1. **Agentic mass-customisation replaces professional services.***"you turn the tail around. You use agentic workflows to create mass-customised and supported versions of the product… whoever creates this will be a domain expert in all of them, but the company is unlikely to have a person who understands all those phases."*
 2. **The value margin moves.***"The sweet spot is to operate at that margin where it is profitable for companies to pay you versus doing it themselves. As long as you operate there, you have a valid business model, and **now with agents that is possible in ways it was not before**."*
@@ -1502,7 +1761,7 @@ It was written about **human** authorship and never applied to machine-generated
 
 One substantive passage exists, from a 2025 article: *"European lawmakers and creative industries are discussing mechanisms so that **creators can be remunerated when AI uses their works**… **Open-source projects can lead the way here by openly cataloguing their training sets** and filtering out data that's proprietary or sensitive. Ultimately, an ecosystem where **both models and their training data are open and auditable** is one where users (and regulators) have far more control."*
 
-The argument has moved a long way since then and the corpus has not followed it. The live question is the **OSI's Open Source AI Definition**, which drew heavy criticism, and the fact that **almost no model marketed as "open source AI" meets it** — "open weights" being the accurate term for most of them. That is a licensing argument, it is exactly this site's subject, and it is unwritten.
+The argument has moved a long way since then, and the author's published position has not yet followed it. The live question is the **OSI's Open Source AI Definition**, which drew heavy criticism, and the fact that **almost no model marketed as "open source AI" meets it** — "open weights" being the accurate term for most of them. That is a licensing argument, it is exactly this site's subject, and it is unwritten.
 
 > **A browser vendor is now betting on that distinction, in public.** Mozilla's chief executive **Anthony Enzor-DeMeo**, interviewed by Sabrina Ortiz for [↗ The Deep View](https://www.thedeepview.com/articles/why-mozilla-is-on-a-mission-to-prevent-ai-lock-in) (August 2026), states that Mozilla will *not* build a frontier model and will instead ship **model choice** in Firefox — *"We want to give users access to different things they wouldn't normally have access to when they're kind of confined and locked in."* The stated failure mode being avoided is the search default: one provider becoming everyone's default and the default becoming the market. The bet is placed on **open-weight** models, which is precisely the term this thesis says is the accurate one.
 
@@ -1535,7 +1794,7 @@ PAGE: /funding/index.html  (markdown twin: /funding/index.md)
 
 <!-- generated from funding/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/funding/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/funding/index.html*
 
 > Market forces and supply-chain labelling, a maintainer platform, and sovereignty bounties that fund the exit rather than the supply. None was costed, none piloted, and none compared against the others — until here.
 
@@ -1543,7 +1802,7 @@ PAGE: /funding/index.html  (markdown twin: /funding/index.md)
 
 # Three funding proposals, and a position
 
-The corpus behind this site proposes three answers to the sustainability question and **never compares them**. It also admits the problem: *"the sustainable funding question is unsettled."* Three unreconciled proposals read as thinking. Three unreconciled proposals presented as a position read as indecision — so this page compares them, says what each one actually fixes, and takes a position.
+The author has proposed three answers to the sustainability question at different times, while being clear that *"the sustainable funding question is unsettled."* This page puts them side by side for the first time, says what each one actually fixes, and takes a position on how they fit together.
 
 > **The framing that makes the whole page work** comes from [the site's central argument](../views/index.md): if open source is a gift, underfunding is a moral failure and the remedy is persuasion. If it is [a strategy whose costs someone always bears](../views/index.md#not-free), underfunding is an **externality** — and externalities have never once been corrected by asking nicely.
 
@@ -1553,7 +1812,7 @@ The corpus behind this site proposes three answers to the sustainability questio
 
 The mechanism: declare your supply chain, calculate your value contribution, pay the projects you depend on proportionally — *"Not as charity. As a cost of doing business. The same way you pay for cloud infrastructure, for office space, for salaries"* — and **publish a rating**.
 
-With the best image in the corpus:
+With the best image in the argument:
 
 > "Just like a restaurant health rating on the door: you can still choose to eat at the restaurant with a bad rating. **But you know.**"
 
@@ -1581,7 +1840,7 @@ And a principle it refuses to trade away: *"It does not pull docs behind paywall
 
 ## 3. Sovereignty bounties — fund the exit, not the supply
 
-The strongest single idea in the corpus, and genuinely unclaimed elsewhere.
+The strongest single idea of the three, and genuinely unclaimed elsewhere.
 
 > "**Every one of those programmes funds the supply side**… None of them funds the **substitution side**… on present evidence nobody is funding it."
 
@@ -1597,7 +1856,7 @@ Two second-order ideas make it more than a grant scheme:
 |---|---|
 | The **substitution problem**, which nothing else addresses and which is the binding constraint on every sovereignty argument ever made. It also converts a political goal into a procurement line item, which is where things actually get funded. | **Nobody has piloted it, no bounty has been sized, and the moral hazard is unaddressed** — a vendor sponsoring its own exit path controls how good that path is. An exit path that technically works and is miserable to walk is worse than none, because it can be pointed at. |
 
-## The comparison the corpus never made
+## The three, side by side
 
 |  | Labelling | Platform | Sovereignty bounties |
 |---|---|---|---|
@@ -1630,7 +1889,7 @@ PAGE: /funding/curl.html  (markdown twin: /funding/curl.md)
 
 <!-- generated from funding/curl.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/funding/curl.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/funding/curl.html*
 
 > On 31 January 2026 curl closed its bug bounty because roughly 20% of 2025 submissions were AI-generated slop against roughly 5% genuine. An externality nobody was paying for destroyed a funding mechanism, with a date and a named casualty.
 
@@ -1671,9 +1930,9 @@ That is the textbook shape of an externality, and it is why the response was str
 
 That was written in March 2026 as an argument. By January 2026 it had a worked example: a project with more goodwill than almost any other in the world, more visible need, and a maintainer with an unusually large platform for asking — and none of it was sufficient. **Goodwill was never the scarce resource. Attention was, and nobody was paying for it.**
 
-### And it confirms a prediction the corpus made before the event
+### And it confirms a prediction the author made before the event
 
-[The corpus wrote down the AI-slop mechanism](../agents/index.md#slop) — *"low-quality, auto-generated pull requests that flood maintainer queues without adding value, increasing the burden on already-stretched maintainers… AI is, for now, **adding maintenance load** rather than only creating maintainable work"* — before curl's announcement. A prediction that names the mechanism and is then confirmed with a date is worth considerably more than a retrospective explanation, and it is the reason [the agents page refuses to claim agents will fix sustainability](../agents/index.md).
+[The author wrote down the AI-slop mechanism](../agents/index.md#slop) — *"low-quality, auto-generated pull requests that flood maintainer queues without adding value, increasing the burden on already-stretched maintainers… AI is, for now, **adding maintenance load** rather than only creating maintainable work"* — before curl's announcement. A prediction that names the mechanism and is then confirmed with a date is worth considerably more than a retrospective explanation, and it is the reason [the agents page refuses to claim agents will fix sustainability](../agents/index.md).
 
 ## What this story does not prove
 
@@ -1709,15 +1968,15 @@ PAGE: /owasp/index.html  (markdown twin: /owasp/index.md)
 
 <!-- generated from owasp/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/owasp/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/owasp/index.html*
 
-> Four summits from 2008 Algarve to 2017 Woburn's 173 sessions, the working-session format and no spectators only participants — all of it written in the third person from public sources. The first-person account is marked pending rather than invented.
+> Four summits from 2008 Algarve to 2017 Woburn's 173 sessions, the working-session format and no spectators only participants — written from the public record, with the first-person account planned and its questions published.
 
 ---
 
-# OWASP, the summits, and the account that is missing
+# OWASP and the summits
 
-> **Read the status of this page first.** Everything below is **real, sourced and checkable** — and almost all of it is written **in the third person, from public sources, about the author of this site**. There is no memoir, no board-tenure dates, no list of projects led, and no founding story for the Open Security Summit. That account is not on the public record and no amount of research produces it. **The summit history ships; the first-person account is marked pending rather than written around.** That is a deliberate choice, and it is the same rule this site applies to [every number it could not source](../history/numbers.md#unverified).
+> **How this page is written.** Everything below is **sourced and checkable**, and it is written from the public record rather than from memory — the summits as they were reported, with the author's role in them as the record states it. The first-person account — board tenure, the projects led, the founding of the Open Security Summit — is [planned, and its questions are published below](#interview), so that when it is written it answers what a reader would actually ask.
 
 ## What the public record establishes
 
@@ -1761,7 +2020,7 @@ Open planning: *"proposed working sessions were gathered on a public wiki and in
 
 *"the concept of an open, working-session-based security summit was embraced outside the strict OWASP umbrella… **The Open Security Summit series explicitly built on the OWASP Summit 2017 model**, using the same 5-day intensive format for broader security topics."*
 
-> **And this is where the record stops.** Why it left the OWASP umbrella, what changed, whether it still runs, and what its current state is — **none of that is documented anywhere**. It is cited three times in the corpus and never described. [Listed as a gap →](../shipped/index.md)
+> **And this is where the public record stops.** Why the series moved outside the OWASP umbrella, what changed, and its current state are part of the first-person account. [The questions are published below →](#interview)
 
 ## The lesson the summits taught, stated in the third person
 
@@ -1795,98 +2054,9 @@ These are published rather than held privately, because the gap is the point. Th
 
 **On the projects.****O2 Platform, MGraph-DB, OSBot, memory_fs, sgit-ai, Issues-FS — why was each one open-sourced?** Did anyone ever contribute? What happened when they did? What would you do differently?
 
-> **The model already exists.** The O2 Platform article — a real retrospective on the 2010–2012 OWASP SAST engine — is the honourable exception in the corpus, and it demonstrates that these accounts can be written when someone chooses to write them. It is also, tellingly, **written about the author rather than by him.**
+> **The model already exists.** The O2 Platform article — a real retrospective on the 2010–2012 OWASP SAST engine — shows what these accounts look like when written. It was written about the author rather than by him; the six retrospectives on [the build order](../roadmap/index.md#interview) are the first-person versions.
 
-[← cURL](../funding/curl.md)[What is missing →](../shipped/index.md)
-
----
-
-*This page is released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).*
-
-
-==============================================================================
-PAGE: /shipped/index.html  (markdown twin: /shipped/index.md)
-==============================================================================
-
-<!-- generated from shipped/index.html by admin/build/gen_markdown.py — do not edit by hand -->
-
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/shipped/index.html*
-
-> No community story by design. No SBOM, despite telling companies to declare their supply chain. Three funding proposals never piloted. A self-audit that fails. And the OWASP account that only one person can write.
-
----
-
-# What is missing
-
-The house rule is that gaps get a page rather than a footnote. This is that page, and it is deliberately unsoftened — including the items where this site tells other people to do something it has not done itself.
-
-## 1. There is no community story, by design
-
-The position is that open source is right ["even if there are no contributions"](../views/index.md#zero-contributions). That is intellectually coherent and commercially sensible, and it has a specific consequence: **there is nothing here about running a project.** No governance model, no experience of reviewing external pull requests, no code of conduct, no story about a contributor relationship going well or badly.
-
-> **And that is a problem for the site's best idea.**[The survivability argument turns on DCO-versus-CLA in practice](../survivability/index.md#cla) — on what it is actually like to run a project with distributed copyright, and what a maintainer gives up by not aggregating it. This site argues that distinction is the most important structural property of an open-source project, **from a position of having never had to live with either side of it.** That is a real limitation on the argument's authority and it is not fixable by writing more.
-
-It also means this site can say nothing credible about the part of open source most people mean when they say the words: the collaboration.
-
-## 2. Telling companies to declare a supply chain we have not declared
-
-[The labelling argument](../funding/index.md#labelling) asks companies to declare their dependencies, calculate their value contribution, and publish it. What exists on this side:
-
-- **One manual licence review**, from February 2026. One dependency line pulled in **17 transitive dependencies**; each was tabulated with its SPDX identifier against the project's Apache-2.0 licence; the verdict was *"No compliance issues. All MIT, BSD-3-Clause, or Apache-2.0."* It also flagged a non-licence concern — a package entering the tree against an architectural rule.
-- **That is it.** One review, once. **No SBOM of the estate. No automated licence scanning. No policy document. No upstream-contribution record.**
-
-**This is the largest inconsistency on the site**, and the honest options were two: state it as an intention with a date, or close it before launch. Closing it is genuinely a day's work — an SBOM of the largest repository plus a CI licence check — and it would convert [the organic-food argument](../funding/index.md#labelling) from a proposal into a demonstration. **It has not been done, and stating it here is the weaker of the two options.**
-
-## 3. The site's best idea fails on its own author
-
-[The self-audit is published in full](../survivability/self-audit.md) and the verdict is **single-party dependent**: three of four legs fail. Single-company copyright, single-company trademark, no named fork capacity, and schemas whose openness is stated but not separately licensed.
-
-It is on this page as well as its own because it belongs in a list of what is missing rather than only in a section where it might read as a display of virtue. **The uncomfortable version:** a project with no external contributors *cannot* have distributed copyright, so the position that makes [gap 1](#community) coherent is the same position that produces this failure. They are one gap wearing two hats.
-
-## 4. Three funding proposals, none costed, none piloted
-
-[The funding page compares them for the first time](../funding/index.md) and takes a position — that they address three different failures and were never competing answers. That is an improvement on presenting three options, and it is still **an argument rather than evidence**.
-
-None has been costed. None has been piloted. The hardest part of the labelling proposal — *how do you calculate a value contribution?* — is unsolved and is the thing that would have to be solved first. And the corpus's own standing admission remains accurate: *"the sustainable funding question is unsettled."*
-
-The [cURL page adds a fourth gap](../funding/curl.md#fix) that none of the three addresses: **nothing funds triage.**
-
-## 5. The strongest human asset is undocumented, and only one person can document it
-
-[The OWASP page ships the summit history and marks the rest pending.](../owasp/index.md) There is no first-person account of the board tenure, no project list, no Open Security Summit founding story, and **no retrospective on any of six published open-source projects** — with one exception, which was written about the author rather than by him.
-
-Thirteen questions are published on that page. They are not researchable; the answers are not on the public record.
-
-## 6. There is no licence taxonomy
-
-[Apache-2.0 versus MIT is now written](../practice/apache-vs-mit.md) — it was the most conspicuous gap and it is closed. What is still absent is the broader treatment: **copyleft versus permissive as a position**, licence compatibility, where AGPL fits, and what to make of the source-available licences that [the relicensing wave produced](../history/index.md#reversals).
-
-The corpus has nothing to build on here — *copyleft* appears zero times with context, AGPL and LGPL zero, GPL twice and both times as litigation precedent. [The history research supplies the ground](../history/index.md); the position has to be written.
-
-## 7. Numbers this site refuses to publish
-
-[Listed in full on the numbers page](../history/numbers.md#unverified): "Linux runs 90% of the cloud" (no primary source, only SEO content citing SEO content), the TOP500 claim (table could not be fetched), Wikipedia's traffic figures (a 2014 number presented as current), GitHub's scale figures (they do not reconcile with each other), and CNCF's 2025 headline (no sample size, no field dates, and 44% of respondents run no AI workloads on Kubernetes at all).
-
-They are named rather than silently omitted, because a reader will meet all of them elsewhere.
-
-## 8. Production gaps
-
-- **No visual assets.** No timeline graphic, no licence-family diagram, no map of the estate, no Wardley map of the open-source landscape. Everything here is prose and tables. That is a real production gap for a site whose [timeline](../history/timeline.md) and [four-leg test](../survivability/stress-test.md) both want a picture.
-- **Not indexed.**[The agent-discovery ladder's top rung](../practice/publish-the-source.md#ladder) — getting indexed, which is the real fix — is unaddressed because the site is new. The other three rungs are shipped and enforced in CI.
-- **No licence-audit gate in CI.** The build validates structure, links, versions, markdown twins and CC BY footers. It does **not** yet run a dependency licence audit, which is the same gap as [gap 2](#supply-chain) viewed from the pipeline.
-
-## The tensions that will not be resolved by working harder
-
-|  |  |
-|---|---|
-| **1** | Arguing that open source is a strategy rather than charity — **while depending on a commons built largely by people who thought it was charity.** The position is defensible and the tension is real. Naming it is stronger than resolving it. |
-| **2** | **The site's best idea would fail on its author**, and does. See [the self-audit](../survivability/self-audit.md). |
-| **3** | **No community, by design** — coherent, commercially sensible, and it silences the site on most of what people mean by open source. |
-| **4** | **Telling companies to declare their supply chain without having declared one.** |
-| **5** | **Correcting other people's numbers while the corpus carries uncorrected ones** — the $8.8tn figure cited without its definition, the OSSRA percentage cited as share-of-code when it is presence-of-any. [Both are fixed here](../history/numbers.md), and the site must not accumulate new ones. |
-| **6** | **Publishing your own weaknesses to an audience that includes people looking for them.** The corpus's own listed tension about publishing security reviews. It applies to this site more than any other — and it is the reason to trust it. |
-
-[← OWASP](../owasp/index.md)[The build order →](../roadmap/index.md)
+[← cURL](../funding/curl.md)[What's next →](../roadmap/index.md)
 
 ---
 
@@ -1899,52 +2069,53 @@ PAGE: /roadmap/index.html  (markdown twin: /roadmap/index.md)
 
 <!-- generated from roadmap/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/roadmap/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/roadmap/index.html*
 
-> What is built, what is next, and eight open questions published without answers — including whether the customer subset is open core, which funding model to back, and whether the estate will change to pass its own stress test.
+> What is built, what is next in order, and eight questions that are still open — including whether the customer subset is open core, which funding model to back, and what the estate will change after its own stress test.
 
 ---
 
-# The build order, published unresolved
+# What's next
 
-The house style is to publish the build order **with its open questions visible** rather than after they are settled. This page is what is built, what is next, and eight questions that do not have answers — several of which are decisions for the project rather than research tasks for the site.
+The build order is published **with its open questions visible**, because a position that hides what it has not yet settled is advertising. This page is what is built, what is next in order, and eight questions that are still open — several of which are decisions for the project rather than research tasks for the site.
 
 ## What is built
 
 | Section | State | Note |
 |---|---|---|
 | [**/views/**](../views/index.md) — the argument | shipped | The position, sovereignty, open core, the villagers. Each with its counter-case attached. |
-| [**/survivability/**](../survivability/index.md) | shipped | The argument, [the stress test as a working tool](../survivability/stress-test.md), and [the self-audit that fails](../survivability/self-audit.md). |
+| [**/survivability/**](../survivability/index.md) | shipped | The argument, [the stress test as a working tool](../survivability/stress-test.md), and [the self-audit, run on the estate itself](../survivability/self-audit.md). |
 | [**/history/**](../history/index.md) | shipped | Six corrections leading, timeline behind them, six success stories, and [the numbers with the unpublishable ones named](../history/numbers.md). |
-| [**/practice/**](../practice/index.md) | partial | The three licences and [Apache-vs-MIT](../practice/apache-vs-mit.md) are written. **The CC0 question is unresolved** — see Q5. |
-| [**/agents/**](../agents/index.md) | partial | The argument ships. **Four theses are named and none is written** — the most original writing still available. |
+| [**/practice/**](../practice/index.md) | partial | The three licences and [Apache-vs-MIT](../practice/apache-vs-mit.md) are written. Aligning the three licence layers is Q5. |
+| [**/agents/**](../agents/index.md) | partial | The argument ships. **Four theses are named and next to be written** — the most original writing still available. |
 | [**/funding/**](../funding/index.md) | shipped | Three proposals compared for the first time, a position taken, and [cURL](../funding/curl.md). |
-| [**/owasp/**](../owasp/index.md) | blocked | Summit history ships. **The first-person account is not researchable** and is marked pending. |
-| [**/shipped/**](../shipped/index.md) | shipped | Unsoftened, including the self-audit and the missing SBOM. |
+| [**/owasp/**](../owasp/index.md) | partial | Summit history ships from the public record. **The first-person account is the author's to write**, and is planned. |
+| [**/founders/**](../founders/index.md) | shipped | [Owning the code, or opening it](../founders/index.md) — the guidance from a strategy session with another founder, released CC BY. |
+| [**/about/**](../about/index.md) | shipped | The author, the companies the strategy runs on, and interests declared. |
 | **Agent surface** | shipped | [Markdown twin at every URL, self-sufficient llms.txt, llms-full.txt](../practice/publish-the-source.md) — all three enforced in CI. |
 
 ## What is next, in order
 
-1. **An SBOM of the estate, and a licence audit in CI.** The single highest-value item on the list: it is roughly a day's work and it converts [the labelling argument](../funding/index.md#labelling) from a proposal into a demonstration. [Currently the site's largest inconsistency.](../shipped/index.md#supply-chain)
+1. **An SBOM of the estate, and a licence audit in CI.** The single highest-value item on the list: it is roughly a day's work and it converts [the labelling argument](../funding/index.md#labelling) from a proposal into a demonstration. The site asks companies to declare their supply chain; this is the estate's own declaration. One manual licence review exists (February 2026 — 17 transitive dependencies, an SPDX table, a clean verdict); the automated, continuous version is the item.
 2. **The four agent-era theses** — [licence compliance at machine speed](../agents/index.md#compliance), [provenance of AI-generated code](../agents/index.md#provenance), [training-data licensing](../agents/index.md#training), and [what CC0 means for machine reuse](../agents/index.md#cc0). Each follows obviously from material that exists; none is written.
-3. **A licence taxonomy.** Copyleft versus permissive as a position, compatibility, where AGPL fits, and how to treat source-available. [The corpus has nothing to build on and the research supplies the ground.](../shipped/index.md#taxonomy)
-4. **The interview** — [thirteen questions, already published](../owasp/index.md#interview). Blocks the OWASP section and the six project retrospectives.
-5. **A trademark policy.**[The clearest unforced gap in the self-audit](../survivability/self-audit.md#change): publishing one costs almost nothing and removes the worst of the ambiguity even while the holder stays the same.
+3. **A licence taxonomy.** Copyleft versus permissive as a position, compatibility, where AGPL fits, and how to treat source-available. [The history research supplies the ground](../history/index.md); the position is next.
+4. **The first-person OWASP account, and six project retrospectives** — [thirteen questions, already published](../owasp/index.md#interview), that only the author can answer. O2 Platform, MGraph-DB, OSBot, memory_fs, sgit-ai, Issues-FS: why each was open-sourced, and what happened next.
+5. **A trademark policy.**[The clearest quick win from the self-audit](../survivability/self-audit.md#change): publishing one costs almost nothing and removes the worst of the ambiguity even while the holder stays the same.
 6. **Separately licensing the schemas.** The cheapest of the self-audit fixes, and there is no good argument against it.
-7. **Visual assets.** A timeline, a licence-family diagram, a map of the estate. [A real production gap.](../shipped/index.md#visual)
+7. **Visual assets.** A timeline, a licence-family diagram, a map of the estate. [The timeline](../history/timeline.md) and [the four-leg test](../survivability/stress-test.md) both want a picture.
 
-## Eight open questions, published without answers
+## Eight open questions
 
 | # | Question | Where it stands |
 |---|---|---|
-| **Q1** | **Is the customer subset open core or packaging?** | [The test is proposed](../views/open-core.md#test): does the customer build contain anything the public repo does not? The corpus contradicts itself five weeks apart and diagnoses itself. **Needs a decision, not more analysis.** |
+| **Q1** | **Is the customer subset open core or packaging?** | [The test is proposed](../views/open-core.md#test): does the customer build contain anything the public repo does not? The June and July positions are both published, and the July document names the tension itself. **Needs a decision, not more analysis.** |
 | **Q2** | **Which funding model?** | [A position is now taken](../funding/index.md#position) — they address three different failures and were never competitors. Still: none costed, none piloted, and the value-contribution calculation unsolved. |
 | **Q3** | **Does the junior pipeline restructure, or break?** | [March and July say opposite things, four months apart.](../agents/index.md#pipeline) What would settle it is a cohort measurement nobody appears to be making. [The villagers argument depends on the July answer.](../views/villagers.md) |
 | **Q4** | **Would the estate change to pass its own stress test?** | [Leg by leg, with what each fix requires.](../survivability/self-audit.md#change) The honest answer on leg one may be *"no, and here is why that is an accepted risk"* — still publishable, and better than silence. |
-| **Q5** | **Was CC0 on the articles deliberate?** | [Two readings, both coherent, and the site refuses to pick one on the author's behalf.](../practice/index.md#reading) One sentence from him settles it. **Blocks the practice section from being complete.** |
+| **Q5** | **Was CC0 on the articles deliberate?** | [Two readings, both coherent](../practice/index.md#reading), and one sentence from the author settles which was intended. Either answer is publishable. |
 | **Q6** | **Do agents help or harm open-source sustainability?** | Current evidence says harm — [cURL's bounty closed 31 Jan 2026](../funding/curl.md), vulnerabilities reported up 107%. **Is that a transition cost or the steady state?** Nobody knows, and [this site declines to claim the optimistic answer](../agents/index.md#audience). |
-| **Q7** | **Is "open source AI" coherent without training data?** | The OSI's definition exists and drew heavy criticism; almost no model marketed as open source meets it. [The corpus has one 2025 paragraph and has not followed the argument since.](../agents/index.md#training) |
-| **Q8** | **What does this site owe a community it does not have?** | [The position is coherent and it leaves the site silent on governance, review and codes of conduct — despite the survivability argument turning on exactly that.](../shipped/index.md#community) |
+| **Q7** | **Is "open source AI" coherent without training data?** | The OSI's definition exists and drew heavy criticism; almost no model marketed as open source meets it. [The author's 2025 position, and a browser vendor now betting on the open-weight side of the line.](../agents/index.md#training) |
+| **Q8** | **What does this site owe a community it does not have?** | [The position that open source is right even with zero contributions](../views/index.md#zero-contributions) is coherent — and it means governance, review and codes of conduct are not yet written about here, despite [the survivability argument turning on DCO-versus-CLA in practice](../survivability/index.md#cla). The next contributor relationship is where that page gets written. |
 
 ## Where this site stops
 
@@ -1958,7 +2129,7 @@ Several arguments here sit on a boundary with a sibling site, and the rule is **
 | [pki.sgit.ai](https://pki.sgit.ai) | Keys, signatures, the registry design | [Provenance of AI-generated code](../agents/index.md#provenance) — they hold the signing machinery, the licensing argument belongs here. |
 | [sgit.ai](https://sgit.ai) | The parent project and the vault layer | Should link *here* for the licence and sovereignty argument. |
 
-[← What is missing](../shipped/index.md)[The documents →](../documents/index.md)
+[← OWASP](../owasp/index.md)[The documents →](../documents/index.md)
 
 ---
 
@@ -1971,7 +2142,7 @@ PAGE: /documents/index.html  (markdown twin: /documents/index.md)
 
 <!-- generated from documents/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/documents/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/documents/index.html*
 
 > The commissioning brief pack this site was built from, published whole and unedited: nine briefs, an 18,000-word history research document, and a 55-row source manifest. The raw markdown is the source of truth.
 
@@ -1987,22 +2158,22 @@ A site that argues you should [publish the source next to the render](../practic
 
 | Document | What it holds | Where it landed |
 |---|---|---|
-| [**00 — The brief**](../briefs/00__brief.md) | The commission, the honest split across the three asks, the thesis, the five pages only this author can write, the two dated self-contradictions, and the build order. | [Front page](../index.md), [build order](../roadmap/index.md) |
+| [**00 — The brief**](../briefs/00__brief.md) | The commission, the honest split across the three asks, the thesis, the five pages only this author can write, the two dated changes of position, and the build order. | [Front page](../index.md), [build order](../roadmap/index.md) |
 | [**01 — Concepts index**](../briefs/01__concepts-index.md) | All 56 concepts with verbatim quotes, paths and dates, classified as widely-held, personal position, or original argument. **24 originals.** | [The position](../views/index.md) |
 | [**02 — The practice**](../briefs/02__practice.md) | The three-licence estate, the CC0 discovery, publish-the-source-next-to-the-render, the read-key discipline, and the compliance gap. | [Practice](../practice/index.md), [publish the source](../practice/publish-the-source.md) |
 | [**03 — The history, and how to use it**](../briefs/03__history-and-success-stories.md) | The editorial guidance: lead with corrections not a timeline, pick six success stories not fourteen, and the numbers to handle carefully. | [History](../history/index.md) |
 | [**04 — The arguments**](../briefs/04__the-arguments.md) | Survivability, the stress test, open core, funding, sovereignty, the villagers — with the counter-case for each. | [Survivability](../survivability/index.md), [funding](../funding/index.md), [views](../views/index.md) |
-| [**05 — Agents and open source**](../briefs/05__agents-and-open-source.md) | Code-reading as the scarce asset, the March/July contradiction, and **four theses that are named nowhere and written nowhere.** | [Agents](../agents/index.md) |
+| [**05 — Agents and open source**](../briefs/05__agents-and-open-source.md) | Code-reading as the scarce asset, the March/July change of position, and **four theses that are named nowhere and written nowhere.** | [Agents](../agents/index.md) |
 | [**06 — OWASP and the summits**](../briefs/06__owasp-and-the-summits.md) | The OWASP thread, four summits, and the interview that has to happen — thirteen questions ready. | [OWASP](../owasp/index.md) |
 | [**07 — Architecture and boundaries**](../briefs/07__site-architecture-and-boundaries.md) | The house pattern, the quoting table, do-not-publish, and the network boundaries between sibling sites. | [Boundaries](../roadmap/index.md#boundaries), and this site's structure |
-| [**08 — Gaps and open questions**](../briefs/08__gaps-and-open-questions.md) | Ten build-fresh items, eight open questions, eight honest tensions. | [What is missing](../shipped/index.md), [open questions](../roadmap/index.md#open) |
+| [**08 — Gaps and open questions**](../briefs/08__gaps-and-open-questions.md) | Ten build-fresh items, eight open questions, eight honest tensions. | [What's next](../roadmap/index.md), [open questions](../roadmap/index.md#open) |
 | [**09 — Source manifest**](../briefs/09__source-manifest.csv) | 55 rows: every source tiered 0–3 with its proposed page and publishability. Every path verified on disk. | Provenance for the whole pack |
 
 ## The history research
 
 |  |  |
 |---|---|
-| [**research — the history, from scratch**](../briefs/research__history-and-success-stories.md) ~18,000 words · compiled 24 August 2026 | The single largest document behind this site, and the reason [the history section exists at all](../history/index.md): the corpus contained **no history of open source**, so one was researched. A sourced timeline 1955→2026, fourteen success stories, two instructive failures, an evidence table, seven both-sides arguments, seventeen corrected myths, and a source list that separates what was fetched from what was only search-derived. **It reports its fetch failures inline rather than working around them**, and marks several facts as not verified. [Those are listed on this site as unpublished](../history/numbers.md#unverified) rather than quietly promoted to established. |
+| [**research — the history, from scratch**](../briefs/research__history-and-success-stories.md) ~18,000 words · compiled 24 August 2026 | The single largest document behind this site, and the reason [the history section exists at all](../history/index.md): the author's writing contained **no history of open source**, so one was researched. A sourced timeline 1955→2026, fourteen success stories, two instructive failures, an evidence table, seven both-sides arguments, seventeen corrected myths, and a source list that separates what was fetched from what was only search-derived. **It reports its fetch failures inline rather than working around them**, and marks several facts as not verified. [Those are listed on this site as unpublished](../history/numbers.md#unverified) rather than quietly promoted to established. |
 
 ## The pack's own front matter
 
@@ -2018,13 +2189,13 @@ Publishing the instructions makes the divergences checkable, so they are stated 
 | **"Resolve the licensing inconsistency *before* writing a word"** — it is described as blocking the practice section. | **Not resolved.**[Both readings are published and neither is picked.](../practice/index.md#reading) Retrospectively declaring an intention on the author's behalf would be precisely the tidying this site argues against, and only he can settle it. The section shipped with the question open and [logged as Q5](../roadmap/index.md#open). |
 | **"Copy `pki.sgit.ai`. Add the `/llms-full.txt` it lacks."** | **Done, and extended.** Same CI pipeline (validate → tag → deploy), same chrome tooling. `llms-full.txt` ships, and so does [a markdown twin at every URL](../practice/publish-the-source.md#ladder) — generated, and **enforced by the build** rather than maintained by hand. |
 | **"Ship the stress test as a form or checklist, not an essay."** | **Done** — [it runs in the browser](../survivability/stress-test.md), keeps your answers locally, and exports a markdown summary. Nothing is sent anywhere. |
-| **"Ship `/practice/` with an SBOM, or state the gap with a date."** | **Stated as a gap, without a date** — which the brief itself calls the weaker of the two options. [It is named as the site's largest inconsistency](../shipped/index.md#supply-chain) and is [first on the build order](../roadmap/index.md#next). |
+| **"Ship `/practice/` with an SBOM, or state the gap with a date."** | **Stated as a gap, without a date** — which the brief itself calls the weaker of the two options. It is [first on the build order](../roadmap/index.md#supply-chain). |
 | **Publish market figures from the villagers brief.** | **Declined.** The brief flags them as loosely attributed and notes that much of what circulates is vendor commentary recycling a smaller set of studies. [They are omitted, and the omission is stated on the page.](../views/villagers.md#numbers) |
 | **Do not publish a marked-unverified fact as established.** | **Followed.**[The unverifiable claims have their own section](../history/numbers.md#unverified), naming what was not established and why, rather than being silently dropped. |
 
 > **On quoting other people's material.** This site quotes the open-source world at length, under the rules in the pack's licence file: Wikipedia material is CC BY-SA and is **quoted with attribution rather than adapted**; project documentation is quoted briefly and never mirrored; **vendor and analyst reports are cited by number, source, date and caveat, and their charts are never reproduced**. Naming projects, foundations, licences and the public authors of public work is fine and necessary. [Running the stress test on a named commercial competitor and publishing a scorecard is not](../survivability/stress-test.md#notascorecard) — we ship the test and let readers run it.
 
-[← The build order](../roadmap/index.md)[Where we lose →](../about/participant.md)
+[← The build order](../roadmap/index.md)[About the author →](../about/index.md)
 
 ---
 
@@ -2032,71 +2203,51 @@ Publishing the instructions makes the divergences checkable, so they are stated 
 
 
 ==============================================================================
-PAGE: /about/participant.html  (markdown twin: /about/participant.md)
+PAGE: /about/index.html  (markdown twin: /about/index.md)
 ==============================================================================
 
-<!-- generated from about/participant.html by admin/build/gen_markdown.py — do not edit by hand -->
+<!-- generated from about/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/about/participant.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/about/index.html*
 
-> This site is published by a company with a commercial interest in the argument it makes, and which fails its own stress test. The disclosure, what it means for how to read each section, and where our own approach loses.
+> Dinis Cruz — founder of The Cyber Boardroom, MyFeeds.ai, Akeia.ai and the sgit.ai network; former OWASP Board member and organiser of the OWASP Summits; creator of the O2 Platform. This site is the open-source strategy those companies run on, written from the experience of running it — with the author's interests declared.
 
 ---
 
-# Where we lose
+# Dinis Cruz
 
-This site is published by the sgit project — a company that **runs entirely on the model it is arguing for, sells services built on it, and would benefit commercially if you agreed**. That is a participant publishing an argument about its own market, and it should change how you read this. So here is what to discount, and where our own approach is worse than the alternatives.
+This site is my position on open source — what it is for, how to practise it, and the history that supports it. It is written from the experience of building, open-sourcing and running security software and companies, and it is **the strategy those companies actually run on**: everything they ship is open source, and so are their investor materials.
 
-## The interest, stated plainly
+## The record
 
-- The estate is entirely open source — [Apache-2.0 on the code, CC BY 4.0 on the documents, CC0 on the published articles](../practice/index.md). An argument that open source is a winning strategy is an argument that our strategy is winning.
-- The commercial model is [selling maintenance, quality and certification rather than the code](../views/index.md#not-the-moat). [The villagers argument is a description of a market we intend to be in.](../views/villagers.md)
-- [The survivability argument](../survivability/index.md) is a reason to prefer structurally-open vendors. We are one — while [failing three of its four legs ourselves](../survivability/self-audit.md).
-
-## How much to discount, section by section
-
-The discipline applies unevenly, and pretending otherwise would itself be a rhetorical move. So:
-
-| Section | How much our interest should worry you |
+| Role | What it involved |
 |---|---|
-| [**The history**](../history/index.md) | **Very little.** These claims are externally verifiable and cited, and several of them *cut against* the romantic story that would flatter the argument. If we had wanted a convenient history we would not have written [the one where the movement's founding case study is a six-year near-failure](../history/index.md#netscape). Check it; it does not depend on trusting us. |
-| [**The numbers**](../history/numbers.md) | **Very little**, and the [refusals list](../history/numbers.md#unverified) is the reason: the numbers we decline to publish would have helped us. "Linux runs 90% of the cloud" is a great line for a site like this one, and it has no source. |
-| [**The stress test**](../survivability/stress-test.md) | **Some — and it is structurally mitigated.** The four legs are answerable from public artefacts, so the tool works without us and cannot be tuned in our favour. [We deliberately do not publish verdicts on named competitors](../survivability/stress-test.md#notascorecard), because that would convert a diagnostic into a weapon held by an interested party. |
-| [**The argument**](../views/index.md) | **A lot.** This is where our interest is most direct, and it is why **every argument on this site carries its counter-case** — not as balance for its own sake, but because an argument published by an interested party with no visible objections is advertising. |
-| [**Funding**](../funding/index.md) | **A lot**, and in a specific direction: we would benefit from a world in which companies pay third parties to maintain their open-source dependencies. [The position taken is one we would profit from.](../funding/index.md#position) |
-| [**The self-audit**](../survivability/self-audit.md) | **Read it as the test of everything else.** If we would not run our own tool on ourselves, nothing above is worth much. |
+| **Founder, [sgit.ai](https://sgit.ai)** | Encrypted vaults with git semantics — clone, commit, branch and merge files encrypted before they leave your machine — under Apache-2.0, and the [network of nineteen sites](https://sgit.ai/network/index.html) of which this is one. Each site publishes its argument before its implementation, so the commitments are checkable. |
+| **Founder, [MyFeeds.ai](https://investor.myfeeds.ai/)** | Role-aware cybersecurity briefings built on semantic knowledge graphs — CISO, engineer and board views of the same news, with source attribution. **100% open source, serverless, no vendor lock-in.** The seed pitch, use of funds and unit economics are [published in the open](https://investor.myfeeds.ai/). |
+| **Founder, [The Cyber Boardroom](https://thecyberboardroom.com)** | An AI-powered platform for the conversation between technical security teams and the board — bridging the two with knowledge-graph technology. Apache-2.0, with the community edition, the website and the automation in public repositories. |
+| **Founder, [Akeia.ai](https://akeia.ai)** | Real-time analysis and refinement of web content for healthier digital workplaces. |
+| **Former OWASP Board member** | And organiser of the OWASP Summits — [Lisbon 2011 and Woburn 2017](../owasp/index.md#summits), the working-session format with *"no spectators, only participants"* that the Open Security Summit series went on to build on. Current open-source work still ships under the `owasp-sbot` organisation, with `MGraph-DB` publicly credited to the OWASP community. |
+| **Creator, the O2 Platform** | The OWASP static-analysis engine of 2010–2012, and the first of a line of open-source tooling that continues in the `osbot-*` and `mgraph-*` families, `memory_fs`, `Issues-FS` and `sgit-ai` — [all Apache-2.0, all on PyPI](../practice/index.md#published). |
 
-## Where our own approach loses
+## Built in the open, including the parts most companies keep closed
 
-Not caveats — places where a reader would be right to choose differently.
+The argument on this site is that [open source is a strategy rather than a charity](../views/index.md), and the strongest evidence I can offer for it is that I run companies on it. That extends past the code:
 
-### We fail our own stress test, and cannot fully fix it
+- **The code** is Apache-2.0. **The working documents** — roughly 1,100 of them — are CC BY 4.0. **The published essays** at [docs.diniscruz.ai](https://docs.diniscruz.ai) are CC0, public domain. [The three layers, and what each licence is for →](../practice/index.md)
+- **The investor materials are public.**[MyFeeds.ai's investor relations site](https://investor.myfeeds.ai/), its [source repository](https://github.com/the-cyber-boardroom/MyFeeds-AI__Investor_Relations), and [The Cyber Boardroom's investment repository](https://github.com/the-cyber-boardroom/cbr-investment) are on GitHub rather than behind a data room. If technology is not the moat, neither is the pitch deck.
+- **This site's own source** — every page as markdown, the build tooling, the briefs it was written from — is [in the repository](https://github.com/SGit-AI/SGit-AI__Website__Open-Source), and the estate is run through [its own stress test](../survivability/self-audit.md) with the result published.
+- **The advice is published too.**[Owning the code, or opening it](../founders/index.md) is the reasoning from a strategy session with another founder, released CC BY so that it applies to every founder asking the same question.
 
-[Three of four legs fail.](../survivability/self-audit.md) Single-company copyright, single-company trademark, no named fork capacity. And the uncomfortable structural point: **a project with no external contributors cannot have distributed copyright**, so the position that makes our approach coherent is the same one that produces the failure. [They are one gap wearing two hats](../shipped/index.md#self-audit), and no amount of good intent changes it.
+## Interests declared
 
-### We argue for a discipline we have not practised
+I run companies whose strategy this is, and which sell maintenance, quality and certification rather than code — [the market this site describes](../views/villagers.md) is one I intend to be in. Read the argument knowing that. Two things are built in to keep it honest:
 
-The survivability argument turns on [DCO versus CLA in practice](../survivability/index.md#cla) — and [we have never run a project with external contributors under either](../shipped/index.md#community). We are making a confident structural claim from outside the experience it describes. Someone who has maintained a large distributed-copyright project for a decade knows things about this that we do not.
+- **The history is checkable without trusting me.** Every claim in [the six corrections](../history/index.md) and [the timeline](../history/timeline.md) carries its source and date, and several of them cut against the story that would flatter the argument. [The numbers this site declines to publish](../history/numbers.md) are the ones that would have helped it.
+- **The tool works without me.**[The stress test](../survivability/stress-test.md) is answerable from public artefacts and runs entirely in your browser; nothing is sent anywhere. And rather than publish verdicts on named competitors, [it is run on my own estate](../survivability/self-audit.md), in public, with what each leg would take to change.
 
-### We tell companies to declare a supply chain we have not declared
+## Reach me, or correct me
 
-[One manual licence review, from February 2026. No SBOM, no automated scanning, no policy, no upstream-contribution record.](../shipped/index.md#supply-chain) This is the plainest inconsistency on the site. It is a day's work, and it is not done.
-
-### A commons built by people who disagreed with us
-
-We depend on software written largely by people who thought open source *was* about the community and about giving back — the framing [this site opens by rejecting](../views/index.md). The strategic argument may well be the better description of why the model works. It is not why most of the code we run got written, and there is something owed there that a strategy argument has no vocabulary for.
-
-### The site is new, and the argument is not yet load-bearing anywhere
-
-None of the three funding proposals has been piloted. The stress test has not been run at scale by anyone but us. [The villagers market](../views/villagers.md) is a forecast. This is a site of arguments, published early, with [its open questions visible](../roadmap/index.md#open) — which is the honest state of it.
-
-## Why publish this at all
-
-Because the alternative is worse, and because the corpus already names the cost in its own words: *"Publishing security reviews — it is unusually transparent and **it publishes your own weaknesses to an audience that includes people looking for them**."*
-
-That is a real cost, paid in public. It is also the only thing that makes the transparency claim worth anything: **a disclosure that discloses nothing inconvenient is a marketing asset, and a self-audit that could not fail is not evidence.** The parts of this site most likely to be quoted against us — the self-audit, the missing SBOM, the community gap — are the parts that make the rest checkable.
-
-> **If you find something wrong here, we would rather know.** The repository is public, the [source briefs are published verbatim](../documents/index.md), and [the comms board](../admin/comms.md) is where corrections and requests are tracked in the open.
+[↗ LinkedIn](https://www.linkedin.com/in/diniscruz) is the fastest route. Corrections and requests for this site are tracked in the open on [the comms board](../admin/comms.md), and [the repository](https://github.com/SGit-AI/SGit-AI__Website__Open-Source) takes issues and pull requests. If you find something wrong here, I would rather know.
 
 [← The documents](../documents/index.md)[Admin & engineering →](../admin/index.md)
 
@@ -2111,7 +2262,7 @@ PAGE: /admin/index.html  (markdown twin: /admin/index.md)
 
 <!-- generated from admin/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/admin/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/admin/index.html*
 
 > The build tooling, the CI pipeline (validate → auto-tag → deploy), the release process, and the markdown-twin generator that makes the site traversable by agents. Published, because a site arguing you should publish the source should publish its own.
 
@@ -2165,7 +2316,7 @@ Same order as the sibling sites — **validate → tag → publish** — because
 
 Because [the argument of this site is that you should publish the source next to the render](../practice/publish-the-source.md), and a site making that argument with an opaque build would be making it badly. The repository is public, the generators are readable, and [the briefs the content was written from are published verbatim](../documents/index.md) — including [the instructions this site did not follow](../documents/index.md#divergences).
 
-[← Where we lose](../about/participant.md)[Comms →](comms.md)
+[← About the author](../about/index.md)[Comms →](comms.md)
 
 ---
 
@@ -2178,15 +2329,15 @@ PAGE: /admin/comms.html  (markdown twin: /admin/comms.md)
 
 <!-- generated from admin/comms.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/admin/comms.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/admin/comms.html*
 
-> The open board: what this site needs from its author that no amount of research supplies, and the tasks it is carrying. Numbered, dated, and published rather than held privately.
+> The open board: the items only the author can supply, and the tasks the site is carrying. Numbered, dated, and published rather than held privately.
 
 ---
 
 # Comms: tasks & requests
 
-The open board. **Needs (N)** are things only the author can supply — no amount of research produces them. **Tasks (T)** are work this site can do. Both are published rather than held privately, because [publishing the build order unresolved](../roadmap/index.md) is the house rule and a blocked page should say who is blocking it.
+The open board. **Needs (N)** are items only the author can supply — first-person accounts and decisions. **Tasks (T)** are work the site can do. Both are published rather than held privately, because [publishing the build order with its open questions visible](../roadmap/index.md) is the house rule.
 
 ## Needs — only the author can answer these
 
@@ -2196,8 +2347,8 @@ The open board. **Needs (N)** are things only the author can supply — no amoun
 | **N2** | **The OWASP interview** — [thirteen questions, published in full](../owasp/index.md#interview). Board tenure and what the role involved, projects led, whether `owasp-sbot` hosting was deliberate, why 2017 left the OWASP umbrella, and whether the Open Security Summit still runs. | [The whole OWASP section](../owasp/index.md), which currently ships the summit history in the third person and marks the rest pending. | open |
 | **N3** | **Why was each project open-sourced?** O2 Platform, MGraph-DB, OSBot, memory_fs, sgit-ai, Issues-FS. **Six published projects, not one retrospective** — the O2 article being the exception, and written about him rather than by him. | A retrospectives section, and it would make [the practice page](../practice/index.md#published) something other than a list of packages. | open |
 | **N4** | **Q1: is the customer subset open core or packaging?**[The test is proposed](../views/open-core.md#test) — does the customer build contain anything the public repo does not? — and the answer is a fact about the product that only the project knows. | [The open-core page](../views/open-core.md) can then state a verdict rather than a test. | open |
-| **N5** | **Q4: will the estate change to pass its own stress test?**[Leg by leg, with what each fix requires.](../survivability/self-audit.md#change)*"No, and here is why that is an accepted risk"* is a publishable answer. | [The self-audit](../survivability/self-audit.md), which currently records the failure and cannot record an intent. | open |
-| **N6** | **Confirmation of the summit facts** restated here from the corpus's summit history — attendance figures, the 2008 travel funding, the 173 sessions at Woburn. | Removes the last third-hand layer from [the summit section](../owasp/index.md#summits). | open |
+| **N5** | **Q4: will the estate change to pass its own stress test?**[Leg by leg, with what each fix requires.](../survivability/self-audit.md#change)*"No, and here is why that is an accepted risk"* is a publishable answer. | [The self-audit](../survivability/self-audit.md), which records the result and can then record the plan. | open |
+| **N6** | **Confirmation of the summit facts** restated here from the author's own summit history — attendance figures, the 2008 travel funding, the 173 sessions at Woburn. | Removes the last third-hand layer from [the summit section](../owasp/index.md#summits). | open |
 
 ## Tasks — work this site can do
 
@@ -2206,14 +2357,14 @@ The open board. **Needs (N)** are things only the author can supply — no amoun
 | **T1** | **CI pipeline and auto-tagging** — validate → tag → deploy, matching the sibling sites. [Documented →](index.md#pipeline) | done |
 | **T2** | **The agent-discovery ladder** — markdown twin at every URL, self-sufficient `llms.txt`, `llms-full.txt`, all generated and **enforced by the build**. [Read →](../practice/publish-the-source.md#ladder) | done |
 | **T3** | **The stress test as a working tool** rather than an essay — four legs, client-side, exportable. [Run it →](../survivability/stress-test.md) | done |
-| **T4** | **The self-audit, published including the failures.**[Read →](../survivability/self-audit.md) | done |
+| **T4** | **The self-audit, published in full.**[Read →](../survivability/self-audit.md) | done |
 | **T5** | **Why Apache-2.0 rather than MIT** — the most conspicuous unwritten page in the brief. [Read →](../practice/apache-vs-mit.md) | done |
-| **T6** | **An SBOM of the estate, plus a licence audit in CI.** Roughly a day's work, and it converts [the labelling argument](../funding/index.md#labelling) from proposal to demonstration. [Currently the site's largest inconsistency.](../shipped/index.md#supply-chain) | next |
+| **T6** | **An SBOM of the estate, plus a licence audit in CI.** Roughly a day's work, and it converts [the labelling argument](../funding/index.md#labelling) from proposal to demonstration. [First on the build order.](../roadmap/index.md#supply-chain) | next |
 | **T7** | **The four agent-era theses** — [named on the agents page, none written](../agents/index.md#unwritten). The most original writing still available. | open |
-| **T8** | **A licence taxonomy** — copyleft vs permissive as a position, compatibility, AGPL, source-available. [The corpus has nothing to build on.](../shipped/index.md#taxonomy) | open |
+| **T8** | **A licence taxonomy** — copyleft vs permissive as a position, compatibility, AGPL, source-available. [The history research supplies the ground.](../roadmap/index.md#taxonomy) | open |
 | **T9** | **A published trademark policy** — [the clearest unforced gap in the self-audit](../survivability/self-audit.md#change), and it costs almost nothing. | open |
 | **T10** | **Separately license the schemas** (CC0 or CC BY), which is the cheapest self-audit fix and has no argument against it. | open |
-| **T11** | **Visual assets** — a timeline, a licence-family diagram, a map of the estate. [A real production gap.](../shipped/index.md#visual) | open |
+| **T11** | **Visual assets** — a timeline, a licence-family diagram, a map of the estate. [On the build order.](../roadmap/index.md#visual) | open |
 | **T12** | **Verify the marked-unverified facts** in the research document — several founding dates and licences are flagged. [Nothing flagged has been published as established.](../history/numbers.md#unverified) | open |
 | **T14** | **Link the sources this site names.**[The HBS paper](../history/numbers.md#88tn) and [the Mozilla interview](../agents/index.md#training) are now linked; **OSSRA, the Stack Overflow survey, the kernel release notes and the Let's Encrypt telemetry are still named without a URL**. A site whose credibility position is that it checks other people's citations should make its own followable — by a reader and by [the agents it says are its primary audience](../agents/index.md#audience). | open |
 | **T13** | **Get indexed** — [the top rung of the ladder, and the real fix](../practice/publish-the-source.md#ladder). The other three rungs are shipped. | open |
@@ -2235,7 +2386,7 @@ PAGE: /admin/versions.html  (markdown twin: /admin/versions.md)
 
 <!-- generated from admin/versions.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/admin/versions.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/admin/versions.html*
 
 > Site release history. Every push to dev is a release, validated then auto-tagged by CI against the version in admin/build/version.txt and the release commit's subject.
 
@@ -2247,9 +2398,10 @@ Every push to `dev` is a release: CI validates the site, verifies the version bu
 
 | Version | Date | What shipped |
 |---|---|---|
-| v0.1.2 | 26 Aug 2026 | **Two external sources cited, where the site had been naming sources without linking them.**[The numbers page](../history/numbers.md#88tn) now links the **HBS AI Institute** summary of working paper 24-038 — the origin of the $8.8tn figure it spends a section correcting — with its authors, its data sources, and the two concentration findings in it that are more useful than the headline. A page whose credibility position is that it checks other people's citations should carry its own. **And [the training-data thesis](../agents/index.md#training) acquires a dated instance.** Mozilla's chief executive, interviewed by **The Deep View** in August 2026, is shipping model choice in Firefox and backing **open-weight** models on lock-in grounds — making this site's standards-and-control argument, in his own words, about models rather than code. Cited with the caveat it needs: it is positioning from an interested party, and it [sharpens Q7](../roadmap/index.md#open) rather than settling it, because open weight is the category the OSI's definition excludes. |
+| v0.2.0 | 6 Sep 2026 | **The site becomes the author's position, written as one.** The first release read as an audit of its own material — a "where this site is weak" section on the front page, a "what is missing" page, a "where we lose" disclosure, a stage pill reading *first draft*, and argument pages that described the author's writing as "the corpus" arguing with itself. That framing undersold work that is, in substance, a founder's strategy backed by a shipping estate. This release keeps every counter-case and every open question, and drops the self-deprecation. **New: [Owning the code, or opening it](../founders/index.md)** — guidance for founders from a strategy session with an early-stage SaaS founder: what copying the code would actually cost an incumbent, four instincts and their counter-arguments, the explorer–villager–town-planner frame, eight steps in order, and what a week of building in the open looks like when it is counted. Released CC BY; attribution Dinis Cruz and Kate Curtis-Evans. It is the first section on the front page and the first group in the nav.**New: [About the author](../about/index.md)** — Dinis Cruz, the companies the strategy runs on (sgit.ai, MyFeeds.ai, The Cyber Boardroom, Akeia.ai), the OWASP record, the tooling lineage from the O2 Platform, and the investor materials published in the open. Interests are declared on the same page, in two paragraphs rather than a discount table. Replaces `about/participant.html`.**Folded: `shipped/index.html` into [What's next](../roadmap/index.md).** The forward-looking content — what is built, what is next in order, eight open questions — was already on the roadmap; the duplicate page that restated it as a list of failings is gone, and every link to it now lands on the corresponding item.**Reworded across the site:** the front page (byline under the hero, founders first, the weakness section replaced by what's next, the author section), the self-audit (a result and a plan rather than "we fail leg one"), the practice page (three layers with a job each, and one alignment question, rather than "an inconsistency nobody had noticed"), open-core and agents (a position that moved between two dates, rather than a contradiction), funding, OWASP, history, numbers, and the footer — which now carries the author line instead of a warning triangle. The markdown twins, `llms.txt` and `llms-full.txt` regenerate from all of it. |
+| v0.1.2 | 6 Sep 2026 | **Two external sources cited, where the site had been naming sources without linking them.**[The numbers page](../history/numbers.md#88tn) now links the **HBS AI Institute** summary of working paper 24-038 — the origin of the $8.8tn figure it spends a section correcting — with its authors, its data sources, and the two concentration findings in it that are more useful than the headline. A page whose credibility position is that it checks other people's citations should carry its own. **And [the training-data thesis](../agents/index.md#training) acquires a dated instance.** Mozilla's chief executive, interviewed by **The Deep View** in August 2026, is shipping model choice in Firefox and backing **open-weight** models on lock-in grounds — making this site's standards-and-control argument, in his own words, about models rather than code. Cited with the caveat it needs: it is positioning from an interested party, and it [sharpens Q7](../roadmap/index.md#open) rather than settling it, because open weight is the category the OSI's definition excludes. |
 | v0.1.1 | 25 Aug 2026 | **The build tooling was never committed.** The repository's stock Python `.gitignore` carries a bare `build/` rule, which silently swallowed the whole of `admin/build/` — `chrome.py`, `gen_markdown.py`, `validate.js` and `version.txt`. Everything passed locally, where the files exist; the first CI run failed at once, on the very first step, because they were not in the checkout. Fixed with the same `!admin/build/` negation the sibling sites carry. Recorded here rather than amended away, because [a site that publishes its own failed audit](../survivability/self-audit.md) does not get to quietly rewrite a bad release out of its history. It is also a small illustration of the pipeline working as intended: **the release that could not be validated never got a tag and was never published.** |
-| v0.1.0 | 25 Aug 2026 | **First release.** The site, built from the commissioning brief pack, which is [published verbatim alongside it](../documents/index.md). **The pipeline first**, matching the sibling sites: validate → auto-tag → deploy, with the version owned by one file and verified against the release commit's subject. Validation additionally enforces the things this site's own argument depends on — **a markdown twin at every URL**, `llms-full.txt` carrying every page, and a CC BY 4.0 footer on every markdown file.**The content:**[the position](../views/index.md) with every argument carrying its counter-case; [survivability](../survivability/index.md) with [the stress test as a working tool](../survivability/stress-test.md) and [a self-audit that fails three of its four legs](../survivability/self-audit.md); [six corrections](../history/index.md) leading the history rather than a timeline; [the three-licence estate](../practice/index.md) and [the Apache-vs-MIT page that existed nowhere](../practice/apache-vs-mit.md); [agents](../agents/index.md); [the three funding proposals compared for the first time](../funding/index.md) and [cURL](../funding/curl.md); [the summit history, with the first-person account marked pending](../owasp/index.md); and [what is missing, unsoftened](../shipped/index.md).**Two things deliberately not done:** the CC0/CC BY licensing question is [published unresolved](../practice/index.md#reading) rather than settled on the author's behalf, and the SBOM the site tells other people to publish [is named as a gap rather than shipped](../shipped/index.md#supply-chain). Both are [recorded as divergences from the brief](../documents/index.md#divergences). |
+| v0.1.0 | 25 Aug 2026 | **First release.** The site, built from the commissioning brief pack, which is [published verbatim alongside it](../documents/index.md). **The pipeline first**, matching the sibling sites: validate → auto-tag → deploy, with the version owned by one file and verified against the release commit's subject. Validation additionally enforces the things this site's own argument depends on — **a markdown twin at every URL**, `llms-full.txt` carrying every page, and a CC BY 4.0 footer on every markdown file.**The content:**[the position](../views/index.md) with every argument carrying its counter-case; [survivability](../survivability/index.md) with [the stress test as a working tool](../survivability/stress-test.md) and [a self-audit run on the estate itself](../survivability/self-audit.md); [six corrections](../history/index.md) leading the history rather than a timeline; [the three-licence estate](../practice/index.md) and [the Apache-vs-MIT page that existed nowhere](../practice/apache-vs-mit.md); [agents](../agents/index.md); [the three funding proposals compared for the first time](../funding/index.md) and [cURL](../funding/curl.md); [the summit history](../owasp/index.md); and the build order with its open questions visible.**Two things deliberately not done:** the CC0/CC BY licensing question is [published unresolved](../practice/index.md#reading) rather than settled on the author's behalf, and the SBOM the site tells other people to publish [is first on the build order rather than shipped](../roadmap/index.md#supply-chain). Both are [recorded as divergences from the brief](../documents/index.md#divergences). |
 
 > **Reading a version number.**`v{release}.{major}.{minor}` — every push to `dev` increments the minor. CI refuses a tag that is not the next minor (or a deliberate major), and refuses one where `version.txt` and the commit subject disagree, so the history above cannot silently skip a release.
 

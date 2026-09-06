@@ -1,14 +1,14 @@
 <!-- generated from views/open-core.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/views/open-core.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/views/open-core.html*
 
-> 18 June: there should be nothing proprietary. 17 July: customers only have a subset of the code that exists in the main repo. Five weeks apart, and the July document diagnoses itself. Here is the test that settles which one it actually is.
+> 18 June: there should be nothing proprietary. 17 July: customers only have a subset of the code that exists in the main repo. Five weeks apart, and the July document names the tension itself. Here is the one-question test that settles which one it actually is.
 
 ---
 
 # Open core, or packaging?
 
-The corpus behind this site argues with itself, in writing, with dates, five weeks apart. It is published here rather than resolved into a tidy position, because a site that shows its own view moving as evidence arrived is worth more than one that only publishes the settled version — and because **the July document diagnoses itself**, which is the interesting part.
+The author's position on this moved between two dated documents, five weeks apart, and both are published here rather than tidied into one — because a site that shows its view moving as commercial pressure arrived is worth more than one that only publishes the settled version, and because **the July document names the tension itself**, which is the interesting part. Then the test that settles it.
 
 ## 18 June — nothing proprietary
 
@@ -57,7 +57,7 @@ The test is deliberately blunt because the failure mode is gradual. Open core ra
 
 Unresolved, and marked as such. The June statement and the July statement are both on the record; the test above is the site's proposal for settling it, and applying it is a decision for the project rather than for this page. [The self-audit is where that decision will have to be made in public](../survivability/self-audit.md), because the same question — *what does the customer actually get, and how does it differ from what is published* — is leg one of a stress test we are running on ourselves.
 
-> **Related and unwritten.** Whether the reconciliation holds depends on something nobody has documented: [why any of the estate's projects was open-sourced](../shipped/index.md). Six published projects, one retrospective, and that one written about the author rather than by him.
+> **Related, and next.** Whether the reconciliation holds in practice is best read against [why each of the estate's projects was open-sourced](../roadmap/index.md#interview) — six published projects, and retrospectives on the build order.
 
 [← Sovereignty](sovereignty.md)[Somebody has to be the villagers →](villagers.md)
 

@@ -1,6 +1,6 @@
 <!-- generated from survivability/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/survivability/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/survivability/index.html*
 
 > Every catalogued relicensing between 2018 and 2024 followed the same legal pattern: a single corporate copyright holder, having aggregated contributor copyright via a CLA, exercised the right to change terms going forward. Distributed-copyright projects could not be moved the same way.
 
@@ -61,11 +61,11 @@ One precision worth keeping: **none of the four went closed source.** They went 
 
 Four legs, all answerable from public artefacts, requiring no cooperation from the vendor. Answer them here and keep the result — nothing is sent anywhere.
 
-### [We run it on ourselves, and fail leg one](self-audit.md)
+### [We run it on our own estate](self-audit.md)
 
 *The self-audit*
 
-A tool whose author will not apply it to themselves is a marketing asset. Here is our own verdict, what would have to change, and whether we intend to change it.
+A tool whose author will not apply it to themselves is a marketing asset. Here is the result on each of the four legs, what changing it would take, and which changes are planned.
 
 ### [Sovereignty, at a different scale](../views/sovereignty.md)
 

@@ -32,6 +32,11 @@ PARENT_TITLE = ("sgit.ai — the parent project: the vault layer and the shipped
 #   · `prefixes` decides the "here" state, so a page that is not itself in the nav still
 #     lights up the group it belongs to.
 NAV = [
+    ("For founders", "founders/index.html", [
+        ("Owning the code, or opening it", "founders/index.html"),
+        ("Why Apache-2.0, not MIT", "practice/apache-vs-mit.html"),
+        ("Run the stress test on a vendor", "survivability/stress-test.html"),
+    ], ("founders/",)),
     ("The argument", "views/index.html", [
         ("The position", "views/index.html"),
         ("Sovereignty", "views/sovereignty.html"),
@@ -60,15 +65,14 @@ NAV = [
         ("cURL", "funding/curl.html"),
         ("OWASP &amp; the summits", "owasp/index.html"),
     ], ("agents/", "funding/", "owasp/")),
-    ("Site", "shipped/index.html", [
-        ("What is missing", "shipped/index.html"),
-        ("Build order", "roadmap/index.html"),
+    ("About", "about/index.html", [
+        ("About the author", "about/index.html"),
+        ("What's next", "roadmap/index.html"),
         ("The documents", "documents/index.html"),
         ("Comms: tasks &amp; requests", "admin/comms.html"),
         ("Release history", "admin/versions.html"),
         ("Admin &amp; engineering", "admin/index.html"),
-        ("Where we lose", "about/participant.html"),
-    ], ("shipped/", "roadmap/", "documents/", "admin/", "about/")),
+    ], ("roadmap/", "documents/", "admin/", "about/")),
 ]
 
 FOOTER = [
@@ -90,13 +94,13 @@ FOOTER = [
         ("The numbers", "history/numbers.html"),
         ("Three licences", "practice/index.html"),
     ]),
-    ("Site", [
-        ("What is missing", "shipped/index.html"),
-        ("Build order", "roadmap/index.html"),
+    ("About", [
+        ("About the author", "about/index.html"),
+        ("For founders", "founders/index.html"),
+        ("What's next", "roadmap/index.html"),
         ("The documents", "documents/index.html"),
         ("Comms: tasks &amp; requests", "admin/comms.html"),
         ("Release history", "admin/versions.html"),
-        ("Where we lose", "about/participant.html"),
         ("llms.txt", "llms.txt"),
         ("llms-full.txt", "llms-full.txt"),
     ]),
@@ -105,14 +109,14 @@ FOOTER = [
 BLURB = ("Open source as a strategy rather than a charity: the position, the practice, and a "
          "history checked against its sources. Part of the <a href=\"https://sgit.ai\" "
          "style=\"display:inline;padding:0\"><b>sgit.ai</b></a> network. All content CC BY 4.0.")
-PARTNOTE = ('⚠ Participant disclosure: published by the sgit project, whose own estate is the '
-            'subject of the <a href="{up}survivability/self-audit.html" '
-            'style="display:inline;padding:0">self-audit</a> — and which fails leg one.')
+AUTHORLINE = ('Written by <a href="{up}about/index.html" style="display:inline;padding:0"><b>Dinis Cruz</b></a> '
+              '— founder of The Cyber Boardroom, MyFeeds.ai and the sgit.ai network; former OWASP Board member. '
+              '<a href="https://www.linkedin.com/in/diniscruz" style="display:inline;padding:0">↗ LinkedIn</a> · '
+              '<a href="{up}about/index.html#interests" style="display:inline;padding:0">interests declared</a>.')
 NETLINE = ('<a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · '
            '<a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · '
            '<a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · '
            '<a href="https://sgit.ai/network/index.html">↗ the network</a>')
-PARTNOTE_SELF = '⚠ Participant disclosure: published by the sgit project. You are on the disclosure page.'
 
 
 def nav_html(rel, up):
@@ -132,7 +136,6 @@ def nav_html(rel, up):
     return (f'<nav class="site"><div class="row">\n'
             f'  <a class="brand" href="{up}index.html">open-source<span>.sgit.ai</span></a>\n'
             f'  <a class="parent" href="{PARENT}" title="{PARENT_TITLE}">↗ part of <b>sgit.ai</b></a>\n'
-            f'  <span class="stage-pill">first draft</span>\n'
             f'  <a class="ver" href="{up}admin/versions.html" title="Site release history">{VERSION}</a>\n'
             f'  <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>\n'
             f'  <div class="nav-items">\n{rows}\n  </div>\n'
@@ -142,7 +145,6 @@ def nav_html(rel, up):
 
 
 def footer_html(rel, up):
-    partnote = PARTNOTE_SELF if rel == "about/participant.html" else PARTNOTE.format(up=up)
     md = rel[:-len("html")] + "md"
     cols = "\n".join(
         "  <div>\n"
@@ -155,7 +157,7 @@ def footer_html(rel, up):
             f'    <div class="brandline">open-source<span>.sgit.ai</span></div>\n'
             f'    <p>{BLURB}</p>\n'
             f'    <p class="netline">{NETLINE}</p>\n'
-            f'    <p class="partnote">{partnote}</p>\n'
+            f'    <p class="authorline">{AUTHORLINE.format(up=up)}</p>\n'
             f'    <p class="verline">site <a href="{up}admin/versions.html">{VERSION}</a> · '
             f'<a href="{up}admin/index.html">engineering</a> · '
             f'<a href="{up}{md}">this page as markdown</a></p>\n'

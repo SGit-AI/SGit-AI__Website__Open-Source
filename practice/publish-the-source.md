@@ -1,6 +1,6 @@
 <!-- generated from practice/publish-the-source.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/practice/publish-the-source.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/practice/publish-the-source.html*
 
 > Every page available as markdown at the same path with the extension swapped, and the links inside the markdown pointing at markdown — the practice, how it was actually built with edge functions, and how this site implements it.
 
@@ -34,7 +34,7 @@ That is the real failure mode. Not that your documentation is bad — that **a w
 
 | Rung | What it does | Status here |
 |---|---|---|
-| **Get indexed** | **The real fix**, and the only one that addresses the root cause: agents that can only fetch what a search engine returned need the search engine to have returned it. | **Not yet** — the site is new. Not in our gift on any particular timescale, and [stated as a gap](../shipped/index.md) rather than quietly hoped for. |
+| **Get indexed** | **The real fix**, and the only one that addresses the root cause: agents that can only fetch what a search engine returned need the search engine to have returned it. | **In progress** — the site is new. Not in our gift on any particular timescale, and [on the build order](../roadmap/index.md) rather than quietly hoped for. |
 | **Make `llms.txt` self-sufficient** | **The cheap fix.** If a link inside a document does not count as seen, then a file that is *only* links is the failure mode restated. It has to carry the substance. | **Shipped.**[llms.txt](../llms.txt) states the thesis, the central claim and its mechanism in the file itself. |
 | **Ship `llms-full.txt`** | **Removes link-following entirely.** Every page, one file, one fetch. | **Shipped.**[llms-full.txt](../llms-full.txt), generated from the pages themselves. |
 | **The markdown twin at every URL** | Keeps a traversing agent on the markdown surface once it arrives anywhere. | **Shipped, and enforced.**`validate.js` fails the build if any page lacks a twin, and CI regenerates and fails if a committed twin is stale. |
@@ -63,7 +63,7 @@ That is a genuinely radical openness claim and it is barely stated anywhere publ
 
 This site ships part of it and should be precise about which part. **The source materials are published verbatim** — [the briefs this site was built from are in the repository](../documents/index.md), in full, as the source of truth for anything the pages summarise. The evidence trail is partial: [every number carries its source, date and caveat, and the unverifiable ones are listed as unpublished](../history/numbers.md). **The workflow provenance and the prompts are not published**, and claiming otherwise would be exactly the kind of thing this page argues against.
 
-> **The honest cost of this practice.** The corpus lists it as a tension in its own words: *"Publishing security reviews — it is unusually transparent and **it publishes your own weaknesses to an audience that includes people looking for them**."* That is real, it is the argument against everything on this page, and it is disclosed rather than glossed. It is also the reason the transparency is worth anything: [a self-audit that could not fail would not be evidence of anything](../survivability/self-audit.md).
+> **The cost of this practice, in the author's own words.** He lists it as a tension: *"Publishing security reviews — it is unusually transparent and **it publishes your own weaknesses to an audience that includes people looking for them**."* That is real, it is the argument against everything on this page, and it is disclosed rather than glossed. It is also the reason the transparency is worth anything: [a self-audit that could not fail would not be evidence of anything](../survivability/self-audit.md).
 
 ## One place the openness stops, and why
 

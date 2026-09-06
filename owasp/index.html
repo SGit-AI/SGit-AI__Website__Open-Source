@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>OWASP and the summits — the history, and the account that is still missing</title>
-<meta name="description" content="Four summits from 2008 Algarve to 2017 Woburn's 173 sessions, the working-session format and no spectators only participants — all of it written in the third person from public sources. The first-person account is marked pending rather than invented.">
+<title>OWASP and the summits</title>
+<meta name="description" content="Four summits from 2008 Algarve to 2017 Woburn's 173 sessions, the working-session format and no spectators only participants — written from the public record, with the first-person account planned and its questions published.">
 <link rel="canonical" href="https://open-source.sgit.ai/owasp/index.html">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="open-source.sgit.ai">
@@ -19,10 +19,17 @@
 <nav class="site"><div class="row">
   <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
   <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
-  <span class="stage-pill">first draft</span>
-  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.2</a>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.2.0</a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
   <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl" href="../founders/index.html">For founders<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../founders/index.html">Owning the code, or opening it</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../survivability/stress-test.html">Run the stress test on a vendor</a>
+      </div>
+    </div>
     <div class="ni ni-has">
       <a class="nl" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
       <div class="sub">
@@ -67,15 +74,14 @@
       </div>
     </div>
     <div class="ni ni-has">
-      <a class="nl" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <a class="nl" href="../about/index.html">About<span class="caret">&#9662;</span></a>
       <div class="sub">
-      <a class="sl" href="../shipped/index.html">What is missing</a>
-      <a class="sl" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../about/index.html">About the author</a>
+      <a class="sl" href="../roadmap/index.html">What's next</a>
       <a class="sl" href="../documents/index.html">The documents</a>
       <a class="sl" href="../admin/comms.html">Comms: tasks &amp; requests</a>
       <a class="sl" href="../admin/versions.html">Release history</a>
       <a class="sl" href="../admin/index.html">Admin &amp; engineering</a>
-      <a class="sl" href="../about/participant.html">Where we lose</a>
       </div>
     </div>
   </div>
@@ -85,9 +91,9 @@
 
 <main class="doc">
 <div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / OWASP</div>
-<h1>OWASP, the summits, and the account that is missing</h1>
+<h1>OWASP and the summits</h1>
 
-<div class="warnbox"><b>Read the status of this page first.</b> Everything below is <b>real, sourced and checkable</b> — and almost all of it is written <b>in the third person, from public sources, about the author of this site</b>. There is no memoir, no board-tenure dates, no list of projects led, and no founding story for the Open Security Summit. That account is not on the public record and no amount of research produces it. <b>The summit history ships; the first-person account is marked pending rather than written around.</b> That is a deliberate choice, and it is the same rule this site applies to <a href="../history/numbers.html#unverified">every number it could not source</a>.</div>
+<div class="note"><b>How this page is written.</b> Everything below is <b>sourced and checkable</b>, and it is written from the public record rather than from memory — the summits as they were reported, with the author's role in them as the record states it. The first-person account — board tenure, the projects led, the founding of the Open Security Summit — is <a href="#interview">planned, and its questions are published below</a>, so that when it is written it answers what a reader would actually ask.</div>
 
 <h2 id="record">What the public record establishes</h2>
 
@@ -134,7 +140,7 @@
 
 <p><em>"the concept of an open, working-session-based security summit was embraced outside the strict OWASP umbrella… <b>The Open Security Summit series explicitly built on the OWASP Summit 2017 model</b>, using the same 5-day intensive format for broader security topics."</em></p>
 
-<div class="warnbox"><b>And this is where the record stops.</b> Why it left the OWASP umbrella, what changed, whether it still runs, and what its current state is — <b>none of that is documented anywhere</b>. It is cited three times in the corpus and never described. <a href="../shipped/index.html">Listed as a gap →</a></div>
+<div class="note"><b>And this is where the public record stops.</b> Why the series moved outside the OWASP umbrella, what changed, and its current state are part of the first-person account. <a href="#interview">The questions are published below →</a></div>
 
 <h2 id="lesson">The lesson the summits taught, stated in the third person</h2>
 
@@ -168,11 +174,11 @@
 
 <p><b>On the projects.</b> <b>O2 Platform, MGraph-DB, OSBot, memory_fs, sgit-ai, Issues-FS — why was each one open-sourced?</b> Did anyone ever contribute? What happened when they did? What would you do differently?</p>
 
-<div class="note"><b>The model already exists.</b> The O2 Platform article — a real retrospective on the 2010–2012 OWASP SAST engine — is the honourable exception in the corpus, and it demonstrates that these accounts can be written when someone chooses to write them. It is also, tellingly, <b>written about the author rather than by him.</b></div>
+<div class="note"><b>The model already exists.</b> The O2 Platform article — a real retrospective on the 2010–2012 OWASP SAST engine — shows what these accounts look like when written. It was written about the author rather than by him; the six retrospectives on <a href="../roadmap/index.html#interview">the build order</a> are the first-person versions.</div>
 
 <div class="pagenav">
   <a href="../funding/curl.html">← cURL</a>
-  <a href="../shipped/index.html">What is missing →</a>
+  <a href="../roadmap/index.html">What's next →</a>
 </div>
 </main>
 
@@ -181,8 +187,8 @@
     <div class="brandline">open-source<span>.sgit.ai</span></div>
     <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
     <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
-    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
-    <p class="verline">site <a href="../admin/versions.html">v0.1.2</a> · <a href="../admin/index.html">engineering</a> · <a href="../owasp/index.md">this page as markdown</a></p>
+    <p class="authorline">Written by <a href="../about/index.html" style="display:inline;padding:0"><b>Dinis Cruz</b></a> — founder of The Cyber Boardroom, MyFeeds.ai and the sgit.ai network; former OWASP Board member. <a href="https://www.linkedin.com/in/diniscruz" style="display:inline;padding:0">↗ LinkedIn</a> · <a href="../about/index.html#interests" style="display:inline;padding:0">interests declared</a>.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.2.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../owasp/index.md">this page as markdown</a></p>
   </div>
   <div>
     <h4>The argument</h4>
@@ -206,13 +212,13 @@
     <a href="../practice/index.html">Three licences</a>
   </div>
   <div>
-    <h4>Site</h4>
-    <a href="../shipped/index.html">What is missing</a>
-    <a href="../roadmap/index.html">Build order</a>
+    <h4>About</h4>
+    <a href="../about/index.html">About the author</a>
+    <a href="../founders/index.html">For founders</a>
+    <a href="../roadmap/index.html">What's next</a>
     <a href="../documents/index.html">The documents</a>
     <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
     <a href="../admin/versions.html">Release history</a>
-    <a href="../about/participant.html">Where we lose</a>
     <a href="../llms.txt">llms.txt</a>
     <a href="../llms-full.txt">llms-full.txt</a>
   </div>

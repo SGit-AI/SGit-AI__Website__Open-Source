@@ -1,14 +1,14 @@
 <!-- generated from owasp/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/owasp/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/owasp/index.html*
 
-> Four summits from 2008 Algarve to 2017 Woburn's 173 sessions, the working-session format and no spectators only participants — all of it written in the third person from public sources. The first-person account is marked pending rather than invented.
+> Four summits from 2008 Algarve to 2017 Woburn's 173 sessions, the working-session format and no spectators only participants — written from the public record, with the first-person account planned and its questions published.
 
 ---
 
-# OWASP, the summits, and the account that is missing
+# OWASP and the summits
 
-> **Read the status of this page first.** Everything below is **real, sourced and checkable** — and almost all of it is written **in the third person, from public sources, about the author of this site**. There is no memoir, no board-tenure dates, no list of projects led, and no founding story for the Open Security Summit. That account is not on the public record and no amount of research produces it. **The summit history ships; the first-person account is marked pending rather than written around.** That is a deliberate choice, and it is the same rule this site applies to [every number it could not source](../history/numbers.md#unverified).
+> **How this page is written.** Everything below is **sourced and checkable**, and it is written from the public record rather than from memory — the summits as they were reported, with the author's role in them as the record states it. The first-person account — board tenure, the projects led, the founding of the Open Security Summit — is [planned, and its questions are published below](#interview), so that when it is written it answers what a reader would actually ask.
 
 ## What the public record establishes
 
@@ -52,7 +52,7 @@ Open planning: *"proposed working sessions were gathered on a public wiki and in
 
 *"the concept of an open, working-session-based security summit was embraced outside the strict OWASP umbrella… **The Open Security Summit series explicitly built on the OWASP Summit 2017 model**, using the same 5-day intensive format for broader security topics."*
 
-> **And this is where the record stops.** Why it left the OWASP umbrella, what changed, whether it still runs, and what its current state is — **none of that is documented anywhere**. It is cited three times in the corpus and never described. [Listed as a gap →](../shipped/index.md)
+> **And this is where the public record stops.** Why the series moved outside the OWASP umbrella, what changed, and its current state are part of the first-person account. [The questions are published below →](#interview)
 
 ## The lesson the summits taught, stated in the third person
 
@@ -86,9 +86,9 @@ These are published rather than held privately, because the gap is the point. Th
 
 **On the projects.****O2 Platform, MGraph-DB, OSBot, memory_fs, sgit-ai, Issues-FS — why was each one open-sourced?** Did anyone ever contribute? What happened when they did? What would you do differently?
 
-> **The model already exists.** The O2 Platform article — a real retrospective on the 2010–2012 OWASP SAST engine — is the honourable exception in the corpus, and it demonstrates that these accounts can be written when someone chooses to write them. It is also, tellingly, **written about the author rather than by him.**
+> **The model already exists.** The O2 Platform article — a real retrospective on the 2010–2012 OWASP SAST engine — shows what these accounts look like when written. It was written about the author rather than by him; the six retrospectives on [the build order](../roadmap/index.md#interview) are the first-person versions.
 
-[← cURL](../funding/curl.md)[What is missing →](../shipped/index.md)
+[← cURL](../funding/curl.md)[What's next →](../roadmap/index.md)
 
 ---
 

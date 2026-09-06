@@ -1,6 +1,6 @@
 <!-- generated from admin/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/admin/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/admin/index.html*
 
 > The build tooling, the CI pipeline (validate → auto-tag → deploy), the release process, and the markdown-twin generator that makes the site traversable by agents. Published, because a site arguing you should publish the source should publish its own.
 
@@ -54,7 +54,7 @@ Same order as the sibling sites — **validate → tag → publish** — because
 
 Because [the argument of this site is that you should publish the source next to the render](../practice/publish-the-source.md), and a site making that argument with an opaque build would be making it badly. The repository is public, the generators are readable, and [the briefs the content was written from are published verbatim](../documents/index.md) — including [the instructions this site did not follow](../documents/index.md#divergences).
 
-[← Where we lose](../about/participant.md)[Comms →](comms.md)
+[← About the author](../about/index.md)[Comms →](comms.md)
 
 ---
 

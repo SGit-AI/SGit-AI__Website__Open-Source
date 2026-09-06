@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Agents and open source — the economics changed, and not in maintainers' favour</title>
-<meta name="description" content="Code-reading as the appreciating scarce asset, a dated contradiction about the junior pipeline published rather than resolved, and four theses that follow from the corpus and are written nowhere — including licence compliance at machine speed.">
+<meta name="description" content="Code-reading as the appreciating scarce asset, two dated positions on the junior pipeline both published, and four theses that follow from the author's writing and are next to be written — including licence compliance at machine speed.">
 <link rel="canonical" href="https://open-source.sgit.ai/agents/index.html">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="open-source.sgit.ai">
@@ -19,10 +19,17 @@
 <nav class="site"><div class="row">
   <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
   <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
-  <span class="stage-pill">first draft</span>
-  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.2</a>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.2.0</a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
   <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl" href="../founders/index.html">For founders<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../founders/index.html">Owning the code, or opening it</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../survivability/stress-test.html">Run the stress test on a vendor</a>
+      </div>
+    </div>
     <div class="ni ni-has">
       <a class="nl" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
       <div class="sub">
@@ -67,15 +74,14 @@
       </div>
     </div>
     <div class="ni ni-has">
-      <a class="nl" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <a class="nl" href="../about/index.html">About<span class="caret">&#9662;</span></a>
       <div class="sub">
-      <a class="sl" href="../shipped/index.html">What is missing</a>
-      <a class="sl" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../about/index.html">About the author</a>
+      <a class="sl" href="../roadmap/index.html">What's next</a>
       <a class="sl" href="../documents/index.html">The documents</a>
       <a class="sl" href="../admin/comms.html">Comms: tasks &amp; requests</a>
       <a class="sl" href="../admin/versions.html">Release history</a>
       <a class="sl" href="../admin/index.html">Admin &amp; engineering</a>
-      <a class="sl" href="../about/participant.html">Where we lose</a>
       </div>
     </div>
   </div>
@@ -94,15 +100,15 @@
 
 <blockquote class="challenge">"Before AI agents started writing code, you could argue that <b>90% of the code running in production was not being read by anyone</b>… So let us not pretend that 'nobody reads the code anymore' is a new problem. <b>It is an old problem, accelerated.</b>"</blockquote>
 
-<p>And the passage underneath it, which is the best-written thing in the corpus on this subject:</p>
+<p>And the passage underneath it, which is the best-written thing the author has published on this subject:</p>
 
 <blockquote class="challenge">"I would argue that this narrative has caused more damage than people admit… <b>Applications with 2,000 dependencies. CI pipelines that download half the internet. Layers of abstraction where nobody on the team understands what is happening below their layer.</b> The answer was never 'stop abstracting.' The answer was '<b>someone still needs to understand what is underneath.</b>' Linus Torvalds reads C code."</blockquote>
 
 <p>The three-phase answer maps onto <a href="../views/villagers.html">the Wardley teams</a>: <em>"Explorers: agents read it (scans, checks, basic quality)… Villagers: mid-level developers read it… Town Planners: senior developers really read it."</em> Which is a coherent structure — and it depends entirely on the middle tier continuing to exist.</p>
 
-<h2 id="pipeline">The dated contradiction, published rather than resolved</h2>
+<h2 id="pipeline">Two dated positions on the junior pipeline, both published</h2>
 
-<p>This is the second place the corpus argues with itself in writing, with dates. Like <a href="../views/open-core.html">the open-core contradiction</a>, it is more valuable published than tidied.</p>
+<p>This is the second place the author's position moved between two dated documents. Like <a href="../views/open-core.html">the open-core question</a>, it is more valuable published as two dates than tidied into one.</p>
 
 <div class="tablewrap"><table>
   <thead><tr><th>When</th><th>The position</th></tr></thead>
@@ -119,7 +125,7 @@
 
 <h2 id="slop">Agents currently add maintenance load</h2>
 
-<p>The corpus reached this before the evidence arrived, which is the strongest form of a prediction:</p>
+<p>The author wrote this down before the evidence arrived, which is the strongest form of a prediction:</p>
 
 <blockquote class="challenge">"<b>AI slop</b> for low-quality, auto-generated pull requests that flood maintainer queues without adding value, increasing the burden on already-stretched maintainers. So AI is, for now, <b>adding maintenance load</b> rather than only creating maintainable work. <b>This does not refute the thesis, it sharpens it.</b>"</blockquote>
 
@@ -129,7 +135,7 @@
 
 <h2 id="economics">Where the economics genuinely do change</h2>
 
-<p>Four pieces exist in the corpus and have never been assembled into a claim. Assembled:</p>
+<p>Four pieces exist across the author's writing and had not been assembled into one claim. Assembled:</p>
 
 <ol>
   <li><b>Agentic mass-customisation replaces professional services.</b> <em>"you turn the tail around. You use agentic workflows to create mass-customised and supported versions of the product… whoever creates this will be a domain expert in all of them, but the company is unlikely to have a person who understands all those phases."</em></li>
@@ -160,7 +166,7 @@
 
 <p>One substantive passage exists, from a 2025 article: <em>"European lawmakers and creative industries are discussing mechanisms so that <b>creators can be remunerated when AI uses their works</b>… <b>Open-source projects can lead the way here by openly cataloguing their training sets</b> and filtering out data that's proprietary or sensitive. Ultimately, an ecosystem where <b>both models and their training data are open and auditable</b> is one where users (and regulators) have far more control."</em></p>
 
-<p>The argument has moved a long way since then and the corpus has not followed it. The live question is the <b>OSI's Open Source AI Definition</b>, which drew heavy criticism, and the fact that <b>almost no model marketed as "open source AI" meets it</b> — "open weights" being the accurate term for most of them. That is a licensing argument, it is exactly this site's subject, and it is unwritten.</p>
+<p>The argument has moved a long way since then, and the author's published position has not yet followed it. The live question is the <b>OSI's Open Source AI Definition</b>, which drew heavy criticism, and the fact that <b>almost no model marketed as "open source AI" meets it</b> — "open weights" being the accurate term for most of them. That is a licensing argument, it is exactly this site's subject, and it is unwritten.</p>
 
 <div class="note"><b>A browser vendor is now betting on that distinction, in public.</b> Mozilla's chief executive <b>Anthony Enzor-DeMeo</b>, interviewed by Sabrina Ortiz for <a href="https://www.thedeepview.com/articles/why-mozilla-is-on-a-mission-to-prevent-ai-lock-in">↗ The Deep View</a> (August 2026), states that Mozilla will <em>not</em> build a frontier model and will instead ship <b>model choice</b> in Firefox — <em>"We want to give users access to different things they wouldn't normally have access to when they're kind of confined and locked in."</em> The stated failure mode being avoided is the search default: one provider becoming everyone's default and the default becoming the market. The bet is placed on <b>open-weight</b> models, which is precisely the term this thesis says is the accurate one.</div>
 
@@ -190,8 +196,8 @@
     <div class="brandline">open-source<span>.sgit.ai</span></div>
     <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
     <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
-    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
-    <p class="verline">site <a href="../admin/versions.html">v0.1.2</a> · <a href="../admin/index.html">engineering</a> · <a href="../agents/index.md">this page as markdown</a></p>
+    <p class="authorline">Written by <a href="../about/index.html" style="display:inline;padding:0"><b>Dinis Cruz</b></a> — founder of The Cyber Boardroom, MyFeeds.ai and the sgit.ai network; former OWASP Board member. <a href="https://www.linkedin.com/in/diniscruz" style="display:inline;padding:0">↗ LinkedIn</a> · <a href="../about/index.html#interests" style="display:inline;padding:0">interests declared</a>.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.2.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../agents/index.md">this page as markdown</a></p>
   </div>
   <div>
     <h4>The argument</h4>
@@ -215,13 +221,13 @@
     <a href="../practice/index.html">Three licences</a>
   </div>
   <div>
-    <h4>Site</h4>
-    <a href="../shipped/index.html">What is missing</a>
-    <a href="../roadmap/index.html">Build order</a>
+    <h4>About</h4>
+    <a href="../about/index.html">About the author</a>
+    <a href="../founders/index.html">For founders</a>
+    <a href="../roadmap/index.html">What's next</a>
     <a href="../documents/index.html">The documents</a>
     <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
     <a href="../admin/versions.html">Release history</a>
-    <a href="../about/participant.html">Where we lose</a>
     <a href="../llms.txt">llms.txt</a>
     <a href="../llms-full.txt">llms-full.txt</a>
   </div>

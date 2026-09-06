@@ -1,6 +1,6 @@
 <!-- generated from survivability/stress-test.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/survivability/stress-test.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/survivability/stress-test.html*
 
 > Four legs — copyright structure, trademark holder, schema licence, named fork capacity — every one answerable from public artefacts without the vendor's cooperation. Answer them here and keep the result. A vendor that cannot answer them has answered them.
 
@@ -75,9 +75,9 @@ A single-holder project you use for something easily replaced is a fine risk. Th
 
 ## Why we do not publish scores for named vendors
 
-We ship the test; you run it. Publishing a scorecard about named commercial projects would turn a diagnostic into a weapon, and it would be a weapon wielded by [a participant in the same market](../about/participant.md) — which is exactly the conflict the test is designed to let you route around. The four legs work without us.
+We ship the test; you run it. Publishing a scorecard about named commercial projects would turn a diagnostic into a weapon, and it would be a weapon wielded by [a participant in the same market](../about/index.md#interests) — which is exactly the conflict the test is designed to let you route around. The four legs work without us.
 
-The one exception is running it on ourselves, in public, where we fail. [That is the self-audit →](self-audit.md)
+The one exception is running it on our own estate, in public. [That is the self-audit →](self-audit.md)
 
 [← Survivability](index.md)[The self-audit →](self-audit.md)
 

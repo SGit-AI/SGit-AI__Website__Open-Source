@@ -1,8 +1,8 @@
 <!-- generated from agents/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/agents/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/agents/index.html*
 
-> Code-reading as the appreciating scarce asset, a dated contradiction about the junior pipeline published rather than resolved, and four theses that follow from the corpus and are written nowhere — including licence compliance at machine speed.
+> Code-reading as the appreciating scarce asset, two dated positions on the junior pipeline both published, and four theses that follow from the author's writing and are next to be written — including licence compliance at machine speed.
 
 ---
 
@@ -16,15 +16,15 @@ The argument opens by refusing its own easy version, which is why it is worth re
 
 > "Before AI agents started writing code, you could argue that **90% of the code running in production was not being read by anyone**… So let us not pretend that 'nobody reads the code anymore' is a new problem. **It is an old problem, accelerated.**"
 
-And the passage underneath it, which is the best-written thing in the corpus on this subject:
+And the passage underneath it, which is the best-written thing the author has published on this subject:
 
 > "I would argue that this narrative has caused more damage than people admit… **Applications with 2,000 dependencies. CI pipelines that download half the internet. Layers of abstraction where nobody on the team understands what is happening below their layer.** The answer was never 'stop abstracting.' The answer was '**someone still needs to understand what is underneath.**' Linus Torvalds reads C code."
 
 The three-phase answer maps onto [the Wardley teams](../views/villagers.md): *"Explorers: agents read it (scans, checks, basic quality)… Villagers: mid-level developers read it… Town Planners: senior developers really read it."* Which is a coherent structure — and it depends entirely on the middle tier continuing to exist.
 
-## The dated contradiction, published rather than resolved
+## Two dated positions on the junior pipeline, both published
 
-This is the second place the corpus argues with itself in writing, with dates. Like [the open-core contradiction](../views/open-core.md), it is more valuable published than tidied.
+This is the second place the author's position moved between two dated documents. Like [the open-core question](../views/open-core.md), it is more valuable published as two dates than tidied into one.
 
 | When | The position |
 |---|---|
@@ -38,7 +38,7 @@ Four months, opposite directions. The March position is a plausible theory about
 
 ## Agents currently add maintenance load
 
-The corpus reached this before the evidence arrived, which is the strongest form of a prediction:
+The author wrote this down before the evidence arrived, which is the strongest form of a prediction:
 
 > "**AI slop** for low-quality, auto-generated pull requests that flood maintainer queues without adding value, increasing the burden on already-stretched maintainers. So AI is, for now, **adding maintenance load** rather than only creating maintainable work. **This does not refute the thesis, it sharpens it.**"
 
@@ -48,7 +48,7 @@ Independent corroboration, with the caveat it needs: Black Duck's OSSRA 2026 rep
 
 ## Where the economics genuinely do change
 
-Four pieces exist in the corpus and have never been assembled into a claim. Assembled:
+Four pieces exist across the author's writing and had not been assembled into one claim. Assembled:
 
 1. **Agentic mass-customisation replaces professional services.***"you turn the tail around. You use agentic workflows to create mass-customised and supported versions of the product… whoever creates this will be a domain expert in all of them, but the company is unlikely to have a person who understands all those phases."*
 2. **The value margin moves.***"The sweet spot is to operate at that margin where it is profitable for companies to pay you versus doing it themselves. As long as you operate there, you have a valid business model, and **now with agents that is possible in ways it was not before**."*
@@ -77,7 +77,7 @@ It was written about **human** authorship and never applied to machine-generated
 
 One substantive passage exists, from a 2025 article: *"European lawmakers and creative industries are discussing mechanisms so that **creators can be remunerated when AI uses their works**… **Open-source projects can lead the way here by openly cataloguing their training sets** and filtering out data that's proprietary or sensitive. Ultimately, an ecosystem where **both models and their training data are open and auditable** is one where users (and regulators) have far more control."*
 
-The argument has moved a long way since then and the corpus has not followed it. The live question is the **OSI's Open Source AI Definition**, which drew heavy criticism, and the fact that **almost no model marketed as "open source AI" meets it** — "open weights" being the accurate term for most of them. That is a licensing argument, it is exactly this site's subject, and it is unwritten.
+The argument has moved a long way since then, and the author's published position has not yet followed it. The live question is the **OSI's Open Source AI Definition**, which drew heavy criticism, and the fact that **almost no model marketed as "open source AI" meets it** — "open weights" being the accurate term for most of them. That is a licensing argument, it is exactly this site's subject, and it is unwritten.
 
 > **A browser vendor is now betting on that distinction, in public.** Mozilla's chief executive **Anthony Enzor-DeMeo**, interviewed by Sabrina Ortiz for [↗ The Deep View](https://www.thedeepview.com/articles/why-mozilla-is-on-a-mission-to-prevent-ai-lock-in) (August 2026), states that Mozilla will *not* build a frontier model and will instead ship **model choice** in Firefox — *"We want to give users access to different things they wouldn't normally have access to when they're kind of confined and locked in."* The stated failure mode being avoided is the search default: one provider becoming everyone's default and the default becoming the market. The bet is placed on **open-weight** models, which is precisely the term this thesis says is the accurate one.
 

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Comms — tasks and requests</title>
-<meta name="description" content="The open board: what this site needs from its author that no amount of research supplies, and the tasks it is carrying. Numbered, dated, and published rather than held privately.">
+<meta name="description" content="The open board: the items only the author can supply, and the tasks the site is carrying. Numbered, dated, and published rather than held privately.">
 <link rel="canonical" href="https://open-source.sgit.ai/admin/comms.html">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="open-source.sgit.ai">
@@ -19,10 +19,17 @@
 <nav class="site"><div class="row">
   <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
   <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
-  <span class="stage-pill">first draft</span>
-  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.2</a>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.2.0</a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
   <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl" href="../founders/index.html">For founders<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../founders/index.html">Owning the code, or opening it</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../survivability/stress-test.html">Run the stress test on a vendor</a>
+      </div>
+    </div>
     <div class="ni ni-has">
       <a class="nl" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
       <div class="sub">
@@ -67,15 +74,14 @@
       </div>
     </div>
     <div class="ni ni-has">
-      <a class="nl here" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <a class="nl here" href="../about/index.html">About<span class="caret">&#9662;</span></a>
       <div class="sub">
-      <a class="sl" href="../shipped/index.html">What is missing</a>
-      <a class="sl" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../about/index.html">About the author</a>
+      <a class="sl" href="../roadmap/index.html">What's next</a>
       <a class="sl" href="../documents/index.html">The documents</a>
       <a class="sl here" href="../admin/comms.html">Comms: tasks &amp; requests</a>
       <a class="sl" href="../admin/versions.html">Release history</a>
       <a class="sl" href="../admin/index.html">Admin &amp; engineering</a>
-      <a class="sl" href="../about/participant.html">Where we lose</a>
       </div>
     </div>
   </div>
@@ -86,7 +92,7 @@
 <main class="doc">
 <div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / admin / comms</div>
 <h1>Comms: tasks &amp; requests</h1>
-<p class="lead">The open board. <b>Needs (N)</b> are things only the author can supply — no amount of research produces them. <b>Tasks (T)</b> are work this site can do. Both are published rather than held privately, because <a href="../roadmap/index.html">publishing the build order unresolved</a> is the house rule and a blocked page should say who is blocking it.</p>
+<p class="lead">The open board. <b>Needs (N)</b> are items only the author can supply — first-person accounts and decisions. <b>Tasks (T)</b> are work the site can do. Both are published rather than held privately, because <a href="../roadmap/index.html">publishing the build order with its open questions visible</a> is the house rule.</p>
 
 <h2 id="needs">Needs — only the author can answer these</h2>
 
@@ -120,12 +126,12 @@
     <tr>
       <td><b>N5</b></td>
       <td><b>Q4: will the estate change to pass its own stress test?</b> <a href="../survivability/self-audit.html#change">Leg by leg, with what each fix requires.</a> <em>"No, and here is why that is an accepted risk"</em> is a publishable answer.</td>
-      <td><a href="../survivability/self-audit.html">The self-audit</a>, which currently records the failure and cannot record an intent.</td>
+      <td><a href="../survivability/self-audit.html">The self-audit</a>, which records the result and can then record the plan.</td>
       <td><span class="tstat t-need">open</span></td>
     </tr>
     <tr>
       <td><b>N6</b></td>
-      <td><b>Confirmation of the summit facts</b> restated here from the corpus's summit history — attendance figures, the 2008 travel funding, the 173 sessions at Woburn.</td>
+      <td><b>Confirmation of the summit facts</b> restated here from the author's own summit history — attendance figures, the 2008 travel funding, the 173 sessions at Woburn.</td>
       <td>Removes the last third-hand layer from <a href="../owasp/index.html#summits">the summit section</a>.</td>
       <td><span class="tstat t-need">open</span></td>
     </tr>
@@ -140,14 +146,14 @@
     <tr><td><b>T1</b></td><td><b>CI pipeline and auto-tagging</b> — validate → tag → deploy, matching the sibling sites. <a href="index.html#pipeline">Documented →</a></td><td><span class="tstat t-done">done</span></td></tr>
     <tr><td><b>T2</b></td><td><b>The agent-discovery ladder</b> — markdown twin at every URL, self-sufficient <code>llms.txt</code>, <code>llms-full.txt</code>, all generated and <b>enforced by the build</b>. <a href="../practice/publish-the-source.html#ladder">Read →</a></td><td><span class="tstat t-done">done</span></td></tr>
     <tr><td><b>T3</b></td><td><b>The stress test as a working tool</b> rather than an essay — four legs, client-side, exportable. <a href="../survivability/stress-test.html">Run it →</a></td><td><span class="tstat t-done">done</span></td></tr>
-    <tr><td><b>T4</b></td><td><b>The self-audit, published including the failures.</b> <a href="../survivability/self-audit.html">Read →</a></td><td><span class="tstat t-done">done</span></td></tr>
+    <tr><td><b>T4</b></td><td><b>The self-audit, published in full.</b> <a href="../survivability/self-audit.html">Read →</a></td><td><span class="tstat t-done">done</span></td></tr>
     <tr><td><b>T5</b></td><td><b>Why Apache-2.0 rather than MIT</b> — the most conspicuous unwritten page in the brief. <a href="../practice/apache-vs-mit.html">Read →</a></td><td><span class="tstat t-done">done</span></td></tr>
-    <tr><td><b>T6</b></td><td><b>An SBOM of the estate, plus a licence audit in CI.</b> Roughly a day's work, and it converts <a href="../funding/index.html#labelling">the labelling argument</a> from proposal to demonstration. <a href="../shipped/index.html#supply-chain">Currently the site's largest inconsistency.</a></td><td><span class="tstat t-open">next</span></td></tr>
+    <tr><td><b>T6</b></td><td><b>An SBOM of the estate, plus a licence audit in CI.</b> Roughly a day's work, and it converts <a href="../funding/index.html#labelling">the labelling argument</a> from proposal to demonstration. <a href="../roadmap/index.html#supply-chain">First on the build order.</a></td><td><span class="tstat t-open">next</span></td></tr>
     <tr><td><b>T7</b></td><td><b>The four agent-era theses</b> — <a href="../agents/index.html#unwritten">named on the agents page, none written</a>. The most original writing still available.</td><td><span class="tstat t-open">open</span></td></tr>
-    <tr><td><b>T8</b></td><td><b>A licence taxonomy</b> — copyleft vs permissive as a position, compatibility, AGPL, source-available. <a href="../shipped/index.html#taxonomy">The corpus has nothing to build on.</a></td><td><span class="tstat t-open">open</span></td></tr>
+    <tr><td><b>T8</b></td><td><b>A licence taxonomy</b> — copyleft vs permissive as a position, compatibility, AGPL, source-available. <a href="../roadmap/index.html#taxonomy">The history research supplies the ground.</a></td><td><span class="tstat t-open">open</span></td></tr>
     <tr><td><b>T9</b></td><td><b>A published trademark policy</b> — <a href="../survivability/self-audit.html#change">the clearest unforced gap in the self-audit</a>, and it costs almost nothing.</td><td><span class="tstat t-open">open</span></td></tr>
     <tr><td><b>T10</b></td><td><b>Separately license the schemas</b> (CC0 or CC BY), which is the cheapest self-audit fix and has no argument against it.</td><td><span class="tstat t-open">open</span></td></tr>
-    <tr><td><b>T11</b></td><td><b>Visual assets</b> — a timeline, a licence-family diagram, a map of the estate. <a href="../shipped/index.html#visual">A real production gap.</a></td><td><span class="tstat t-open">open</span></td></tr>
+    <tr><td><b>T11</b></td><td><b>Visual assets</b> — a timeline, a licence-family diagram, a map of the estate. <a href="../roadmap/index.html#visual">On the build order.</a></td><td><span class="tstat t-open">open</span></td></tr>
     <tr><td><b>T12</b></td><td><b>Verify the marked-unverified facts</b> in the research document — several founding dates and licences are flagged. <a href="../history/numbers.html#unverified">Nothing flagged has been published as established.</a></td><td><span class="tstat t-open">open</span></td></tr>
     <tr><td><b>T14</b></td><td><b>Link the sources this site names.</b> <a href="../history/numbers.html#88tn">The HBS paper</a> and <a href="../agents/index.html#training">the Mozilla interview</a> are now linked; <b>OSSRA, the Stack Overflow survey, the kernel release notes and the Let's Encrypt telemetry are still named without a URL</b>. A site whose credibility position is that it checks other people's citations should make its own followable — by a reader and by <a href="../agents/index.html#audience">the agents it says are its primary audience</a>.</td><td><span class="tstat t-open">open</span></td></tr>
     <tr><td><b>T13</b></td><td><b>Get indexed</b> — <a href="../practice/publish-the-source.html#ladder">the top rung of the ladder, and the real fix</a>. The other three rungs are shipped.</td><td><span class="tstat t-open">open</span></td></tr>
@@ -169,8 +175,8 @@
     <div class="brandline">open-source<span>.sgit.ai</span></div>
     <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
     <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
-    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
-    <p class="verline">site <a href="../admin/versions.html">v0.1.2</a> · <a href="../admin/index.html">engineering</a> · <a href="../admin/comms.md">this page as markdown</a></p>
+    <p class="authorline">Written by <a href="../about/index.html" style="display:inline;padding:0"><b>Dinis Cruz</b></a> — founder of The Cyber Boardroom, MyFeeds.ai and the sgit.ai network; former OWASP Board member. <a href="https://www.linkedin.com/in/diniscruz" style="display:inline;padding:0">↗ LinkedIn</a> · <a href="../about/index.html#interests" style="display:inline;padding:0">interests declared</a>.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.2.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../admin/comms.md">this page as markdown</a></p>
   </div>
   <div>
     <h4>The argument</h4>
@@ -194,13 +200,13 @@
     <a href="../practice/index.html">Three licences</a>
   </div>
   <div>
-    <h4>Site</h4>
-    <a href="../shipped/index.html">What is missing</a>
-    <a href="../roadmap/index.html">Build order</a>
+    <h4>About</h4>
+    <a href="../about/index.html">About the author</a>
+    <a href="../founders/index.html">For founders</a>
+    <a href="../roadmap/index.html">What's next</a>
     <a href="../documents/index.html">The documents</a>
     <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
     <a href="../admin/versions.html">Release history</a>
-    <a href="../about/participant.html">Where we lose</a>
     <a href="../llms.txt">llms.txt</a>
     <a href="../llms-full.txt">llms-full.txt</a>
   </div>

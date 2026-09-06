@@ -45,14 +45,14 @@ LICENCE = ("This page is released under the Creative Commons Attribution 4.0 "
 # Rendered in llms.txt / llms-full.txt in this order. Anything not listed is still
 # given a twin; it just sorts after these.
 ORDER = [
-    "index.html",
+    "index.html", "founders/index.html",
     "views/index.html", "views/sovereignty.html", "views/open-core.html", "views/villagers.html",
     "survivability/index.html", "survivability/stress-test.html", "survivability/self-audit.html",
     "history/index.html", "history/timeline.html", "history/stories.html", "history/numbers.html",
     "practice/index.html", "practice/apache-vs-mit.html", "practice/publish-the-source.html",
     "agents/index.html", "funding/index.html", "funding/curl.html", "owasp/index.html",
-    "shipped/index.html", "roadmap/index.html", "documents/index.html",
-    "about/participant.html", "admin/index.html", "admin/comms.html", "admin/versions.html",
+    "roadmap/index.html", "documents/index.html",
+    "about/index.html", "admin/index.html", "admin/comms.html", "admin/versions.html",
 ]
 
 BLOCK = {"h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "tr", "blockquote", "pre",
@@ -420,6 +420,8 @@ def build_llms_txt(pages, twins):
         "",
         f"Site version: {VERSION}",
         f"Canonical host: https://{HOST}/",
+        "Author: Dinis Cruz — https://www.linkedin.com/in/diniscruz — founder of The Cyber",
+        "Boardroom, MyFeeds.ai and the sgit.ai network; former OWASP Board member.",
         "All content CC BY 4.0 unless noted. Code under the repository licence.",
         "",
         "## How to read this site as an agent",

@@ -1,6 +1,6 @@
 <!-- generated from funding/curl.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/funding/curl.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/funding/curl.html*
 
 > On 31 January 2026 curl closed its bug bounty because roughly 20% of 2025 submissions were AI-generated slop against roughly 5% genuine. An externality nobody was paying for destroyed a funding mechanism, with a date and a named casualty.
 
@@ -41,9 +41,9 @@ That is the textbook shape of an externality, and it is why the response was str
 
 That was written in March 2026 as an argument. By January 2026 it had a worked example: a project with more goodwill than almost any other in the world, more visible need, and a maintainer with an unusually large platform for asking — and none of it was sufficient. **Goodwill was never the scarce resource. Attention was, and nobody was paying for it.**
 
-### And it confirms a prediction the corpus made before the event
+### And it confirms a prediction the author made before the event
 
-[The corpus wrote down the AI-slop mechanism](../agents/index.md#slop) — *"low-quality, auto-generated pull requests that flood maintainer queues without adding value, increasing the burden on already-stretched maintainers… AI is, for now, **adding maintenance load** rather than only creating maintainable work"* — before curl's announcement. A prediction that names the mechanism and is then confirmed with a date is worth considerably more than a retrospective explanation, and it is the reason [the agents page refuses to claim agents will fix sustainability](../agents/index.md).
+[The author wrote down the AI-slop mechanism](../agents/index.md#slop) — *"low-quality, auto-generated pull requests that flood maintainer queues without adding value, increasing the burden on already-stretched maintainers… AI is, for now, **adding maintenance load** rather than only creating maintainable work"* — before curl's announcement. A prediction that names the mechanism and is then confirmed with a date is worth considerably more than a retrospective explanation, and it is the reason [the agents page refuses to claim agents will fix sustainability](../agents/index.md).
 
 ## What this story does not prove
 

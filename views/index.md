@@ -1,6 +1,6 @@
 <!-- generated from views/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/views/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/views/index.html*
 
 > Technology is not the moat; lock-in relocates to quality, certification and maintainability; lock-in degrades your own architecture; and open source frees you to cannibalise your own code. The full position, each argument with its counter-case attached.
 
@@ -40,7 +40,7 @@ Note what that list has in common. Every item is something you have to keep bein
 
 ## 3. The moat is a rate, not a wall
 
-The obvious objection to publishing everything is that a competitor takes it. The answer is the sharpest formulation in the corpus:
+The obvious objection to publishing everything is that a competitor takes it. The answer is the sharpest formulation the author has given:
 
 > "A competitor who forks our code today gets our position as of today. **They do not get our velocity.**" / "The code is open source. The execution is not forkable."
 
@@ -72,7 +72,7 @@ Short, original, and true. Sunk-cost attachment to code is partly an ownership i
 
 This is the position at its most consistent, and it is what makes the rest coherent: if you never expected contributions, then the collapse of the contribution model is not an argument against you. It is also the position's largest cost, and the site states it as one rather than hiding it.
 
-> **The tension, named.** A project that expects no contributions has nothing to say about running a project — governance, review, codes of conduct, DCO-versus-CLA *in practice*. And the [survivability argument turns on exactly that distinction](../survivability/index.md). The site's best idea depends on a discipline the site has no experience of. [Listed as a gap, not resolved →](../shipped/index.md)
+> **The tension, named.** A project that expects no contributions has less to say about running one — governance, review, codes of conduct, DCO-versus-CLA *in practice*. And the [survivability argument turns on exactly that distinction](../survivability/index.md). It is why that argument is shipped as a test answerable from public artefacts rather than as advice about community, and why [the community question is on the open list](../roadmap/index.md#community).
 
 ## 7. Burden of proof sits with the sceptic
 
@@ -84,7 +84,7 @@ Stated that way it is a challenge rather than a proof, and it should be read as 
 
 > "you want to build a model where the better your competitors are, the better you become, and open source is the key element of that strategy."
 
-Applied to hyperscalers, the corpus argues this both ways *in one document* and never resolves it — *"you want the hyperscalers to adopt and embrace these technologies, because they open up the market"* against *"Hyperscalers could commoditise it. Their embrace opens the market but could also absorb it."*
+Applied to hyperscalers, the author argues this both ways *in one document* and leaves it open — *"you want the hyperscalers to adopt and embrace these technologies, because they open up the market"* against *"Hyperscalers could commoditise it. Their embrace opens the market but could also absorb it."*
 
 Left unresolved here too, deliberately. It is a genuine open question about scale, not a rhetorical balance: the same adoption that creates your market can eat it, and which one happens depends on facts not yet in evidence. [It is on the open-questions list →](../roadmap/index.md#open)
 
@@ -98,7 +98,7 @@ One SLA away from losing access, schemas that matter as much as code, and jurisd
 
 ### [Open core, or packaging?](open-core.md)
 
-*Contradiction*
+*Position moved*
 
 "There should be nothing proprietary" and "customers only have a subset" — five weeks apart. The test that settles which one this is.
 

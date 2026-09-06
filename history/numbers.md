@@ -1,6 +1,6 @@
 <!-- generated from history/numbers.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/history/numbers.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/history/numbers.html*
 
 > The $8.8 trillion figure and what it actually measures, the 70–90% claim that is really a presence figure, and the statistics the research could not source — listed as unverified rather than published as established.
 
@@ -10,7 +10,7 @@
 
 This site's credibility position is that it corrects other people's unsourced figures. That only works if it does not accumulate its own — so this page states what the load-bearing numbers actually measure, and lists the ones the research **could not source** and which therefore do not appear anywhere else on this site.
 
-> **The standing warning, from the corpus itself:***"the figures circulating are largely recycled from a smaller set of studies through commercial blogs, so **the direction is well supported and the precision is not**."* That is the right way to hold nearly every number in this field, including the ones below that survive scrutiny.
+> **The standing warning, in the author's own words:***"the figures circulating are largely recycled from a smaller set of studies through commercial blogs, so **the direction is well supported and the precision is not**."* That is the right way to hold nearly every number in this field, including the ones below that survive scrutiny.
 
 ## "Open source is worth $8.8 trillion" — no
 
@@ -28,7 +28,7 @@ This is the most-repeated figure in the field and it is almost always cited with
 
 **The rule this site applies:** publish $8.8tn only with its definition and the critique attached, or do not publish it. It is not a fabrication — it is a real calculation of a specific counterfactual, and the counterfactual is unrealistic in a way that matters. Quoted bare, it functions as a claim about market value, which is not what it measures.
 
-> **And the corpus behind this site cites it bare.** That is stated here rather than quietly fixed, because [the honesty page](../shipped/index.md) exists precisely for this: the site holds others to a standard it had not been meeting, and the correction is the first time it does.
+> **The author's own earlier writing cited it bare, and this page is the correction.** Stated rather than quietly fixed, because a site that holds others to a citation standard should be seen applying it to itself first.
 
 ## "70–90% of a modern codebase is open source" — a different measurement
 
@@ -66,7 +66,7 @@ These were investigated and **could not be established from a primary source**. 
 | **GitHub's scale figures** | **They do not reconcile with each other.** Octoverse 2025 reports 630M repositories and 180M+ developers; GitHub separately announced its billionth repository in June 2025; Wikipedia carries "150 million users, May 2025". Cite Octoverse and say which measure you mean — or say nothing. |
 | **CNCF's 2025 headline** that Kubernetes is "the de facto operating system for AI" | The survey **published no sample size and no field dates.** And its own data shows **44% of organisations run no AI/ML workloads on Kubernetes at all** — which is difficult to reconcile with the headline. |
 
-> **Why publish a list of things you are not saying?** Because the absence is otherwise invisible, and because these are figures a reader will encounter everywhere else. Naming them is more useful than silently omitting them — and it is the same reasoning that puts [the site's own gaps](../shipped/index.md) on a page rather than in a footnote.
+> **Why publish a list of things you are not saying?** Because the absence is otherwise invisible, and because these are figures a reader will encounter everywhere else. Naming them is more useful than silently omitting them — and it is the same reasoning that puts [the site's own open questions](../roadmap/index.md#open) on a page rather than in a footnote.
 
 [← Six success stories](stories.md)[The practice →](../practice/index.md)
 

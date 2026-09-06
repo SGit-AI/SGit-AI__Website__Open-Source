@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The build order, published unresolved</title>
-<meta name="description" content="What is built, what is next, and eight open questions published without answers — including whether the customer subset is open core, which funding model to back, and whether the estate will change to pass its own stress test.">
+<title>What's next — the build order and the open questions</title>
+<meta name="description" content="What is built, what is next in order, and eight questions that are still open — including whether the customer subset is open core, which funding model to back, and what the estate will change after its own stress test.">
 <link rel="canonical" href="https://open-source.sgit.ai/roadmap/index.html">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="open-source.sgit.ai">
 <meta property="og:url" content="https://open-source.sgit.ai/roadmap/index.html">
-<meta property="og:title" content="The build order, published unresolved">
-<meta property="og:description" content="The house style is to publish what is unsettled. Eight open questions, with where each one stands.">
+<meta property="og:title" content="What's next">
+<meta property="og:description" content="The build order published with its open questions visible: what is built, what is next, and eight questions still open.">
 <link rel="alternate" type="text/markdown" href="index.md" title="This page as markdown">
 <link rel="stylesheet" href="../assets/site.css">
 </head>
@@ -19,10 +19,17 @@
 <nav class="site"><div class="row">
   <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
   <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
-  <span class="stage-pill">first draft</span>
-  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.2</a>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.2.0</a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
   <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl" href="../founders/index.html">For founders<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../founders/index.html">Owning the code, or opening it</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../survivability/stress-test.html">Run the stress test on a vendor</a>
+      </div>
+    </div>
     <div class="ni ni-has">
       <a class="nl" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
       <div class="sub">
@@ -67,15 +74,14 @@
       </div>
     </div>
     <div class="ni ni-has">
-      <a class="nl here" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <a class="nl here" href="../about/index.html">About<span class="caret">&#9662;</span></a>
       <div class="sub">
-      <a class="sl" href="../shipped/index.html">What is missing</a>
-      <a class="sl here" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../about/index.html">About the author</a>
+      <a class="sl here" href="../roadmap/index.html">What's next</a>
       <a class="sl" href="../documents/index.html">The documents</a>
       <a class="sl" href="../admin/comms.html">Comms: tasks &amp; requests</a>
       <a class="sl" href="../admin/versions.html">Release history</a>
       <a class="sl" href="../admin/index.html">Admin &amp; engineering</a>
-      <a class="sl" href="../about/participant.html">Where we lose</a>
       </div>
     </div>
   </div>
@@ -84,9 +90,9 @@
 </div></nav>
 
 <main class="doc">
-<div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / build order</div>
-<h1>The build order, published unresolved</h1>
-<p class="lead">The house style is to publish the build order <b>with its open questions visible</b> rather than after they are settled. This page is what is built, what is next, and eight questions that do not have answers — several of which are decisions for the project rather than research tasks for the site.</p>
+<div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / what's next</div>
+<h1>What's next</h1>
+<p class="lead">The build order is published <b>with its open questions visible</b>, because a position that hides what it has not yet settled is advertising. This page is what is built, what is next in order, and eight questions that are still open — several of which are decisions for the project rather than research tasks for the site.</p>
 
 <h2 id="built">What is built</h2>
 
@@ -94,13 +100,14 @@
   <thead><tr><th>Section</th><th>State</th><th>Note</th></tr></thead>
   <tbody>
     <tr><td><a href="../views/index.html"><b>/views/</b></a> — the argument</td><td><span class="tstat t-done">shipped</span></td><td>The position, sovereignty, open core, the villagers. Each with its counter-case attached.</td></tr>
-    <tr><td><a href="../survivability/index.html"><b>/survivability/</b></a></td><td><span class="tstat t-done">shipped</span></td><td>The argument, <a href="../survivability/stress-test.html">the stress test as a working tool</a>, and <a href="../survivability/self-audit.html">the self-audit that fails</a>.</td></tr>
+    <tr><td><a href="../survivability/index.html"><b>/survivability/</b></a></td><td><span class="tstat t-done">shipped</span></td><td>The argument, <a href="../survivability/stress-test.html">the stress test as a working tool</a>, and <a href="../survivability/self-audit.html">the self-audit, run on the estate itself</a>.</td></tr>
     <tr><td><a href="../history/index.html"><b>/history/</b></a></td><td><span class="tstat t-done">shipped</span></td><td>Six corrections leading, timeline behind them, six success stories, and <a href="../history/numbers.html">the numbers with the unpublishable ones named</a>.</td></tr>
-    <tr><td><a href="../practice/index.html"><b>/practice/</b></a></td><td><span class="tstat t-doing">partial</span></td><td>The three licences and <a href="../practice/apache-vs-mit.html">Apache-vs-MIT</a> are written. <b>The CC0 question is unresolved</b> — see Q5.</td></tr>
-    <tr><td><a href="../agents/index.html"><b>/agents/</b></a></td><td><span class="tstat t-doing">partial</span></td><td>The argument ships. <b>Four theses are named and none is written</b> — the most original writing still available.</td></tr>
+    <tr><td><a href="../practice/index.html"><b>/practice/</b></a></td><td><span class="tstat t-doing">partial</span></td><td>The three licences and <a href="../practice/apache-vs-mit.html">Apache-vs-MIT</a> are written. Aligning the three licence layers is Q5.</td></tr>
+    <tr><td><a href="../agents/index.html"><b>/agents/</b></a></td><td><span class="tstat t-doing">partial</span></td><td>The argument ships. <b>Four theses are named and next to be written</b> — the most original writing still available.</td></tr>
     <tr><td><a href="../funding/index.html"><b>/funding/</b></a></td><td><span class="tstat t-done">shipped</span></td><td>Three proposals compared for the first time, a position taken, and <a href="../funding/curl.html">cURL</a>.</td></tr>
-    <tr><td><a href="../owasp/index.html"><b>/owasp/</b></a></td><td><span class="tstat t-need">blocked</span></td><td>Summit history ships. <b>The first-person account is not researchable</b> and is marked pending.</td></tr>
-    <tr><td><a href="../shipped/index.html"><b>/shipped/</b></a></td><td><span class="tstat t-done">shipped</span></td><td>Unsoftened, including the self-audit and the missing SBOM.</td></tr>
+    <tr><td><a href="../owasp/index.html"><b>/owasp/</b></a></td><td><span class="tstat t-doing">partial</span></td><td>Summit history ships from the public record. <b>The first-person account is the author's to write</b>, and is planned.</td></tr>
+    <tr><td><a href="../founders/index.html"><b>/founders/</b></a></td><td><span class="tstat t-done">shipped</span></td><td><a href="../founders/index.html">Owning the code, or opening it</a> — the guidance from a strategy session with another founder, released CC BY.</td></tr>
+    <tr><td><a href="../about/index.html"><b>/about/</b></a></td><td><span class="tstat t-done">shipped</span></td><td>The author, the companies the strategy runs on, and interests declared.</td></tr>
     <tr><td><b>Agent surface</b></td><td><span class="tstat t-done">shipped</span></td><td><a href="../practice/publish-the-source.html">Markdown twin at every URL, self-sufficient llms.txt, llms-full.txt</a> — all three enforced in CI.</td></tr>
   </tbody>
 </table></div>
@@ -108,28 +115,28 @@
 <h2 id="next">What is next, in order</h2>
 
 <ol>
-  <li><b>An SBOM of the estate, and a licence audit in CI.</b> The single highest-value item on the list: it is roughly a day's work and it converts <a href="../funding/index.html#labelling">the labelling argument</a> from a proposal into a demonstration. <a href="../shipped/index.html#supply-chain">Currently the site's largest inconsistency.</a></li>
+  <li id="supply-chain"><b>An SBOM of the estate, and a licence audit in CI.</b> The single highest-value item on the list: it is roughly a day's work and it converts <a href="../funding/index.html#labelling">the labelling argument</a> from a proposal into a demonstration. The site asks companies to declare their supply chain; this is the estate's own declaration. One manual licence review exists (February 2026 — 17 transitive dependencies, an SPDX table, a clean verdict); the automated, continuous version is the item.</li>
   <li><b>The four agent-era theses</b> — <a href="../agents/index.html#compliance">licence compliance at machine speed</a>, <a href="../agents/index.html#provenance">provenance of AI-generated code</a>, <a href="../agents/index.html#training">training-data licensing</a>, and <a href="../agents/index.html#cc0">what CC0 means for machine reuse</a>. Each follows obviously from material that exists; none is written.</li>
-  <li><b>A licence taxonomy.</b> Copyleft versus permissive as a position, compatibility, where AGPL fits, and how to treat source-available. <a href="../shipped/index.html#taxonomy">The corpus has nothing to build on and the research supplies the ground.</a></li>
-  <li><b>The interview</b> — <a href="../owasp/index.html#interview">thirteen questions, already published</a>. Blocks the OWASP section and the six project retrospectives.</li>
-  <li><b>A trademark policy.</b> <a href="../survivability/self-audit.html#change">The clearest unforced gap in the self-audit</a>: publishing one costs almost nothing and removes the worst of the ambiguity even while the holder stays the same.</li>
+  <li id="taxonomy"><b>A licence taxonomy.</b> Copyleft versus permissive as a position, compatibility, where AGPL fits, and how to treat source-available. <a href="../history/index.html">The history research supplies the ground</a>; the position is next.</li>
+  <li id="interview"><b>The first-person OWASP account, and six project retrospectives</b> — <a href="../owasp/index.html#interview">thirteen questions, already published</a>, that only the author can answer. O2 Platform, MGraph-DB, OSBot, memory_fs, sgit-ai, Issues-FS: why each was open-sourced, and what happened next.</li>
+  <li><b>A trademark policy.</b> <a href="../survivability/self-audit.html#change">The clearest quick win from the self-audit</a>: publishing one costs almost nothing and removes the worst of the ambiguity even while the holder stays the same.</li>
   <li><b>Separately licensing the schemas.</b> The cheapest of the self-audit fixes, and there is no good argument against it.</li>
-  <li><b>Visual assets.</b> A timeline, a licence-family diagram, a map of the estate. <a href="../shipped/index.html#visual">A real production gap.</a></li>
+  <li id="visual"><b>Visual assets.</b> A timeline, a licence-family diagram, a map of the estate. <a href="../history/timeline.html">The timeline</a> and <a href="../survivability/stress-test.html">the four-leg test</a> both want a picture.</li>
 </ol>
 
-<h2 id="open">Eight open questions, published without answers</h2>
+<h2 id="open">Eight open questions</h2>
 
 <div class="tablewrap"><table>
   <thead><tr><th>#</th><th>Question</th><th>Where it stands</th></tr></thead>
   <tbody>
-    <tr><td><b>Q1</b></td><td><b>Is the customer subset open core or packaging?</b></td><td><a href="../views/open-core.html#test">The test is proposed</a>: does the customer build contain anything the public repo does not? The corpus contradicts itself five weeks apart and diagnoses itself. <b>Needs a decision, not more analysis.</b></td></tr>
+    <tr><td><b>Q1</b></td><td><b>Is the customer subset open core or packaging?</b></td><td><a href="../views/open-core.html#test">The test is proposed</a>: does the customer build contain anything the public repo does not? The June and July positions are both published, and the July document names the tension itself. <b>Needs a decision, not more analysis.</b></td></tr>
     <tr><td><b>Q2</b></td><td><b>Which funding model?</b></td><td><a href="../funding/index.html#position">A position is now taken</a> — they address three different failures and were never competitors. Still: none costed, none piloted, and the value-contribution calculation unsolved.</td></tr>
     <tr><td><b>Q3</b></td><td><b>Does the junior pipeline restructure, or break?</b></td><td><a href="../agents/index.html#pipeline">March and July say opposite things, four months apart.</a> What would settle it is a cohort measurement nobody appears to be making. <a href="../views/villagers.html">The villagers argument depends on the July answer.</a></td></tr>
     <tr><td><b>Q4</b></td><td><b>Would the estate change to pass its own stress test?</b></td><td><a href="../survivability/self-audit.html#change">Leg by leg, with what each fix requires.</a> The honest answer on leg one may be <em>"no, and here is why that is an accepted risk"</em> — still publishable, and better than silence.</td></tr>
-    <tr><td><b>Q5</b></td><td><b>Was CC0 on the articles deliberate?</b></td><td><a href="../practice/index.html#reading">Two readings, both coherent, and the site refuses to pick one on the author's behalf.</a> One sentence from him settles it. <b>Blocks the practice section from being complete.</b></td></tr>
+    <tr><td><b>Q5</b></td><td><b>Was CC0 on the articles deliberate?</b></td><td><a href="../practice/index.html#reading">Two readings, both coherent</a>, and one sentence from the author settles which was intended. Either answer is publishable.</td></tr>
     <tr><td><b>Q6</b></td><td><b>Do agents help or harm open-source sustainability?</b></td><td>Current evidence says harm — <a href="../funding/curl.html">cURL's bounty closed 31 Jan 2026</a>, vulnerabilities reported up 107%. <b>Is that a transition cost or the steady state?</b> Nobody knows, and <a href="../agents/index.html#audience">this site declines to claim the optimistic answer</a>.</td></tr>
-    <tr><td><b>Q7</b></td><td><b>Is "open source AI" coherent without training data?</b></td><td>The OSI's definition exists and drew heavy criticism; almost no model marketed as open source meets it. <a href="../agents/index.html#training">The corpus has one 2025 paragraph and has not followed the argument since.</a></td></tr>
-    <tr><td><b>Q8</b></td><td><b>What does this site owe a community it does not have?</b></td><td><a href="../shipped/index.html#community">The position is coherent and it leaves the site silent on governance, review and codes of conduct — despite the survivability argument turning on exactly that.</a></td></tr>
+    <tr><td><b>Q7</b></td><td><b>Is "open source AI" coherent without training data?</b></td><td>The OSI's definition exists and drew heavy criticism; almost no model marketed as open source meets it. <a href="../agents/index.html#training">The author's 2025 position, and a browser vendor now betting on the open-weight side of the line.</a></td></tr>
+    <tr id="community"><td><b>Q8</b></td><td><b>What does this site owe a community it does not have?</b></td><td><a href="../views/index.html#zero-contributions">The position that open source is right even with zero contributions</a> is coherent — and it means governance, review and codes of conduct are not yet written about here, despite <a href="../survivability/index.html#cla">the survivability argument turning on DCO-versus-CLA in practice</a>. The next contributor relationship is where that page gets written.</td></tr>
   </tbody>
 </table></div>
 
@@ -149,7 +156,7 @@
 </table></div>
 
 <div class="pagenav">
-  <a href="../shipped/index.html">← What is missing</a>
+  <a href="../owasp/index.html">← OWASP</a>
   <a href="../documents/index.html">The documents →</a>
 </div>
 </main>
@@ -159,8 +166,8 @@
     <div class="brandline">open-source<span>.sgit.ai</span></div>
     <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
     <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
-    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
-    <p class="verline">site <a href="../admin/versions.html">v0.1.2</a> · <a href="../admin/index.html">engineering</a> · <a href="../roadmap/index.md">this page as markdown</a></p>
+    <p class="authorline">Written by <a href="../about/index.html" style="display:inline;padding:0"><b>Dinis Cruz</b></a> — founder of The Cyber Boardroom, MyFeeds.ai and the sgit.ai network; former OWASP Board member. <a href="https://www.linkedin.com/in/diniscruz" style="display:inline;padding:0">↗ LinkedIn</a> · <a href="../about/index.html#interests" style="display:inline;padding:0">interests declared</a>.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.2.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../roadmap/index.md">this page as markdown</a></p>
   </div>
   <div>
     <h4>The argument</h4>
@@ -184,13 +191,13 @@
     <a href="../practice/index.html">Three licences</a>
   </div>
   <div>
-    <h4>Site</h4>
-    <a href="../shipped/index.html">What is missing</a>
-    <a href="../roadmap/index.html">Build order</a>
+    <h4>About</h4>
+    <a href="../about/index.html">About the author</a>
+    <a href="../founders/index.html">For founders</a>
+    <a href="../roadmap/index.html">What's next</a>
     <a href="../documents/index.html">The documents</a>
     <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
     <a href="../admin/versions.html">Release history</a>
-    <a href="../about/participant.html">Where we lose</a>
     <a href="../llms.txt">llms.txt</a>
     <a href="../llms-full.txt">llms-full.txt</a>
   </div>

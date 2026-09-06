@@ -1,6 +1,6 @@
 <!-- generated from views/villagers.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/views/villagers.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/views/villagers.html*
 
 > Maintaining the non-functional requirements — version control, reliability, resilience, security, backups, consistency, explainability, documentation — as a market, and the ability to read and repair code somebody else wrote as an appreciating scarce asset. Published with both of its own counter-arguments.
 
@@ -30,11 +30,11 @@ Explorers are now everybody. Every one of those applications will need version c
 
 > "The scarce asset in this market is **the ability to read and repair code somebody else wrote**." — "**Demand for a specific skill is rising sharply while the mechanism that produces that skill is being dismantled**, and firms with established engineers hold an asset that is appreciating rather than depreciating."
 
-The mechanism being dismantled is the junior pipeline, and that is [where this argument collides with the corpus's other dated contradiction](../agents/index.md#pipeline): in March the position was that the learning path was restructured rather than eliminated and the density of learning per hour *increases*; by July it was that apparent gains shifted work from juniors to seniors rather than removing it, and the pipeline is being disrupted at exactly the moment the maintenance need is growing.
+The mechanism being dismantled is the junior pipeline, and that is [where this argument meets the other place the author's position moved](../agents/index.md#pipeline): in March the position was that the learning path was restructured rather than eliminated and the density of learning per hour *increases*; by July it was that apparent gains shifted work from juniors to seniors rather than removing it, and the pipeline is being disrupted at exactly the moment the maintenance need is growing.
 
 Both are on the record. Both are published. The July version is what this page's market claim rests on — which means **if March turns out to be right, this argument weakens considerably**, and that is worth saying out loud.
 
-## The two counter-arguments — which the corpus wrote itself
+## The two counter-arguments — which the author raised himself
 
 These are not objections collected from critics. They are in the original brief's own honest-tensions table, and leaving them in is what makes the rest of the page trustworthy.
 

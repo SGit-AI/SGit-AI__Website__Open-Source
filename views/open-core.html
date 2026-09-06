@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Open core, or packaging? — a contradiction published rather than resolved</title>
-<meta name="description" content="18 June: there should be nothing proprietary. 17 July: customers only have a subset of the code that exists in the main repo. Five weeks apart, and the July document diagnoses itself. Here is the test that settles which one it actually is.">
+<title>Open core, or packaging? — the position, and the test that settles it</title>
+<meta name="description" content="18 June: there should be nothing proprietary. 17 July: customers only have a subset of the code that exists in the main repo. Five weeks apart, and the July document names the tension itself. Here is the one-question test that settles which one it actually is.">
 <link rel="canonical" href="https://open-source.sgit.ai/views/open-core.html">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="open-source.sgit.ai">
 <meta property="og:url" content="https://open-source.sgit.ai/views/open-core.html">
 <meta property="og:title" content="Open core, or packaging?">
-<meta property="og:description" content="A dated self-contradiction, five weeks apart, published rather than tidied. And a one-question test that settles it: does the customer build contain anything the public repo does not?">
+<meta property="og:description" content="Nothing proprietary in June; a customer subset in July. Both dates published, and the one-question test that settles whether it is open core or packaging.">
 <link rel="alternate" type="text/markdown" href="open-core.md" title="This page as markdown">
 <link rel="stylesheet" href="../assets/site.css">
 </head>
@@ -19,10 +19,17 @@
 <nav class="site"><div class="row">
   <a class="brand" href="../index.html">open-source<span>.sgit.ai</span></a>
   <a class="parent" href="https://sgit.ai" title="sgit.ai — the parent project: the vault layer and the shipped CLI whose licence and sovereignty argument this site holds">↗ part of <b>sgit.ai</b></a>
-  <span class="stage-pill">first draft</span>
-  <a class="ver" href="../admin/versions.html" title="Site release history">v0.1.2</a>
+  <a class="ver" href="../admin/versions.html" title="Site release history">v0.2.0</a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">Menu</button>
   <div class="nav-items">
+    <div class="ni ni-has">
+      <a class="nl" href="../founders/index.html">For founders<span class="caret">&#9662;</span></a>
+      <div class="sub">
+      <a class="sl" href="../founders/index.html">Owning the code, or opening it</a>
+      <a class="sl" href="../practice/apache-vs-mit.html">Why Apache-2.0, not MIT</a>
+      <a class="sl" href="../survivability/stress-test.html">Run the stress test on a vendor</a>
+      </div>
+    </div>
     <div class="ni ni-has">
       <a class="nl here" href="../views/index.html">The argument<span class="caret">&#9662;</span></a>
       <div class="sub">
@@ -67,15 +74,14 @@
       </div>
     </div>
     <div class="ni ni-has">
-      <a class="nl" href="../shipped/index.html">Site<span class="caret">&#9662;</span></a>
+      <a class="nl" href="../about/index.html">About<span class="caret">&#9662;</span></a>
       <div class="sub">
-      <a class="sl" href="../shipped/index.html">What is missing</a>
-      <a class="sl" href="../roadmap/index.html">Build order</a>
+      <a class="sl" href="../about/index.html">About the author</a>
+      <a class="sl" href="../roadmap/index.html">What's next</a>
       <a class="sl" href="../documents/index.html">The documents</a>
       <a class="sl" href="../admin/comms.html">Comms: tasks &amp; requests</a>
       <a class="sl" href="../admin/versions.html">Release history</a>
       <a class="sl" href="../admin/index.html">Admin &amp; engineering</a>
-      <a class="sl" href="../about/participant.html">Where we lose</a>
       </div>
     </div>
   </div>
@@ -86,7 +92,7 @@
 <main class="doc">
 <div class="crumb"><a href="../index.html">open-source.sgit.ai</a> / <a href="index.html">the argument</a> / open core</div>
 <h1>Open core, or packaging?</h1>
-<p class="lead">The corpus behind this site argues with itself, in writing, with dates, five weeks apart. It is published here rather than resolved into a tidy position, because a site that shows its own view moving as evidence arrived is worth more than one that only publishes the settled version — and because <b>the July document diagnoses itself</b>, which is the interesting part.</p>
+<p class="lead">The author's position on this moved between two dated documents, five weeks apart, and both are published here rather than tidied into one — because a site that shows its view moving as commercial pressure arrived is worth more than one that only publishes the settled version, and because <b>the July document names the tension itself</b>, which is the interesting part. Then the test that settles it.</p>
 
 <h2 id="june">18 June — nothing proprietary</h2>
 
@@ -142,7 +148,7 @@
 
 <p>Unresolved, and marked as such. The June statement and the July statement are both on the record; the test above is the site's proposal for settling it, and applying it is a decision for the project rather than for this page. <a href="../survivability/self-audit.html">The self-audit is where that decision will have to be made in public</a>, because the same question — <em>what does the customer actually get, and how does it differ from what is published</em> — is leg one of a stress test we are running on ourselves.</p>
 
-<div class="note"><b>Related and unwritten.</b> Whether the reconciliation holds depends on something nobody has documented: <a href="../shipped/index.html">why any of the estate's projects was open-sourced</a>. Six published projects, one retrospective, and that one written about the author rather than by him.</div>
+<div class="note"><b>Related, and next.</b> Whether the reconciliation holds in practice is best read against <a href="../roadmap/index.html#interview">why each of the estate's projects was open-sourced</a> — six published projects, and retrospectives on the build order.</div>
 
 <div class="pagenav">
   <a href="sovereignty.html">← Sovereignty</a>
@@ -155,8 +161,8 @@
     <div class="brandline">open-source<span>.sgit.ai</span></div>
     <p>Open source as a strategy rather than a charity: the position, the practice, and a history checked against its sources. Part of the <a href="https://sgit.ai" style="display:inline;padding:0"><b>sgit.ai</b></a> network. All content CC BY 4.0.</p>
     <p class="netline"><a href="https://sgit.ai"><b>↗ sgit.ai</b></a> — the parent project · <a href="https://standards.sgit.ai">↗ standards.sgit.ai</a> — SPDX and the compliance machinery · <a href="https://wardley-maps.sgit.ai">↗ wardley-maps.sgit.ai</a> — the PST pattern · <a href="https://sgit.ai/network/index.html">↗ the network</a></p>
-    <p class="partnote">⚠ Participant disclosure: published by the sgit project, whose own estate is the subject of the <a href="../survivability/self-audit.html" style="display:inline;padding:0">self-audit</a> — and which fails leg one.</p>
-    <p class="verline">site <a href="../admin/versions.html">v0.1.2</a> · <a href="../admin/index.html">engineering</a> · <a href="../views/open-core.md">this page as markdown</a></p>
+    <p class="authorline">Written by <a href="../about/index.html" style="display:inline;padding:0"><b>Dinis Cruz</b></a> — founder of The Cyber Boardroom, MyFeeds.ai and the sgit.ai network; former OWASP Board member. <a href="https://www.linkedin.com/in/diniscruz" style="display:inline;padding:0">↗ LinkedIn</a> · <a href="../about/index.html#interests" style="display:inline;padding:0">interests declared</a>.</p>
+    <p class="verline">site <a href="../admin/versions.html">v0.2.0</a> · <a href="../admin/index.html">engineering</a> · <a href="../views/open-core.md">this page as markdown</a></p>
   </div>
   <div>
     <h4>The argument</h4>
@@ -180,13 +186,13 @@
     <a href="../practice/index.html">Three licences</a>
   </div>
   <div>
-    <h4>Site</h4>
-    <a href="../shipped/index.html">What is missing</a>
-    <a href="../roadmap/index.html">Build order</a>
+    <h4>About</h4>
+    <a href="../about/index.html">About the author</a>
+    <a href="../founders/index.html">For founders</a>
+    <a href="../roadmap/index.html">What's next</a>
     <a href="../documents/index.html">The documents</a>
     <a href="../admin/comms.html">Comms: tasks &amp; requests</a>
     <a href="../admin/versions.html">Release history</a>
-    <a href="../about/participant.html">Where we lose</a>
     <a href="../llms.txt">llms.txt</a>
     <a href="../llms-full.txt">llms-full.txt</a>
   </div>

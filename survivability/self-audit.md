@@ -1,16 +1,16 @@
 <!-- generated from survivability/self-audit.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/survivability/self-audit.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/survivability/self-audit.html*
 
-> SGraph's copyright is held by one company: the exact single-holder pattern our own survivability argument identifies as the failure mode. The four legs run on ourselves, what would have to change, and whether we intend to change it.
+> The Change-of-Control Stress Test run against the sgit estate itself, with the same four legs and the same evidence rules: the result on each leg, what changing it would actually take, and which changes are planned.
 
 ---
 
-# We run the test on ourselves, and we fail leg one
+# We run the test on our own estate
 
-A tool whose author will not apply it to themselves is a marketing asset. One who does is a standard. So here is [the Change-of-Control Stress Test](stress-test.md) run against this project's own estate, with the same four legs, the same evidence rules, and no softening on the leg we fail.
+A tool whose author will not apply it to themselves is a marketing asset. One who does is a standard. So here is [the Change-of-Control Stress Test](stress-test.md) run against this project's own estate, with the same four legs and the same evidence rules — the result on each, what changing it would take, and which changes are planned.
 
-> **The short version.****SGraph's copyright is held by one company.** That is precisely the single-holder pattern the [survivability argument](index.md#mechanism) identifies as the mechanism behind every catalogued relicensing between 2018 and 2024. If you apply our own test to us, leg one fails — and it fails for the same structural reason it failed for the projects we cite.
+> **The short version.****The estate's copyright is held by one company** — the single-holder pattern the [survivability argument](index.md#mechanism) identifies as the mechanism behind every catalogued relicensing between 2018 and 2024. Applied to us, the test says so, for the same structural reason it says so of the projects we cite. That is the result a single-founder company with no external contributors should expect, and the useful part of this page is the second half: what each leg would take to change, and which of those changes are on the build order.
 
 ## The four legs
 
@@ -21,7 +21,7 @@ A tool whose author will not apply it to themselves is a marketing asset. One wh
 | **3 · Schema licence** | Partial | The stated position is unambiguous — *"The customer's schemas can be closed, a lot of their data is closed, **but our schemas are open**"* — and [the argument that schemas matter as much as code is ours](../views/sovereignty.md#step2). What is missing is the artefact: the schemas are not **separately licensed** with their own declared terms in the way leg three asks for. The intent passes; the paperwork does not yet exist. This is the cheapest of the three to fix and it is not fixed. |
 | **4 · Fork capacity** | Fails | There is no named party with the headcount and mandate to run a fork. Honestly: there is no community to be the unnamed party either, so this is not even the *"the community would fork it"* answer the test flags as failing — it is the answer below that one. The code is Apache-2.0 and genuinely forkable; **nobody is standing by to fork it**. |
 
-> **Verdict, by our own tool: single-party dependent.** Three fails and a partial. This is the pattern every relicensing in the 2018–2024 wave followed. It does not mean this project will be relicensed. It means **nothing structural would stop it**, and that an acquisition would carry the standing along with the company — which is exactly what we say about everyone else, and it is exactly as true here.
+> **Result, by our own tool: single-party dependent.** Three legs against, one partial. This is the pattern every relicensing in the 2018–2024 wave followed. It does not mean this project will be relicensed. It means **nothing structural would stop it**, and that an acquisition would carry the standing along with the company — which is exactly what we say about everyone else, and it is exactly as true here. The code already published is Apache-2.0 and stays that way whatever happens; the result is about the terms of the *next* release.
 
 ## Why publish this
 
@@ -29,7 +29,7 @@ Three reasons, in order of how much they matter.
 
 **Because the test would be worthless otherwise.** The whole proposition of a four-leg test answerable from public artefacts is that it does not depend on the assessor's goodwill. An assessor who exempts themselves has demonstrated that the test is a marketing instrument dressed as a diagnostic, and every reader is right to discount it accordingly.
 
-**Because it is the same discipline the corpus already applies elsewhere.** The estate's own listed tension about publishing security reviews reads: *"It is unusually transparent and **it publishes your own weaknesses to an audience that includes people looking for them**."* That cost is real. It is also the reason the transparency claim is worth anything at all.
+**Because it is the same discipline the author already applies elsewhere.** His own listed tension about publishing security reviews reads: *"It is unusually transparent and **it publishes your own weaknesses to an audience that includes people looking for them**."* That cost is real. It is also the reason the transparency claim is worth anything at all.
 
 **Because the honest answer to "will you fix it?" may be no** — and that is still publishable, and still more useful than silence.
 
@@ -47,10 +47,10 @@ Three reasons, in order of how much they matter.
 Failing the test is not a confession that the model is wrong; it is the model working. The four legs describe **exposure**, and the exposure described here is real, priced, and now public. What a reader should take from it:
 
 - The code is **Apache-2.0 and already published**. The licence you have cannot be withdrawn — [that is what the licence file genuinely guarantees](index.md#mechanism), and it is not nothing.
-- What is not guaranteed is the terms of the *next* release, and no assurance from us changes that. **Structure is what changes it**, and the structure is what fails.
+- What is not guaranteed is the terms of the *next* release, and no assurance from us changes that. **Structure is what changes it**, and the structure is what this page is about.
 - Every argument on this site about the risk of single-holder projects **applies to this one**. Readers should discount accordingly, and the discount is the honest price of the argument.
 
-> **Where this is still weaker than it should be.** This page audits *structure*. It does not yet publish an SBOM of the estate, a licence-scan result, or an upstream-contribution record — all of which the site argues companies should publish. [That gap is stated on the missing page](../shipped/index.md#supply-chain), where it belongs, rather than quietly omitted from here.
+> **What this page does not yet cover.** It audits *structure*. An SBOM of the estate, a licence-scan result and an upstream-contribution record — the things the site argues companies should publish — are [first on the build order](../roadmap/index.md#supply-chain), and will be linked from here when they ship.
 
 [← The stress test](stress-test.md)[The history →](../history/index.md)
 

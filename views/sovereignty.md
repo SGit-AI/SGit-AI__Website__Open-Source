@@ -1,6 +1,6 @@
 <!-- generated from views/sovereignty.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.1.2 · canonical: https://open-source.sgit.ai/views/sovereignty.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/views/sovereignty.html*
 
 > A four-step argument: open source is the only structure under which independence is possible; the data schemas matter as much as the code; without ownership you are one SLA away from losing access; and company nationality is not sovereignty, because acquisitions move it.
 
@@ -14,7 +14,7 @@ Four steps, each one a claim you can disagree with separately. The argument is t
 
 > "it is only when the code is open source that there is a possibility and the ability to have independence and sovereignty. Because **if you suddenly get cut off from the service, at least you have a chance**. That is why you have to have open source in order to have sovereignty."
 
-Note the modesty of "at least you have a chance". The claim is about *possibility*, not outcome. Having the source does not mean you can run it, maintain it, or afford the people who could — it means the option exists rather than not existing. Every stronger version of this claim is wrong, and the corpus does not make one.
+Note the modesty of "at least you have a chance". The claim is about *possibility*, not outcome. Having the source does not mean you can run it, maintain it, or afford the people who could — it means the option exists rather than not existing. Every stronger version of this claim is wrong, and the author does not make one.
 
 ## Step 2 — The schemas matter as much as the code, and access is not control
 
@@ -48,7 +48,7 @@ The work — the engineering, the invention, the people — does not disappear w
 
 | The objection | How much it lands |
 |---|---|
-| **Open source is necessary but nowhere near sufficient.** Having the source of a system you cannot operate, on infrastructure you do not own, with no one on staff who can read it, is sovereignty on paper only. | **It lands fully** — and the corpus concedes it. This is why [the villagers argument](villagers.md) exists: the capacity to read and repair is the part that actually has to be bought, and nobody is currently funding it. [Sovereignty bounties are the proposed answer →](../funding/index.md#bounties) |
+| **Open source is necessary but nowhere near sufficient.** Having the source of a system you cannot operate, on infrastructure you do not own, with no one on staff who can read it, is sovereignty on paper only. | **It lands fully** — and the author concedes it. This is why [the villagers argument](villagers.md) exists: the capacity to read and repair is the part that actually has to be bought, and nobody is currently funding it. [Sovereignty bounties are the proposed answer →](../funding/index.md#bounties) |
 | **The exit is theoretical unless someone has walked it.** "You have the source" is not a migration plan, and no organisation has budget for one they might never use. | **It lands**, and it is the strongest single idea on this site's response list — [fund the substitution side, not the supply side](../funding/index.md#bounties). Nobody currently does. |
 | **Sovereignty arguments are often protectionism with better vocabulary.** | **Sometimes true, and worth watching for.** The test is whether the argument would accept a foreign-owned open-source stack over a domestic proprietary one. This one would — the criterion is structural, not national, which is exactly what step 4 says. |
 | **Open source has its own single points of failure.** A commons maintained by seven volunteers is not obviously more sovereign than a vendor with a support contract. | **It lands hard**, and [cURL is the case in point](../funding/curl.md). The answer is not that the commons is safe; it is that its failure mode is visible and fixable by anyone, where a vendor's is neither. |
