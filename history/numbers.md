@@ -1,6 +1,6 @@
 <!-- generated from history/numbers.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/history/numbers.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/history/numbers.html*
 
 > The $8.8 trillion figure and what it actually measures, the 70–90% claim that is really a presence figure, and the statistics the research could not source — listed as unverified rather than published as established.
 

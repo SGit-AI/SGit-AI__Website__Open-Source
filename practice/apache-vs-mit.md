@@ -1,6 +1,6 @@
 <!-- generated from practice/apache-vs-mit.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/practice/apache-vs-mit.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/practice/apache-vs-mit.html*
 
 > The patent grant, defensive termination, the NOTICE file, and the explicit contribution clause — the four things Apache-2.0 does that MIT does not, the honest costs of each, and when MIT is the better choice.
 

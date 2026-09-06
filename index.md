@@ -1,6 +1,6 @@
 <!-- generated from index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/index.html*
 
 > Open source as a strategy rather than a charity — by Dinis Cruz, founder of the sgit.ai network, MyFeeds.ai and The Cyber Boardroom, and former OWASP Board member. Guidance for founders on owning the code or opening it; the position with its counter-cases; the licences actually in force; and a history checked against its sources, including six corrections to the story most sites tell.
 
@@ -12,7 +12,7 @@ Open source · sovereignty · survivability · the economics
 
 Most sites arguing for open source argue that it is generous. This one does not. **The power of open source is not for the community, it is not because it is nice for others, and it is not to give back** — it is that technology stops being the moat, that you become free to delete your own code, and that sovereignty becomes possible at all. And the accurate history supports that far better than the romantic one does.
 
-By [**Dinis Cruz**](about/index.md) — founder of [sgit.ai](https://sgit.ai), [MyFeeds.ai](https://investor.myfeeds.ai/) and [The Cyber Boardroom](https://thecyberboardroom.com); former OWASP Board member. This is the strategy those companies run on. [↗ LinkedIn](https://www.linkedin.com/in/diniscruz)
+By [**Dinis Cruz**](about/index.md) — founder of [sgit.ai](https://sgit.ai) and [sgraph.ai](https://sgraph.ai), [MyFeeds.ai](https://investor.myfeeds.ai/), [RiskMandate.ai](https://riskmandate.ai), [VoiceDebrief.ai](https://voicedebrief.ai) and [The Cyber Boardroom](https://thecyberboardroom.com); former OWASP Board member. This is the strategy those companies run on. [↗ LinkedIn](https://www.linkedin.com/in/diniscruz)
 
 [For founders: owning the code, or opening it →](founders/index.md)[Read the position →](views/index.md)[Run the stress test on a vendor →](survivability/stress-test.md)
 
@@ -237,7 +237,7 @@ Every section's state, seven items in sequence, and where this site stops and a 
 
 ## Who is writing this
 
-**Dinis Cruz** — founder of The Cyber Boardroom, MyFeeds.ai, Akeia.ai and the sgit.ai network; former OWASP Board member and organiser of the OWASP Summits; creator of the O2 Platform and of the OSBot, MGraph-DB, Issues-FS and sgit families of open-source tools. This site is the strategy those companies run on, written from the experience of running it: everything they ship is open source, and so are their investor materials. The estate is run through [its own stress test](survivability/self-audit.md), result published.
+**Dinis Cruz** — founder of The Cyber Boardroom, MyFeeds.ai, RiskMandate.ai, VoiceDebrief.ai and the sgit.ai network (commercialised through sgraph.ai); former OWASP Board member and organiser of the OWASP Summits; creator of the O2 Platform and of the OSBot, MGraph-DB, Issues-FS and sgit families of open-source tools. This site is the strategy those companies run on, written from the experience of running it: everything they ship is open source, and so are their investor materials. The estate is run through [its own stress test](survivability/self-audit.md), result published.
 
 [About the author, and interests declared →](about/index.md)[↗ LinkedIn](https://www.linkedin.com/in/diniscruz)[↗ Investor materials, published in the open](https://investor.myfeeds.ai/)
 

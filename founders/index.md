@@ -1,6 +1,6 @@
 <!-- generated from founders/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/founders/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/founders/index.html*
 
 > Field notes from a strategy session with a solo founder: what copying your code would actually cost an incumbent, four instincts and their counter-arguments, the explorer–villager–town-planner frame, eight steps in order, what to settle before you publish, and what a week of building in the open looks like when it is counted.
 

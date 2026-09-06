@@ -1,6 +1,6 @@
 <!-- generated from survivability/self-audit.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/survivability/self-audit.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/survivability/self-audit.html*
 
 > The Change-of-Control Stress Test run against the sgit estate itself, with the same four legs and the same evidence rules: the result on each leg, what changing it would actually take, and which changes are planned.
 

@@ -1,6 +1,6 @@
 <!-- generated from admin/comms.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/admin/comms.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/admin/comms.html*
 
 > The open board: the items only the author can supply, and the tasks the site is carrying. Numbered, dated, and published rather than held privately.
 

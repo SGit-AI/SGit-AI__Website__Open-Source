@@ -3,7 +3,7 @@
 > Open source as a strategy rather than a charity: the position, the practice,
 > and a history checked against its sources. Part of the sgit.ai network.
 
-Site version: v0.2.0
+Site version: v0.2.1
 Canonical host: https://open-source.sgit.ai/
 Author: Dinis Cruz — https://www.linkedin.com/in/diniscruz — founder of The Cyber
 Boardroom, MyFeeds.ai and the sgit.ai network; former OWASP Board member.
@@ -59,7 +59,7 @@ could not be moved the same way, because no single party had standing.
 - [OWASP and the summits](https://open-source.sgit.ai/owasp/index.md): Four summits from 2008 Algarve to 2017 Woburn's 173 sessions, the working-session format and no spectators only participants — written from the public record, with the first-person account planned and its questions published.
 - [What's next — the build order and the open questions](https://open-source.sgit.ai/roadmap/index.md): What is built, what is next in order, and eight questions that are still open — including whether the customer subset is open core, which funding model to back, and what the estate will change after its own stress test.
 - [The documents — the source briefs, published verbatim](https://open-source.sgit.ai/documents/index.md): The commissioning brief pack this site was built from, published whole and unedited: nine briefs, an 18,000-word history research document, and a 55-row source manifest. The raw markdown is the source of truth.
-- [About the author — Dinis Cruz](https://open-source.sgit.ai/about/index.md): Dinis Cruz — founder of The Cyber Boardroom, MyFeeds.ai, Akeia.ai and the sgit.ai network; former OWASP Board member and organiser of the OWASP Summits; creator of the O2 Platform. This site is the open-source strategy those companies run on, written from the experience of running it — with the author's interests declared.
+- [About the author — Dinis Cruz](https://open-source.sgit.ai/about/index.md): Dinis Cruz — founder of The Cyber Boardroom, MyFeeds.ai, RiskMandate.ai, VoiceDebrief.ai and the sgit.ai network (commercialised through sgraph.ai); former OWASP Board member and organiser of the OWASP Summits; creator of the O2 Platform. This site is the open-source strategy those companies run on, written from the experience of running it — with the author's interests declared.
 - [Admin & engineering — how this site is built](https://open-source.sgit.ai/admin/index.md): The build tooling, the CI pipeline (validate → auto-tag → deploy), the release process, and the markdown-twin generator that makes the site traversable by agents. Published, because a site arguing you should publish the source should publish its own.
 - [Comms — tasks and requests](https://open-source.sgit.ai/admin/comms.md): The open board: the items only the author can supply, and the tasks the site is carrying. Numbered, dated, and published rather than held privately.
 - [Release history · open-source.sgit.ai](https://open-source.sgit.ai/admin/versions.md): Site release history. Every push to dev is a release, validated then auto-tagged by CI against the version in admin/build/version.txt and the release commit's subject.

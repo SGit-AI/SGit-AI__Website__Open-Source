@@ -2,7 +2,9 @@
 
 The position of [Dinis Cruz](https://www.linkedin.com/in/diniscruz) — founder of
 [sgit.ai](https://sgit.ai), [MyFeeds.ai](https://investor.myfeeds.ai/),
-[The Cyber Boardroom](https://thecyberboardroom.com) and Akeia.ai; former OWASP Board
+[The Cyber Boardroom](https://thecyberboardroom.com), [RiskMandate.ai](https://riskmandate.ai)
+and [VoiceDebrief.ai](https://voicedebrief.ai), with the sgit layer commercialised through
+[sgraph.ai](https://sgraph.ai); former OWASP Board
 member — on what open source is for, how to practise it, and the history that supports
 it. It is the strategy those companies run on: everything they ship is open source, and
 so are their investor materials.

@@ -1,8 +1,8 @@
 <!-- generated from about/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/about/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/about/index.html*
 
-> Dinis Cruz — founder of The Cyber Boardroom, MyFeeds.ai, Akeia.ai and the sgit.ai network; former OWASP Board member and organiser of the OWASP Summits; creator of the O2 Platform. This site is the open-source strategy those companies run on, written from the experience of running it — with the author's interests declared.
+> Dinis Cruz — founder of The Cyber Boardroom, MyFeeds.ai, RiskMandate.ai, VoiceDebrief.ai and the sgit.ai network (commercialised through sgraph.ai); former OWASP Board member and organiser of the OWASP Summits; creator of the O2 Platform. This site is the open-source strategy those companies run on, written from the experience of running it — with the author's interests declared.
 
 ---
 
@@ -15,9 +15,11 @@ This site is my position on open source — what it is for, how to practise it, 
 | Role | What it involved |
 |---|---|
 | **Founder, [sgit.ai](https://sgit.ai)** | Encrypted vaults with git semantics — clone, commit, branch and merge files encrypted before they leave your machine — under Apache-2.0, and the [network of nineteen sites](https://sgit.ai/network/index.html) of which this is one. Each site publishes its argument before its implementation, so the commitments are checkable. |
+| **Founder, [sgraph.ai](https://sgraph.ai)** | Where the strategy turns into revenue: the commercial home of **SG/Send**, the secure file-sharing service built on the open-source sgit layer, and the place that sells access to **SG/Vaults** — hosted sgit vaults. The code stays Apache-2.0; what is sold is the running, maintained, certified service, which is [exactly where this site says the commercial line belongs](../views/index.md#not-the-moat). |
 | **Founder, [MyFeeds.ai](https://investor.myfeeds.ai/)** | Role-aware cybersecurity briefings built on semantic knowledge graphs — CISO, engineer and board views of the same news, with source attribution. **100% open source, serverless, no vendor lock-in.** The seed pitch, use of funds and unit economics are [published in the open](https://investor.myfeeds.ai/). |
 | **Founder, [The Cyber Boardroom](https://thecyberboardroom.com)** | An AI-powered platform for the conversation between technical security teams and the board — bridging the two with knowledge-graph technology. Apache-2.0, with the community edition, the website and the automation in public repositories. |
-| **Founder, [Akeia.ai](https://akeia.ai)** | Real-time analysis and refinement of web content for healthier digital workplaces. |
+| **Founder, [RiskMandate.ai](https://riskmandate.ai)** | The business risk layer for autonomous systems. The newest of the startups, alongside VoiceDebrief. |
+| **Founder, [VoiceDebrief.ai](https://voicedebrief.ai)** | Voice recordings into transcripts and debriefs, entirely in the browser — no account, and nothing uploaded to a server. The ["ask for keys at run time, store nothing"](../founders/index.md#week) habit from the founders' page, shipped as a product. |
 | **Former OWASP Board member** | And organiser of the OWASP Summits — [Lisbon 2011 and Woburn 2017](../owasp/index.md#summits), the working-session format with *"no spectators, only participants"* that the Open Security Summit series went on to build on. Current open-source work still ships under the `owasp-sbot` organisation, with `MGraph-DB` publicly credited to the OWASP community. |
 | **Creator, the O2 Platform** | The OWASP static-analysis engine of 2010–2012, and the first of a line of open-source tooling that continues in the `osbot-*` and `mgraph-*` families, `memory_fs`, `Issues-FS` and `sgit-ai` — [all Apache-2.0, all on PyPI](../practice/index.md#published). |
 

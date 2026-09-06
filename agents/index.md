@@ -1,6 +1,6 @@
 <!-- generated from agents/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/agents/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/agents/index.html*
 
 > Code-reading as the appreciating scarce asset, two dated positions on the junior pipeline both published, and four theses that follow from the author's writing and are next to be written — including licence compliance at machine speed.
 

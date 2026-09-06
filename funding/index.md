@@ -1,6 +1,6 @@
 <!-- generated from funding/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/funding/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/funding/index.html*
 
 > Market forces and supply-chain labelling, a maintainer platform, and sovereignty bounties that fund the exit rather than the supply. None was costed, none piloted, and none compared against the others — until here.
 

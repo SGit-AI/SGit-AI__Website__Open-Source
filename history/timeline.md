@@ -1,6 +1,6 @@
 <!-- generated from history/timeline.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/history/timeline.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/history/timeline.html*
 
 > A sourced timeline of open source from the 1956 AT&T consent decree to the relicensing wave and its partial reversals — placed behind the corrections rather than in front of them, because the corrections are the part worth reading first.
 

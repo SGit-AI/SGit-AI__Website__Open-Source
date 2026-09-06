@@ -1,6 +1,6 @@
 <!-- generated from practice/index.html by admin/build/gen_markdown.py — do not edit by hand -->
 
-*[open-source.sgit.ai](/index.md) · site v0.2.0 · canonical: https://open-source.sgit.ai/practice/index.html*
+*[open-source.sgit.ai](/index.md) · site v0.2.1 · canonical: https://open-source.sgit.ai/practice/index.html*
 
 > Apache-2.0 on the code, CC BY 4.0 on around 1,100 working documents, and CC0 1.0 on the published essays. The licensing actually in force across the estate, what each licence is for, the reasoning behind the CC BY choice, and the one alignment question still open.
 
