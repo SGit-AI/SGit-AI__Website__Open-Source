@@ -36,6 +36,12 @@ The second sentence is the one that has stopped being abstract. Jurisdiction ove
 
 > **This step is the survivability argument.** "A European company gets acquired and the sovereignty moves" and "a single copyright holder gets acquired and the licence changes" are the same mechanism at two scales — one about a country, one about a project. Saying so makes both stronger, and it is why the [stress test's four legs](../survivability/stress-test.md) are the practical form of a sovereignty question. **Buying from a company incorporated in your jurisdiction protects you exactly until someone buys the company.**
 
+## The argument, on one page
+
+[![Infographic: We Can't Have Sovereignty Without Open Source Companies and Creative Commons Ontologies — a native startup is one acquisition away from losing sovereignty; open source companies change the equation; the open stack for a sovereign future; why this matters for the UK and EU.](../assets/infographics/sovereignty-open-source-companies-cc-ontologies.png)](../assets/infographics/sovereignty-open-source-companies-cc-ontologies.png)
+
+**We can't have sovereignty without open source companies and Creative Commons ontologies.** Step four as a picture — a native startup is one acquisition away — with the schemas argument from step two as the bottom layer of the stack. Necessary and not sufficient, as the table below says; [the infographics page carries the caveat](../infographics/index.md#sovereignty).
+
 ## The standard objection, and the answer
 
 The reflexive objection to any of this is that it will stifle innovation. The answer given is not a defence of open source so much as a reframing of what is actually being protected:

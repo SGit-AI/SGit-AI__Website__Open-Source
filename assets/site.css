@@ -311,3 +311,16 @@ footer.site .authorline b{color:var(--fg)}
 .stats .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem;box-shadow:var(--shadow)}
 .stats .stat .num{font-family:var(--serif);font-size:1.9rem;color:#101114;line-height:1.1}
 .stats .stat .lbl{font-size:.8rem;color:var(--dim);margin-top:.3rem;line-height:1.45}
+
+/* infographics — a figure in the flow of a page, and the grid on the infographics page */
+figure.infographic{margin:1.6rem 0;padding:0}
+figure.infographic a{display:block}
+figure.infographic img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);background:#fff}
+figure.infographic figcaption{font-size:.85rem;color:var(--dim);margin-top:.7rem;line-height:1.6}
+figure.infographic figcaption b{color:#101114}
+figure.infographic.narrow{max-width:720px;margin-left:auto;margin-right:auto}
+.infogrid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));max-width:1160px;margin:0 auto;padding:0 1.1rem}
+.infogrid a.card{padding:0 0 1.05rem;overflow:hidden}
+.infogrid a.card img{display:block;width:100%;height:auto;border-bottom:1px solid var(--line);margin-bottom:.9rem}
+.infogrid a.card .tag,.infogrid a.card h3,.infogrid a.card p,.infogrid a.card .go{margin-left:1.05rem;margin-right:1.05rem}
+.infogrid a.card .tag{display:block}

@@ -23,6 +23,12 @@ This site is my position on open source — what it is for, how to practise it, 
 | **Former OWASP Board member** | And organiser of the OWASP Summits — [Lisbon 2011 and Woburn 2017](../owasp/index.md#summits), the working-session format with *"no spectators, only participants"* that the Open Security Summit series went on to build on. Current open-source work still ships under the `owasp-sbot` organisation, with `MGraph-DB` publicly credited to the OWASP community. |
 | **Creator, the O2 Platform** | The OWASP static-analysis engine of 2010–2012, and the first of a line of open-source tooling that continues in the `osbot-*` and `mgraph-*` families, `memory_fs`, `Issues-FS` and `sgit-ai` — [all Apache-2.0, all on PyPI](../practice/index.md#published). |
 
+## The strategy, on one page
+
+[![Infographic: My Strategy — Open Foundations for a More Capable World. Guiding principles, the sgit.ai foundation, the companies built on it, the open source ecosystem, and a virtuous cycle.](../assets/infographics/my-strategy-open-foundations.png)](../assets/infographics/my-strategy-open-foundations.png)
+
+**Open foundations for a more capable world.** The principles, the sgit layer every company builds on, the four companies, and the two ecosystem projects. Made for LinkedIn from this site. [All four infographics, with the pages they draw on →](../infographics/index.md)
+
 ## Built in the open, including the parts most companies keep closed
 
 The argument on this site is that [open source is a strategy rather than a charity](../views/index.md), and the strongest evidence I can offer for it is that I run companies on it. That extends past the code:

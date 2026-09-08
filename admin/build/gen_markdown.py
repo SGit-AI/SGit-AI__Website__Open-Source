@@ -45,7 +45,7 @@ LICENCE = ("This page is released under the Creative Commons Attribution 4.0 "
 # Rendered in llms.txt / llms-full.txt in this order. Anything not listed is still
 # given a twin; it just sorts after these.
 ORDER = [
-    "index.html", "founders/index.html",
+    "index.html", "founders/index.html", "infographics/index.html",
     "views/index.html", "views/sovereignty.html", "views/open-core.html", "views/villagers.html",
     "survivability/index.html", "survivability/stress-test.html", "survivability/self-audit.html",
     "history/index.html", "history/timeline.html", "history/stories.html", "history/numbers.html",
@@ -56,7 +56,8 @@ ORDER = [
 ]
 
 BLOCK = {"h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "tr", "blockquote", "pre",
-         "div", "section", "header", "main", "table", "thead", "tbody", "ul", "ol"}
+         "div", "section", "header", "main", "table", "thead", "tbody", "ul", "ol",
+         "figure", "figcaption"}
 SKIP = {"script", "style", "nav", "footer", "head", "button", "svg"}
 
 
@@ -156,6 +157,12 @@ def inline(node, from_rel):
         return f"`{inner.strip()}`"
     if t == "br":
         return " "
+    if t == "img":
+        # An image is carried into the twin as a markdown image, same relative path:
+        # the .md sits next to the .html, so the src resolves identically.
+        src = node.attrs.get("src", "")
+        alt = " ".join(node.attrs.get("alt", "").split())
+        return f"![{alt}]({src})" if src else ""
     if t == "a":
         href = node.attrs.get("href", "")
         text = inner.strip()
@@ -173,7 +180,7 @@ def cell(node, from_rel):
 # emitted as one paragraph rather than one block each. Rendering them separately
 # is what turned "<blockquote>text <b>emphasis</b> text</blockquote>" into three
 # stacked block quotes — correct-looking HTML, unreadable markdown.
-INLINE_TAGS = {"#text", "a", "b", "strong", "em", "i", "code", "span", "br", "small", "sup", "sub"}
+INLINE_TAGS = {"#text", "a", "b", "strong", "em", "i", "code", "span", "br", "small", "sup", "sub", "img"}
 
 
 def render_children(node, from_rel, out, depth=0):
@@ -318,7 +325,7 @@ def render(node, from_rel, out, depth=0):
             out.append("\n".join(lines))
         return
 
-    if t in ("div", "section", "header", "main", "thead", "tbody", "#root", "span"):
+    if t in ("div", "section", "header", "main", "thead", "tbody", "#root", "span", "figure", "figcaption"):
         # A .card is a self-contained unit whose <span class="tag"> is its label.
         classes = node.cls()
         if "note" in classes or "warnbox" in classes or "evbox" in classes:

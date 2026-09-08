@@ -28,6 +28,7 @@ Live site: https://open-source.sgit.ai (GitHub Pages, deployed from `dev`).
 
 - `index.html` — the thesis, the founders' guide first, then the six history corrections, because they establish that this site checks things
 - `founders/` — **Owning the code, or opening it**: guidance for founders from a strategy session, released CC BY (attribution Dinis Cruz and Kate Curtis-Evans)
+- `infographics/` — the argument in four one-page infographics, each with the page it draws on and the caveat the site attaches; images under `assets/infographics/`
 - `views/` — the argument: the position, sovereignty, open core vs packaging, and the villagers — each with its counter-case attached
 - `survivability/` — the argument, the Change-of-Control Stress Test as a working tool, and the self-audit
 - `history/` — six corrections leading, the timeline behind them, six success stories, and the numbers (including the ones this site declines to publish)

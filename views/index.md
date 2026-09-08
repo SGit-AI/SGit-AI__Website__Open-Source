@@ -88,6 +88,12 @@ Applied to hyperscalers, the author argues this both ways *in one document* and 
 
 Left unresolved here too, deliberately. It is a genuine open question about scale, not a rhetorical balance: the same adoption that creates your market can eat it, and which one happens depends on facts not yet in evidence. [It is on the open-questions list →](../roadmap/index.md#open)
 
+## The position, on one page
+
+[![Infographic: Open Source Is a Business Model — five proven commercial models and the open source flywheel.](../assets/infographics/open-source-is-a-business-model.png)](../assets/infographics/open-source-is-a-business-model.png)
+
+**Open source is a business model** — the five ways it pays, and the flywheel. Made for LinkedIn from this page. Three of the names on it are also the relicensing cases the survivability page catalogues, which is why [the infographics page carries this one with its caveat attached](../infographics/index.md#business-model).
+
 ## The arguments that carry their own pages
 
 ### [Sovereignty requires open source](sovereignty.md)

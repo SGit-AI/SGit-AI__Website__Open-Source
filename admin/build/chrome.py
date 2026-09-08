@@ -67,12 +67,13 @@ NAV = [
     ], ("agents/", "funding/", "owasp/")),
     ("About", "about/index.html", [
         ("About the author", "about/index.html"),
+        ("The infographics", "infographics/index.html"),
         ("What's next", "roadmap/index.html"),
         ("The documents", "documents/index.html"),
         ("Comms: tasks &amp; requests", "admin/comms.html"),
         ("Release history", "admin/versions.html"),
         ("Admin &amp; engineering", "admin/index.html"),
-    ], ("roadmap/", "documents/", "admin/", "about/")),
+    ], ("roadmap/", "documents/", "admin/", "about/", "infographics/")),
 ]
 
 FOOTER = [
@@ -97,6 +98,7 @@ FOOTER = [
     ("About", [
         ("About the author", "about/index.html"),
         ("For founders", "founders/index.html"),
+        ("The infographics", "infographics/index.html"),
         ("What's next", "roadmap/index.html"),
         ("The documents", "documents/index.html"),
         ("Comms: tasks &amp; requests", "admin/comms.html"),

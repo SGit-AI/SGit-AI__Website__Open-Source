@@ -196,6 +196,14 @@ Which is [the argument of this whole site](../views/index.md) at the scale of on
 
 > **Provenance.** Prepared from a recording of the strategy call, transcribed and edited in Audio Genius, and first published as an infographic. Released under a Creative Commons CC BY licence. **Attribution: Dinis Cruz and Kate Curtis-Evans.** Details of the founder's product are theirs to tell; the reasoning is published here because it applies to every solo founder asking the question at the top of this page.
 
+## The same argument, for GenAI startups
+
+The walk-through above is one founder's case. The general version — why open source is the best commercial strategy when the product is a model or built on one — is on one page:
+
+[![Infographic: Why Open Source is the Best Commercial Strategy for GenAI Startups — six commercial advantages, the GenAI leaders built on open source, and a flywheel for long-term success.](../assets/infographics/genai-startups-commercial-strategy.png)](../assets/infographics/genai-startups-commercial-strategy.png)
+
+**Why open source is the best commercial strategy for GenAI startups.** Faster adoption, credibility where safety and alignment matter, users as the sales channel, and revenue without giving up the community. Two of the "leaders" on it ship open *weights* rather than open source AI under the OSI definition — [the distinction, and the rest of the caveat, on the infographics page](../infographics/index.md#genai).
+
 ## Where to go next
 
 ### [Run the stress test on a vendor](../survivability/stress-test.md)

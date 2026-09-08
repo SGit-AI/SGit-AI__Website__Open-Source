@@ -172,6 +172,42 @@ Labelling, a maintainer platform, sovereignty bounties. Three proposals for thre
 
 Technology is not the moat. Lock-in relocates to quality and certification. Lock-in degrades your own architecture. Open source frees you to cannibalise your own code. And the moat is a rate, not a wall: a competitor who forks today gets your position, not your velocity.
 
+## The argument, in four infographics
+
+One page each, made for LinkedIn from the text of this site — shown with the page each draws on and the caveat the site attaches, because a one-pager has to leave the counter-case out.
+
+*The position*
+
+[![Infographic: Open Source Is a Business Model](assets/infographics/open-source-is-a-business-model-thumb.jpg)](infographics/index.md#business-model)
+
+### Open source is a business model
+
+Five proven commercial models — hosted, support, enterprise editions, marketplace, dual licensing — and the flywheel.
+
+*For founders*
+
+[![Infographic: Why Open Source is the Best Commercial Strategy for GenAI Startups](assets/infographics/genai-startups-commercial-strategy-thumb.jpg)](infographics/index.md#genai)
+
+### The best commercial strategy for GenAI startups
+
+Six commercial advantages, the GenAI leaders built on open source, and the go-to-market argument.
+
+*Sovereignty*
+
+[![Infographic: We Can't Have Sovereignty Without Open Source Companies and Creative Commons Ontologies](assets/infographics/sovereignty-open-source-companies-cc-ontologies-thumb.jpg)](infographics/index.md#sovereignty)
+
+### One acquisition away
+
+Why sovereignty needs open source companies and Creative Commons ontologies — and what it means for the UK and EU.
+
+*The author*
+
+[![Infographic: My Strategy — Open Foundations for a More Capable World](assets/infographics/my-strategy-open-foundations-thumb.jpg)](infographics/index.md#strategy)
+
+### Open foundations for a more capable world
+
+The principles, the sgit layer, the companies built on it, and the ecosystem around it.
+
 ## Anyone can hold a position. Showing the licence file is different
 
 This is the page that makes the rest credible: the licences actually in force across a shipping estate, and the reasoning behind each of them.
